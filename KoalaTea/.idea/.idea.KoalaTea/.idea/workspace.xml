@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb81416-49eb-4f47-b6ee-0d192e8703cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KoalaTea/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KoalaTea/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KoalaTea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KoalaTea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D Asset/Roobios_Road.mb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Asset/Roobios_Road.mb.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InkLibrary.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkLibrary.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkLibrary.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkLibrary.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InkSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InkSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +21,13 @@
     <session id="1203184559">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,14 +54,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/Ink/Example/Scripts/BasicInkExample.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="1410">
               <caret line="97" column="23" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="23" />
               <folding>
                 <marker date="1556503121246" expanded="false" signature="6:85" ph="..." />
-                <marker date="1556503121246" expanded="true" signature="219:3204" ph="{...}" />
                 <marker date="1556503121246" expanded="true" signature="238:310" ph="{...}" />
                 <marker date="1556503121246" expanded="true" signature="411:473" ph="{...}" />
                 <marker date="1556503121246" expanded="true" signature="477:731" ph="/* This is the main function called every time the story changes. It does a few things: ... */" />
@@ -73,12 +79,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.0/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <marker date="1551427316000" expanded="true" signature="0:249" ph="{...}" />
+                <marker date="1551427316000" expanded="true" signature="60:134" ph="[...]" />
+                <marker date="1551427316000" expanded="true" signature="195:219" ph="[...]" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.0/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Ink/Example/Scripts/BasicInkExample.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -95,8 +116,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
-    <option name="y" value="23" />
+    <option name="x" value="400" />
+    <option name="y" value="24" />
     <option name="width" value="1202" />
     <option name="height" value="762" />
   </component>
@@ -106,12 +127,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -164,11 +185,13 @@
       <workItem from="1555958268476" duration="697000" />
       <workItem from="1556502879995" duration="6000" />
       <workItem from="1556502901406" duration="622000" />
+      <workItem from="1556558821245" duration="232000" />
+      <workItem from="1556559329832" duration="169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1968000" />
+    <option name="totallyTimeSpent" value="2369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,9 +203,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="23" width="1202" height="762" extended-state="0" />
+    <frame x="400" y="24" width="1202" height="762" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27155173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2801724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,11 +255,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/Ink/Example/Scripts/BasicInkExample.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="1410">
           <caret line="97" column="23" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="23" />
           <folding>
             <marker date="1556503121246" expanded="false" signature="6:85" ph="..." />
-            <marker date="1556503121246" expanded="true" signature="219:3204" ph="{...}" />
             <marker date="1556503121246" expanded="true" signature="238:310" ph="{...}" />
             <marker date="1556503121246" expanded="true" signature="411:473" ph="{...}" />
             <marker date="1556503121246" expanded="true" signature="477:731" ph="/* This is the main function called every time the story changes. It does a few things: ... */" />
@@ -249,6 +272,18 @@
             <marker date="1556503121246" expanded="true" signature="2241:2721" ph="{...}" />
             <marker date="1556503121246" expanded="true" signature="2809:2977" ph="{...}" />
             <marker date="1556503121246" expanded="true" signature="2903:2974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.0/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1551427316000" expanded="true" signature="0:249" ph="{...}" />
+            <marker date="1551427316000" expanded="true" signature="60:134" ph="[...]" />
+            <marker date="1551427316000" expanded="true" signature="195:219" ph="[...]" />
           </folding>
         </state>
       </provider>
