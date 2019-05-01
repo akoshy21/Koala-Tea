@@ -25,7 +25,17 @@ public class BasicInkExample : MonoBehaviour {
 
     private void Update()
     {
-
+        for (int i = 0; i < story.currentChoices.Count; i++)
+        {
+            Choice choice = story.currentChoices[i];
+            if (choice.text.Equals("NEXT"))
+            {
+                if(Input.anyKeyDown)
+                {
+                    OnClickChoiceButton(choice);
+                }
+            }
+        }
     }
 
     // Creates a new Story object with the compiled story which we can then play!
@@ -55,11 +65,15 @@ public class BasicInkExample : MonoBehaviour {
 		if(story.currentChoices.Count > 0) {
 			for (int i = 0; i < story.currentChoices.Count; i++) {
 				Choice choice = story.currentChoices [i];
-				Button button = CreateChoiceView (choice.text.Trim ());
-				// Tell the button what to do when we press it
-				button.onClick.AddListener (delegate {
-					OnClickChoiceButton (choice);
-				});
+                if (!choice.text.Equals("NEXT"))
+                {
+                    Button button = CreateChoiceView(choice.text.Trim());
+                    // Tell the button what to do when we press it
+                    button.onClick.AddListener(delegate
+                    {
+                        OnClickChoiceButton(choice);
+                    });
+                }
 			}
 		}
 		// If we've read all the content and there's no choices, the story is finished!
