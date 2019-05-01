@@ -6,7 +6,10 @@ VAR momRooibos = 0
 VAR adviceRooibos = 0
 VAR THRooibos = 0
 
--   I wipe down the counter for the fifteenth time today. It's so hard to believe that in only a few days the grand opening is coming! Finally my tea shop will be open! I've been waiting for as long as I can remember for this moment.My mother bought this tea shop when she was my age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Gold Leaf Tea and she loved it. One day, she just closed shop with almost no noticed. She didn't tell anyone, even her own mother. Of course, I was born after all of this happened, but ever since I first saw a picture of what this tea shop used to be when I was five years old, I knew I wanted to reopen it no matter how I would do it.
+-   I wipe down the counter for the fifteenth time today. It's so hard to believe that in only a few days the grand opening is coming! Finally my tea shop will be open! I've been waiting for as long as I can remember for this moment.
+*   [NEXT]
+
+-   My mother bought this tea shop when she was my age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Gold Leaf Tea and she loved it. One day, she just closed shop with almost no noticed. She didn't tell anyone, even her own mother. Of course, I was born after all of this happened, but ever since I first saw a picture of what this tea shop used to be when I was five years old, I knew I wanted to reopen it no matter how I would do it.
 *   [NEXT]
 
 -   I raised enough money to buy the shop a lot faster than I thought. After years of bussing tables, manning cash registers, and serving grumpy old men, I finally did it. Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to me than any other place I've ever lived.
@@ -60,7 +63,9 @@ VAR THRooibos = 0
 
 === rooibos ===
 ~beenrooibos = 1
--   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. Many heads turn when I walk through the door and head to an empty table. I'm definitely not the main clientele. I start to wonder if my mother sent me to the wrong place. I open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai tea, but it doesn't seem like anyone is even drinking tea!
+-   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. Many heads turn when I walk through the door and head to an empty table. I'm definitely not the main clientele. I start to wonder if my mother sent me to the wrong place.
+
+-  I open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai tea, but it doesn't seem like anyone is even drinking tea!
 *   [NEXT]
 
 -   "Can I help you, kid?" a tasmanian devil askes me, holding a tray of empty bottles. I had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people.
