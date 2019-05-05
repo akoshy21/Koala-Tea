@@ -10,9 +10,10 @@ public class TextEffects : MonoBehaviour
     private bool complete = false;
     public float txtspeed;
 
+
+    //makes text appear letter by letter
     IEnumerator AnimateText(string line)
     {
-
         int i = 0;
         string str = "";
 
@@ -25,6 +26,7 @@ public class TextEffects : MonoBehaviour
 
         if (i >= line.Length)
         {
+            //enum has gone through entire string
             complete = true;
         }
     }
@@ -32,10 +34,9 @@ public class TextEffects : MonoBehaviour
     void Start()
     {
         txt = GetComponent<Text>();
-        line = "hi mina";
+        line = "hi annamaria";
 
         StartCoroutine(AnimateText(line));
-
     }
 
     void Update()
