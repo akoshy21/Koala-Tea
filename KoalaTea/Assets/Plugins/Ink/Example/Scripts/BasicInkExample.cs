@@ -7,6 +7,7 @@ using Ink.Runtime;
 public class BasicInkExample : MonoBehaviour {
 
     public int rooibosVisit;
+    public GameObject cancan;
 
 	void Awake () {
 		// Remove the default message
@@ -67,6 +68,7 @@ public class BasicInkExample : MonoBehaviour {
 				Choice choice = story.currentChoices [i];
                 if (!choice.text.Equals("NEXT"))
                 {
+                    cancan.
                     Button button = CreateChoiceView(choice.text.Trim());
                     // Tell the button what to do when we press it
                     button.onClick.AddListener(delegate
