@@ -5,15 +5,41 @@ using Ink.Runtime;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class BasicInkExample : MonoBehaviour {
-	
+
+    public int rooibosVisit;
+
 	void Awake () {
 		// Remove the default message
 		RemoveChildren();
 		StartStory();
 	}
 
-	// Creates a new Story object with the compiled story which we can then play!
-	void StartStory () {
+    private void Start()
+    {
+        story.ObserveVariable("beenrooibos", (string varName, object newValue) => {
+            rooibosVisit = (int)newValue;
+        });
+        Debug.Log(rooibosVisit);
+
+    }
+
+    private void Update()
+    {
+        for (int i = 0; i < story.currentChoices.Count; i++)
+        {
+            Choice choice = story.currentChoices[i];
+            if (choice.text.Equals("NEXT"))
+            {
+                if(Input.anyKeyDown)
+                {
+                    OnClickChoiceButton(choice);
+                }
+            }
+        }
+    }
+
+    // Creates a new Story object with the compiled story which we can then play!
+    void StartStory () {
 		story = new Story (inkJSONAsset.text);
 		RefreshView();
 	}
@@ -39,11 +65,15 @@ public class BasicInkExample : MonoBehaviour {
 		if(story.currentChoices.Count > 0) {
 			for (int i = 0; i < story.currentChoices.Count; i++) {
 				Choice choice = story.currentChoices [i];
-				Button button = CreateChoiceView (choice.text.Trim ());
-				// Tell the button what to do when we press it
-				button.onClick.AddListener (delegate {
-					OnClickChoiceButton (choice);
-				});
+                if (!choice.text.Equals("NEXT"))
+                {
+                    Button button = CreateChoiceView(choice.text.Trim());
+                    // Tell the button what to do when we press it
+                    button.onClick.AddListener(delegate
+                    {
+                        OnClickChoiceButton(choice);
+                    });
+                }
 			}
 		}
 		// If we've read all the content and there's no choices, the story is finished!
