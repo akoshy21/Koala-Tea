@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:KoalaTea/Assets/Materials.meta
 guid: 7494a4e251eed4fb48c3ba017a7c751b
+=======
+guid: 2614b7fcd84c6b947bdf7e3adbe6ec47
+>>>>>>> 147ae6f0d9b6b539b393797e32445c8c848cec46:KoalaTea/Assets/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

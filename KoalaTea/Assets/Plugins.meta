@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f5dd1564f638442b0b766b5ec628db7c
+=======
+<<<<<<< HEAD
+guid: 5693a9b4e318744398b9fb581bd3854f
+=======
+guid: 31444042cbc4b304387efe416f3b1a0e
+>>>>>>> origin/maddy
+>>>>>>> 147ae6f0d9b6b539b393797e32445c8c848cec46
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
