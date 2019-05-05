@@ -1,10 +1,10 @@
-VAR beenrooibos = 0
-VAR beenaurora = 0
-VAR beenmatcha = 0
-VAR geRooibos = 0
-VAR momRooibos = 0
-VAR adviceRooibos = 0
-VAR THRooibos = 0
+VAR beenrooibos = false
+VAR beenaurora = false
+VAR beenmatcha = false
+VAR geRooibos = false
+VAR momRooibos = false
+VAR adviceRooibos = false
+VAR THRooibos = false
 
 -   I wipe down the counter for the fifteenth time today. It's so hard to believe that in only a few days the grand opening is coming! Finally my tea shop will be open! I've been waiting for as long as I can remember for this moment.
 *   [NEXT]
@@ -61,7 +61,7 @@ VAR THRooibos = 0
     ->aurora
 
 === rooibos ===
-~beenrooibos = 1
+~beenrooibos = true
 -   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. Many heads turn when I walk through the door and head to an empty table. I'm definitely not the main clientele. I start to wonder if my mother sent me to the wrong place.
 *   [NEXT]
 -  I open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai tea, but it doesn't seem like anyone is even drinking tea!
@@ -128,7 +128,7 @@ VAR THRooibos = 0
 === rooibosQuestions ===
 *	{ not geRooibos} 
 [Ask about Golden Eucalyptus]
-~geRooibos = 1
+~geRooibos = true
     "You might remember that my mother was known for her Golden Eucalyptus tea, but I haven't been able to track down a Golden Eucalyptus Leaf! Would you by any chance know where I could find one?"
     **   [NEXT]
     "Nah can't say that I have mate. I do remember that tea though. I don't think I've ever had anything so delicious! Sorry kid, never seen a Golden Eucalyptus Leaf before."
@@ -136,7 +136,7 @@ VAR THRooibos = 0
 
 *	{ not THRooibos} 
 [Ask about Tea House]
-~THRooibos = 1
+~THRooibos = true
     "When did you open this place?"
     **   [NEXT]
     "A few years ago. I know it's not what people expect when they see me, but it's all I've ever wanted. My granddad left this place for me when he died. I hope I've made it what he would have wanted it to be."
@@ -145,7 +145,7 @@ VAR THRooibos = 0
 
 *	{ not adviceRooibos} 
 [Ask for Advice]
-~adviceRooibos = 1
+~adviceRooibos = true
 "Do you have any advice for an up-and-comer like me? Sometimes I feel like I'm so out of my depth..."
 **[NEXT]
 "You think you were out of your depth? Do I look like your average tea house owner to you? Does this look like your average tea house? I've had to deal with my fair share of problems thrown my way, but all it takes is perserverance. When you set your mind on something, just go for it!"
@@ -160,7 +160,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 
 *	{ not momRooibos} 
 [Ask about Mother]
-~momRooibos = 1
+~momRooibos = true
 "I know you said you knew my mother... what was she like? She doesn't talk about her old tea shop very often."
 **[NEXT]
 "It was amazing. She was amazing. My granddad loved working for her. He wasn't the most trusted guy in town, if you know what I mean, but she gave him a shot. I don't know where I'd be without him or your mom for that matter."
@@ -182,7 +182,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 
 
 === matcha ===
-~beenmatcha = 1
+~beenmatcha = true
 Matcha Made in Heaven is a brightly colored cafe with plush pillows and cakes lining the display case. No one is behind the counter, but a sugar glider wearing an apron gracefully moves around the room. She's older, but seems to be charming all of the customers.
 *[NEXT]
 
@@ -207,7 +207,7 @@ I quickly glance at the menu and notice that the cafe seems to specialize in ool
 
 
 === aurora ===
-~beenaurora = 1
+~beenaurora = true
 
 ->END
 
