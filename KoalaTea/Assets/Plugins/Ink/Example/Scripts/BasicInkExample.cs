@@ -14,7 +14,10 @@ public class BasicInkExample : MonoBehaviour {
     public Color bbtdColor;
     public Color momColor;
     public Color sgColor;
-    public bool choiceScreen;
+    public Text name;
+
+    public bool metBruce;
+    public bool metSusan;
 
 	void Awake () {
 		// Remove the default message
@@ -31,27 +34,24 @@ public class BasicInkExample : MonoBehaviour {
         story.ObserveVariable("speaker", (string varName, object newValue) => {
             speaker = (int)newValue;
         });
-        story.ObserveVariable("choice", (string varName, object newValue) => {
-            choiceScreen = (bool)newValue;
+
+        story.ObserveVariable("metSusan", (string varName, object newValue) => {
+            metSusan = (bool)newValue;
         });
+
+        story.ObserveVariable("metBruce", (string varName, object newValue) => {
+            metBruce = (bool)newValue;
+            Debug.Log("DID WE MEET BRUCE? " + metBruce);
+        });
+        // ADD A LISTENER TO CHECK WHETHER WE'VE MET BRUCE / SUGAR GLIDER YET
     }
 
     private void Update()
     {
+        UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
+
         Debug.Log(speaker);
         Debug.Log(rooibosVisit);
-
-        for (int i = 0; i < story.currentChoices.Count; i++)
-        {
-            Choice choice = story.currentChoices[i];
-            if (choice.text.Equals("NEXT"))
-            {
-                if(Input.anyKeyDown)
-                {
-                    OnClickChoiceButton(choice);
-                }
-            }
-        }
 
     }
 
@@ -67,6 +67,7 @@ public class BasicInkExample : MonoBehaviour {
 	void RefreshView () {
 		// Remove all the UI on screen
 		RemoveChildren ();
+        UpdateTextBox();
 		
 		// Read all the content until we can't continue any more
 		while (story.canContinue) {
@@ -84,6 +85,7 @@ public class BasicInkExample : MonoBehaviour {
 				Choice choice = story.currentChoices [i];
                 if (!choice.text.Equals("NEXT"))
                 {
+                    next.SetActive(false);
 
                     Button button = CreateChoiceView(choice.text.Trim());
                     // Tell the button what to do when we press it
@@ -91,6 +93,9 @@ public class BasicInkExample : MonoBehaviour {
                     {
                         OnClickChoiceButton(choice);
                     });
+                }
+                else {
+                    next.SetActive(true);
                 }
 			}
 		}
@@ -146,21 +151,51 @@ public class BasicInkExample : MonoBehaviour {
 
     void UpdateTextBox()
     {
+        Debug.Log("COLOR CHANGE");
         switch(speaker)
         {
             case 0:
-                textBox.GetComponent<Image>().color = momColor;
+                textBox.GetComponent<Image>().color = playerColor;
+                name.text = "YOU";
                 break;
             case 1:
-                textBox.GetComponent<Image>().color = playerColor;
+                textBox.GetComponent<Image>().color = momColor;
+                name.text = "MUM";
                 break;
             case 2:
                 textBox.GetComponent<Image>().color = bbtdColor;
+                if (metBruce)
+                {
+                    name.text = "BRUCE";
+                }
+               else {
+                    name.text = "TASMANIAN DEVIL";
+                        }
                 break;
             case 3:
                 textBox.GetComponent<Image>().color = sgColor;
+                if (metSusan)
+                {
+                    name.text = "SUSAN";
+                }
+                else
+                {
+                    name.text = "SUGAR GLIDER";
+                         }
                 break;
         } 
+    }
+
+    public void ClickArea()
+    {
+        for (int i = 0; i < story.currentChoices.Count; i++)
+        {
+            Choice choice = story.currentChoices[i];
+            if (choice.text.Equals("NEXT"))
+            {
+                    OnClickChoiceButton(choice);
+            }
+        }
     }
 
 	[SerializeField]
@@ -168,7 +203,7 @@ public class BasicInkExample : MonoBehaviour {
 	private Story story;
 
 	[SerializeField]
-	private Canvas canvas;
+	private GameObject canvas;
 
 	// UI Prefabs
 	[SerializeField]

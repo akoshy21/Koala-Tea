@@ -6,6 +6,8 @@ VAR momRooibos = 0
 VAR adviceRooibos = 0
 VAR THRooibos = 0
 VAR speaker = 1
+VAR metBruce = 0
+VAR metSusan = 0
 
 -   I wipe down the counter for the fifteenth time today. It's so hard to believe that in only a few days the grand opening is coming! Finally my tea shop will be open! I've been waiting for as long as I can remember for this moment.
 *   [NEXT]
@@ -80,14 +82,18 @@ VAR speaker = 1
 *   [NEXT]
 -  I open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai tea, but it doesn't seem like anyone is even drinking tea!
 *   [NEXT]
-
+~speaker = 2
 -   "Can I help you, kid?" a tasmanian devil askes me, holding a tray of empty bottles. I had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people.
 *   [NEXT]
+~speaker = 0
 -   My mom wouldn't send me somewhere dangerous... right?
     *   [Explain why you're there]
     
     "Hi there," I nervously say. "My mom sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
+        ~speaker = 2
     **   [NEXT]
+
+
          "You're Kathleen's kid? I shoulda know, you look just like her!" he interrupts, sitting down at my table. "The name's Bruce. Your mother worked with my granddad for years at her teahouse! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
      *** [Order black tea]
      "Can I get an English Breakfast please?"
@@ -122,6 +128,7 @@ VAR speaker = 1
             *****[Tell about Mom]
             "My mom actually sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
             ******[NEXT]
+            ~metBruce = 1
              "You're Kathleen's kid? I shoulda know, you look just like her!" he interrupts, sitting down at my table. "The name's Bruce. Your mother worked with my granddad for years at her teahouse! I used to go into that tea house all the time when I was a kid. What can I do for you?"
              ->rooibosQuestions
             *****[Chicken Out]
