@@ -40,9 +40,9 @@ public class BasicInkExample : MonoBehaviour {
         });
 
         story.ObserveVariable("metBruce", (string varName, object newValue) => {
-            metBruce = (bool)newValue;
-            Debug.Log("DID WE MEET BRUCE? " + metBruce);
+            metBruce = intToBool((int)newValue);
         });
+
         // ADD A LISTENER TO CHECK WHETHER WE'VE MET BRUCE / SUGAR GLIDER YET
     }
 
@@ -50,8 +50,10 @@ public class BasicInkExample : MonoBehaviour {
     {
         UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
 
-        Debug.Log(speaker);
-        Debug.Log(rooibosVisit);
+        //Debug.Log(speaker);
+        //Debug.Log(rooibosVisit);
+        Debug.Log("DID WE MEET BRUCE? " + metBruce);
+
 
     }
 
@@ -196,6 +198,18 @@ public class BasicInkExample : MonoBehaviour {
                     OnClickChoiceButton(choice);
             }
         }
+    }
+
+    bool intToBool(int val)
+    {
+        if (val == 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+            }
     }
 
 	[SerializeField]

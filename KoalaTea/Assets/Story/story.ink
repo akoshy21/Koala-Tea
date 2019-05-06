@@ -92,8 +92,7 @@ VAR metSusan = 0
     "Hi there," I nervously say. "My mom sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
         ~speaker = 2
     **   [NEXT]
-
-
+        ~metBruce = 1
          "You're Kathleen's kid? I shoulda know, you look just like her!" he interrupts, sitting down at my table. "The name's Bruce. Your mother worked with my granddad for years at her teahouse! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
      *** [Order black tea]
      "Can I get an English Breakfast please?"
