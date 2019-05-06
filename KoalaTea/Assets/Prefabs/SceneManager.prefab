@@ -50,7 +50,7 @@ MonoBehaviour:
   playerColor: {r: 0.6039216, g: 0.5803922, b: 0.43137255, a: 0.6156863}
   bbtdColor: {r: 0.3764706, g: 0.23921569, b: 0.23921569, a: 0.627451}
   momColor: {r: 1, g: 0, b: 0.97566557, a: 0.7607843}
-  sgColor: {r: 0.3478432, g: 1, b: 0.16509432, a: 0}
+  sgColor: {r: 0.3478432, g: 1, b: 0.16509432, a: 0.7490196}
   name: {fileID: 0}
   metBruce: 0
   metSusan: 0

@@ -6,18 +6,23 @@ using Ink.Runtime;
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class BasicInkExample : MonoBehaviour {
 
-    public int rooibosVisit;
     public int speaker; // 0 = mom, 1 = player, 2 = bbtd, 3 = sugar glider
+
     public GameObject next;
     public GameObject textBox;
+
     public Color playerColor;
     public Color bbtdColor;
     public Color momColor;
     public Color sgColor;
+
     public Text name;
 
     public bool metBruce;
     public bool metSusan;
+    public bool rooibosVisit;
+
+    public AudioManager audioManager;
 
 	void Awake () {
 		// Remove the default message
@@ -28,7 +33,7 @@ public class BasicInkExample : MonoBehaviour {
     private void Start()
     {
         story.ObserveVariable("beenrooibos", (string varName, object newValue) => {
-            rooibosVisit = (int)newValue;
+            rooibosVisit = intToBool((int)newValue);
 
         });
         story.ObserveVariable("speaker", (string varName, object newValue) => {
@@ -43,6 +48,14 @@ public class BasicInkExample : MonoBehaviour {
             metBruce = intToBool((int)newValue);
         });
 
+        story.ObserveVariable("playSound", (string varName, object newValue) => {
+            audioManager.play = intToBool((int)newValue);
+        });
+
+        story.ObserveVariable("soundIndex", (string varName, object newValue) => {
+            audioManager.index = (int)newValue;
+        });
+
         // ADD A LISTENER TO CHECK WHETHER WE'VE MET BRUCE / SUGAR GLIDER YET
     }
 
@@ -52,7 +65,7 @@ public class BasicInkExample : MonoBehaviour {
 
         //Debug.Log(speaker);
         //Debug.Log(rooibosVisit);
-        Debug.Log("DID WE MEET BRUCE? " + metBruce);
+        //Debug.Log("DID WE MEET BRUCE? " + metBruce);
 
 
     }

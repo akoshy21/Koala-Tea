@@ -5,9 +5,15 @@ VAR geRooibos = 0
 VAR momRooibos = 0
 VAR adviceRooibos = 0
 VAR THRooibos = 0
+
 VAR speaker = 1
+
 VAR metBruce = 0
 VAR metSusan = 0
+
+VAR playSound = 0
+
+VAR soundIndex = 0
 
 -   I wipe down the counter for the fifteenth time today. It's so hard to believe that in only a few days the grand opening is coming! Finally my tea shop will be open! I've been waiting for as long as I can remember for this moment.
 *   [NEXT]
@@ -16,8 +22,9 @@ VAR metSusan = 0
 *   [NEXT]
 
 -   I raised enough money to buy the shop a lot faster than I thought. After years of bussing tables, manning cash registers, and serving grumpy old men, I finally did it. Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to me than any other place I've ever lived.
-*   [NEXT]
-
+*   [NEXT] 
+~playSound = 1
+~soundIndex = 0
 -   (*shop keeper's bell rings at door*)
 *   [NEXT]
 -   "Mom! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that I used my hard earned money to buy the shop back. 
