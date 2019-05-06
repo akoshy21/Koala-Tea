@@ -5,6 +5,7 @@ VAR geRooibos = 0
 VAR momRooibos = 0
 VAR adviceRooibos = 0
 VAR THRooibos = 0
+VAR speaker = 1
 
 -   I wipe down the counter for the fifteenth time today. It's so hard to believe that in only a few days the grand opening is coming! Finally my tea shop will be open! I've been waiting for as long as I can remember for this moment.
 *   [NEXT]
@@ -19,39 +20,52 @@ VAR THRooibos = 0
 *   [NEXT]
 -   "Mom! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that I used my hard earned money to buy the shop back. 
 *   [NEXT]
+~ speaker = 0
 -   "You think I would miss my baby's grand opening?"
 *   [NEXT]
+~ speaker = 1
 -   "The opening isn't even for a few days! There's still so much to do before I officially open..." The last couple of years, mom's health has been deteriorating a bit. She walks slower and forgets more and more things, but she's doing better than her mother did at her age. 
 *   [NEXT]
-
+~ speaker = 0
 -   "Oh that's right. Are you absolutely sure that this is what you want to do? Don't worry about the money. I can get you your money back and you'll be out of this in no time-"
 *   [NEXT]
+~ speaker = 1
 -   "Mom, stop! Of course I do. It's my dream," It's the fifth time I've told her this week. My mom has been asking me this same question almost every day ever since I put down my first deposit.
 *   [NEXT]
+~ speaker = 0
 -   "You're far too young to be living your dream. You need to have more experiences first. You've hardly lived! You're hardly 20 and you've already settled down. It's not right for a young person like you,"
 *   [NEXT]
+~ speaker = 1
 -   I take her hand to stop her frantic speaking. "I am sure mother. I'm excited. I'm doing this for both of us. Why can't you be happy for me?"
 *   [NEXT]
-
+~ speaker = 1
 -   She looks at me sadly for a moment and then looks away, starting to dust random corners of the shop that I've already dusted a million times. We clean in silence for a moment. "Do you have any advice for me? I mean, this is your shop after all..."
 *   [NEXT]
+~ speaker = 0
 -   "Oh, honey it's been years since this was my shop. I hardly remember owning the shop,"
 *   [NEXT]
+~ speaker = 1
 -   "Well, can you finally tell me the secret to your Golden Eucalyptus Tea? I thought I should serve it too,"
 *   [NEXT]
+~ speaker = 0
 -   She looks at me seriously for a moment and then smiles. "You need a Golden Eucalyptus Leaf. I haven't seen one in decades. They're exceedingly rare," I can feel myself frown, but I try to hide it. I want this place to be perfect, just like her place was.
 *   [NEXT]
+~ speaker = 1
 -   "That's okay...." 
 *   [NEXT]
+~ speaker = 0
 -   "I think I may know where you can find one. I have friends who own their own tea shop and if anyone will know where a Golden Eucalyptus Leaf is, they will,"
 *   [NEXT]
+~ speaker = 1
 -   "Where are these friends?!"
-
 *   [NEXT]
+~ speaker = 0
 -   "Well, there are three shops you could visit. Rooibos Road in Kalgoorie, Matcha Made in Heaven in Adelaide, and Aurora Blue Tea House in Sydney,"
 *   [NEXT]
+~ speaker = 1
 -   "Those are all in completely different parts of the country!" I map out the cities on a napkin and their distance from tiny Cairns. 
 *   [NEXT]
+~ speaker = 0
 -   "Well you better get a move on!" She hands me my backpack.
 *   [Go to Rooibos Road]
     ->rooibos
