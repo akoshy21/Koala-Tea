@@ -25,8 +25,6 @@ VAR soundIndex = 0
 *   [NEXT] 
 ~playSound = 1
 ~soundIndex = 0
--   (*shop keeper's bell rings at door*)
-*   [NEXT]
 -   "Mom! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that I used my hard earned money to buy the shop back. 
 *   [NEXT]
 ~ speaker = 0
