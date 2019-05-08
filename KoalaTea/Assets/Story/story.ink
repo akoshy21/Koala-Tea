@@ -20,9 +20,7 @@ VAR player = 1
 *   [NEXT]
 
 -   You raised enough money to buy the shop a lot faster than you thought. After years of bussing tables, manning cash registers, and serving grumpy old men, you finally did it. Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to you than any other place you've ever lived.
-*   [NEXT]
 
--   (*shop keeper's bell rings at door*)
 *   [NEXT]
 -   "Mum! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that you used your hard earned money to buy the shop back. 
 *   [NEXT]
@@ -99,7 +97,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 
 ~player = 3
 "Can I help you, kid?" a tasmanian devil askes me.
-*   [NEXT]
+**   [NEXT]
 -   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
     *   [Explain why you're there]
     ~player = 1
@@ -409,8 +407,10 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 -> matchaquestions
 
 *  [Leave Matcha Made in Heaven]
+~player = 1
 "Thank you so much. For everything. It was great meeting you, Susan!"
 **[NEXT]
+~player = 4
 "No problem at all! Come back any time"
 -> map
 ->END
@@ -418,7 +418,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 
 === aurora ===
 ~beenaurora = 1
-
+->map
 ->END
 
 
@@ -444,11 +444,74 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ->END
 
 
-
-
-
-
 === home ===
-
+(*5 Days Later*)
+*[NEXT]
+It's finally here. Your opening day is here! You've worked so hard for this day to come and everything is pretty much perfect.
+**[NEXT]
+"I'm sorry I couldn't find the Golden Eucalyptus Leaf, mum. It must be super rare!"
+***[NEXT]
+"Oh pish posh. Are you happy with what you were able to accomplish?"
+****[NEXT]
+"I am. I know it might not be absolutely perfect without your famous tea, but I think I'm okay with that."
+*****[NEXT]
+"Oh sweetheart... I have a confession to make. There is no such thing as a Golden Eucalyptus Leaf!"
+******[NEXT]
+"What?! How can there be no such thing?!"
+*******[NEXT]
+"Well, I was so worried about you opening this tea shop with all that pressure you were putting on yourself... I wanted you to take a break and maybe see more of the world! My tea just uses average Eucalyptus."
+********[NEXT]
+"You're saying, there never was a Golden Eucalyptus Leaf? You tricked me this whole time?"
+*********[NEXT]
+"Well, there's this," she says, pulling out a golden necklace from her apron with a tiny leaf charm. "My mother gave me this necklace when I left home and it's where I got the name for my tea. I think it's only appropriate that you hold onto it now."
+**********[NEXT]
+You hold the necklace in your hand and feel your eyes well up with tears. "This is perfect mum. Thank you,"
+***********[NEXT]
+(Shop keepers bell)
+************[NEXT]
+(Bruce)
+"Great place you've got, kid!"
+*************[NEXT]
+(Susan)
+"It's like stepping back in time!"
+**************[NEXT]
+"What are both of you doing here?! What a nice surprise!"
+***************[NEXT]
+(Susan)
+"Well, your last visit reminded us that it was about time to visit our dear friend Katherine, and our new friend's new shop!"
+****************[NEXT]
+(Bruce)
+"How 'bout some nice tea? What's your specialty?"
+*****************[Herbal Teas]
+"Herbal Teas are my specialty. I recommend the Raspberry Hibiscus."
+******************[NEXT]
+(Mum)
+"That sounds great. We'd all love to try it!"
+*******************[NEXT]
+You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+*****************[Bubble Tea]
+"Bubble Teas are my specialty. I recommend the Milk Tea with Boba!"
+******************[NEXT]
+(Mum)
+"That sounds great. We'd all love to try it!"
+*******************[NEXT]
+You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+*****************[Black Teas]
+"Black Teas are my specialty. I recommend the Earl Gray."
+******************[NEXT]
+(Mum)
+"That sounds great. We'd all love to try it!"
+*******************[NEXT]
+You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+*****************[Everything!]
+"I have everything! You can't go wrong with any of my teas. I didn't want to limit myself to one specialty."
+******************[NEXT]
+(Mum)
+"How about you try out my recipe for Golden Eucalyptus Tea," she hands you a piece of paper with the recipe and winks at you.
+*******************[NEXT]
+You start making teas for your guests, using your mom's old recipe, and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's better than you ever could have expected.
 ->END
 
