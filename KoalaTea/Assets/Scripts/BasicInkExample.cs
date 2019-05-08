@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using Ink.Runtime;
+using UnityEngine.SceneManagement;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class BasicInkExample : MonoBehaviour {
@@ -106,7 +107,21 @@ public class BasicInkExample : MonoBehaviour {
                     // Tell the button what to do when we press it
                     button.onClick.AddListener(delegate
                     {
-                        OnClickChoiceButton(choice);
+                        if (!choice.text.Equals("Go to Rooibos Road")
+                           && !choice.text.Equals("Go to Matcha Made in Heaven"))
+                        {
+                            OnClickChoiceButton(choice);
+                        }
+                        else { 
+                            if(choice.text.Equals("Go to Rooibos Road"))
+                            {
+                                ChangeScene(1); 
+                            }
+                            else if (choice.text.Equals("Go to Matcha Made in Heaven"))
+                            {
+                                ChangeScene(2);
+                            }
+                        }
                     });
                 }
                 else {
@@ -222,7 +237,31 @@ public class BasicInkExample : MonoBehaviour {
         else
         {
             return true;
-            }
+        }
+    }
+
+    void CheckForSceneChange()
+    {
+         
+    }
+    void ChangeScene(int num)
+    {
+        switch (num) {
+            case 1:
+                SceneManager.LoadScene("RooibosBar");
+                break;
+            case 2:
+                SceneManager.LoadScene("MatchaMade");
+                break;
+            case 3:
+                SceneManager.LoadScene("KoalaTea");
+                break;
+            case 4:
+                SceneManager.LoadScene("endscene");
+                break;
+            default:
+                break;
+        }
     }
 
 	[SerializeField]
