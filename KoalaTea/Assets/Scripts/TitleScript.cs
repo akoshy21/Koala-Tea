@@ -4,6 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+public class TitleScreen
+{
+    public Texture chara;
+    public Texture bg;
+    public Color titleC;
+    public Color playC;
+
+    public TitleScreen(Texture Chara, Texture Bg, Color TitleC, Color PlayC)
+    {
+        chara = Chara;
+        bg = Bg;
+        titleC = TitleC;
+        playC = PlayC;
+    }
+}
+
 public class TitleScript : MonoBehaviour
 {
     public RawImage bg;
