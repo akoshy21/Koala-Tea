@@ -13,20 +13,16 @@ VAR player = 1
 
 -
 ~player = 1
-    I wipe down the counter for the fifteenth time today. It's so hard to believe
-    that in only a few days the grand opening is coming! Finally my tea shop will
-    be open! I've been waiting for as long as I can remember for this moment.
+    You wipe down the counter for the fifteenth time today. You're having a hard time believing that in only a few days the grand opening is coming! Finally your tea shop will be open! You've been waiting for as long as you can remember for this moment.
 *   [NEXT]
 
--   My mother bought this tea shop when she was my age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Gold Leaf Tea and she loved it. One day, she just closed shop with almost no noticed. She didn't tell anyone, even her own mother. Of course, I was born after all of this happened, but ever since I first saw a picture of what this tea shop used to be when I was five years old, I knew I wanted to reopen it no matter how I would do it.
+-   Your mother bought this tea shop when she was your age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Golden Eucalyptus Leaf Tea and she loved it. One day, she just closed shop with almost no noticed. She didn't tell anyone, even her own mother. Of course, you were born after all of this happened, but ever since you first saw a picture of what this tea shop used to be when you were five years old, you knew you wanted to reopen it no matter how you would do it.
 *   [NEXT]
 
--   I raised enough money to buy the shop a lot faster than I thought. After years of bussing tables, manning cash registers, and serving grumpy old men, I finally did it. Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to me than any other place I've ever lived.
-*   [NEXT]
+-   You raised enough money to buy the shop a lot faster than you thought. After years of bussing tables, manning cash registers, and serving grumpy old men, you finally did it. Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to you than any other place you've ever lived.
 
--   (*shop keeper's bell rings at door*)
 *   [NEXT]
--   "Mum! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that I used my hard earned money to buy the shop back. 
+-   "Mum! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that you used your hard earned money to buy the shop back. 
 *   [NEXT]
 -
 ~player = 2
@@ -42,7 +38,7 @@ VAR player = 1
 *   [NEXT]
 
 -  ~player = 1 
-"Mum, stop! Of course I do. It's my dream," It's the fifth time I've told her this week. My mum has been asking me this same question almost every day ever since I put down my first deposit.
+"Mum, stop! Of course I do. It's my dream," It's the fifth time you've told her this week. Your mum has been asking you this same question almost every day ever since you put down my first deposit.
 *   [NEXT]
 -
 ~player = 2
@@ -50,12 +46,12 @@ VAR player = 1
 *   [NEXT]
 -   
 ~player = 1
-I take her hand to stop her frantic speaking. "I am sure mother. I'm excited. I'm doing this for both of us. Why can't you be happy for me?"
+You take her hand to stop her frantic speaking. "I am sure mother. I'm excited. I'm doing this for both of us. Why can't you be happy for me?"
 *   [NEXT]
 
 -
 ~player = 1
-She looks at me sadly for a mument and then looks away, starting to dust random corners of the shop that I've already dusted a million times. We clean in silence for a mument. "Do you have any advice for me? I mean, this is your shop after all..."
+She looks at you sadly for a mument and then looks away, starting to dust random corners of the shop that you've already dusted a million times. You clean in silence for a mument. "Do you have any advice for me? I mean, this is your shop after all..."
 *   [NEXT]
 -   ~player = 2
 "Oh, honey it's been years since this was my shop. I hardly remember owning the shop,"
@@ -64,7 +60,7 @@ She looks at me sadly for a mument and then looks away, starting to dust random 
 -   "Well, can you finally tell me the secret to your Golden Eucalyptus Tea? I thought I should serve it too,"
 *   [NEXT]
 ~player = 2
--   She looks at me seriously for a mument and then smiles. "You need a Golden Eucalyptus Leaf. I haven't seen one in decades. They're exceedingly rare," I can feel myself frown, but I try to hide it. I want this place to be perfect, just like her place was.
+-   She looks at you seriously for a mument and then smiles. "You need a Golden Eucalyptus Leaf. I haven't seen one in decades. They're exceedingly rare," You can feel yourself frown, but  try to hide it. I want this place to be perfect, just like her place was.
 *   [NEXT]
 ~player = 1
 -   "That's okay...." 
@@ -80,10 +76,10 @@ She looks at me sadly for a mument and then looks away, starting to dust random 
 -   "Well, there are three shops you could visit. Rooibos Road in Kalgoorie, Matcha Made in Heaven in Adelaide, and Aurora Blue Tea House in Sydney,"
 *   [NEXT]
 ~player = 1
--   "Those are all in completely different parts of the country!" I map out the cities on a napkin and their distance from tiny Cairns. 
+-   "Those are all in completely different parts of the country!" You map out the cities on a napkin and their distance from tiny Cairns. 
 *   [NEXT]
 ~player = 2
--   "Well you better get a move on!" She hands me my backpack.
+-   "Well you better get a move on!" She hands you your backpack.
 *   [Go to Rooibos Road]
     ->rooibos
 *   [Go to Matcha Made in Heaven]
@@ -94,21 +90,21 @@ She looks at me sadly for a mument and then looks away, starting to dust random 
 === rooibos ===
 ~beenrooibos = 1
 ~player = 1
--   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. Heads turn when I walk through the door and head to an empty table. I'm definitely not the target clientele. I start to wonder if my mother sent me to the wrong place.
+-   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. Heads turn when you walk through the door and head to an empty table. You're definitely not the target clientele. You start to wonder if your mother sent me to the wrong place.
 *   [NEXT]
--  I open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai, but it doesn't seem like anyone is even drinking tea!
+-  You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai, but it doesn't seem like anyone is even drinking tea!
 *   [NEXT]
 
 ~player = 3
 "Can I help you, kid?" a tasmanian devil askes me.
-*   [NEXT]
--   I had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
+**   [NEXT]
+-   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
     *   [Explain why you're there]
     ~player = 1
-    "Hi there," I nervously say. "My mum sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
+    "Hi there," you nervously say. "My mum sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
     **   [NEXT]
         ~player = 3
-         "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at my table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
+         "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
      *** [Order black tea]
     ~player = 1
      "Can I get an English Breakfast please?"
@@ -117,7 +113,7 @@ She looks at me sadly for a mument and then looks away, starting to dust random 
     "Huh, English Breakfast? Not the most interesting choice. Would have thought Kathleen's kid woulda been more adventurous. Hold on kid, I'll grab it," 
      *****   [NEXT]
     ~player = 1
-     He returns quickly with two bottles in his hand. He hands one to me and takes a sip out of the other one. I take a sip from the bottle, dubious about tea being served in a glass bottle, but find myself surprisingly pleased with the tea.
+     He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
      ->rooibosQuestions
      
      *** [Order chai]
@@ -128,7 +124,7 @@ She looks at me sadly for a mument and then looks away, starting to dust random 
      His face lights up. "Of course!" He boasts, scurrying away to grab the drink.
       *****   [NEXT]
       ~player = 1
-     He returns quickly with two bottles in his hand. He hands one to me and takes a sip out of the other one. I take a sip from the bottle, dubious about tea being served in a glass bottle, but find myself surprisingly pleased with the tea.
+     He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
      ->rooibosQuestions
      
      *** [No Thanks]
@@ -150,17 +146,17 @@ She looks at me sadly for a mument and then looks away, starting to dust random 
             "Um... Yes. That's it. Thank you."
             ****[NEXT]
             ~player = 1
-            He turns to grab my drink without another word. He returns quickly and drops my drink at the table, quickly about to leave again.
+            He turns to grab your drink without another word. He returns quickly and drops your drink at the table, quickly about to leave again.
             *****[Tell about mum]
             ~player = 1
             "My mum actually sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
             ******[NEXT]
             ~player = 3
-             "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at my table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
+             "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
              ->rooibosQuestions
             *****[Chicken Out]
             ~player = 1
-            I decide not to say anything to Tasmanian devil. Coming here was definitely a mistake. I drink my tea quickly and leave without looking back. 
+            You decide not to say anything to Tasmanian devil. Coming here was definitely a mistake. You drink your tea quickly and leave without looking back. 
             ->map
             
             ***   [Actually...]
@@ -168,7 +164,7 @@ She looks at me sadly for a mument and then looks away, starting to dust random 
             "Actually, my mum sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
             ****[NEXT]
             ~player = 3
-            "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at my table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
+            "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
              ->rooibosQuestions
 
 -   ->END
@@ -252,13 +248,13 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 Matcha Made in Heaven is a brightly colored cafe with plush pillows and cakes lining the display case. No one is behind the counter, but a sugar glider wearing an apron gracefully moves around the room. She's older, but seems to be charming all of the customers.
 *[NEXT]
 ~player = 1
-I wave to the sugar glider to get her attention, and her eyes light up when she notices me. She winks at her current customer who seems to be enchanted by her, and quickly glides over to me. 
+You wave to the sugar glider to get her attention, and her eyes light up when she notices you. She winks at her current customer who seems to be enchanted by her, and quickly glides over to you. 
 **[NEXT]
 ~player = 4
 "How can I help you, sugar?"
 ***[NEXT]
 ~player = 1
-I quickly glance at the menu and notice that the cafe seems to specialize in oolong and chamumile tea, as well as so many matcha goodies. I know I'm here to get answers about the Golden Eucalyptus, but everything looks so good...
+You quickly glance at the menu and notice that the cafe seems to specialize in oolong and chamamile tea, as well as so many matcha goodies. You know you're here to get answers about the Golden Eucalyptus, but everything looks so good...
 ****[Order oolong tea]
 ~player = 1
 "Can I try your best oolong tea?"
@@ -267,7 +263,7 @@ I quickly glance at the menu and notice that the cafe seems to specialize in ool
 "Oh honey you can have whatever you want,"
 ******[NEXT]
 ~player = 1
-She zooms behind the counter and starts gracefully stirring together my oolong tea latte. She slides the tea to me across the counter and I notice that she created a little foam heart in the drink.
+She zooms behind the counter and starts gracefully stirring together your oolong tea latte. She slides the tea to me across the counter and I notice that she created a little foam heart in the drink.
 *******[NEXT]
 ~player = 4
 "Anything else I can get for you?"
@@ -284,10 +280,10 @@ She zooms behind the counter and starts gracefully stirring together my oolong t
 "No I think I'm good."
 *********[NEXT]
 ~player = 1
-The sugar glider gives me a wink and quickly leaves again, serving her other patrons and charming them like she had been charming me. If I'm gonna ask her about the Golden Eucalyptus, I should probably do it now...
+The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
 **********[Get attention again]
 ~player = 1
-I wave her down again and she zooms right on over like before.
+You wave her down again and she zooms right on over like before.
 ***********[NEXT]
 ~player = 1
 "Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
@@ -297,7 +293,7 @@ I wave her down again and she zooms right on over like before.
 ->matchaquestions
 **********[Give up]
 ~player = 1
-The sugar glider looks to busy to deal with me right now. I decide to just give up and leave. I don't want to be a bother to anyone.
+The sugar glider looks too busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
 -> map
 
 
@@ -306,7 +302,7 @@ The sugar glider looks to busy to deal with me right now. I decide to just give 
 "Oh honey you can have whatever you want,"
 *****[NEXT]
 ~player = 1
-She zooms behind the counter and starts gracefully stirring together my matcha tea latte. She slides the tea to me across the counter and I notice that she created a little green heart on the top of the drink out of matcha.
+She zooms behind the counter and starts gracefully stirring together your matcha tea latte. She slides the tea to you across the counter and you notice that she created a little green heart on the top of the drink out of matcha.
 ******[NEXT]
 ~player = 4
 "Anything else I can get for you?"
@@ -322,10 +318,10 @@ She zooms behind the counter and starts gracefully stirring together my matcha t
 "No I think I'm good."
 *********[NEXT]
 ~player = 1
-The sugar glider gives me a wink and quickly leaves again, serving her other patrons and charming them like she had been charming me. If I'm gonna ask her about the Golden Eucalyptus, I should probably do it now...
+The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
 **********[Get attention again]
 ~player = 1
-I wave her down again and she zooms right on over like before.
+You wave her down again and she zooms right on over like before.
 ***********[NEXT]
 ~player = 1
 "Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
@@ -335,7 +331,7 @@ I wave her down again and she zooms right on over like before.
 ->matchaquestions
 **********[Give up]
 ~player = 1
-The sugar glider looks to busy to deal with me right now. I decide to just give up and leave. I don't want to be a bother to anyone.
+The sugar glider looks to busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
 -> map
 
 
@@ -411,16 +407,18 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 -> matchaquestions
 
 *  [Leave Matcha Made in Heaven]
+~player = 1
 "Thank you so much. For everything. It was great meeting you, Susan!"
 **[NEXT]
-"No problem at all! Come back any time cutie."
+~player = 4
+"No problem at all! Come back any time"
 -> map
 ->END
 
 
 === aurora ===
 ~beenaurora = 1
-
+->map
 ->END
 
 
@@ -446,11 +444,74 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ->END
 
 
-
-
-
-
 === home ===
-
+(*5 Days Later*)
+*[NEXT]
+It's finally here. Your opening day is here! You've worked so hard for this day to come and everything is pretty much perfect.
+**[NEXT]
+"I'm sorry I couldn't find the Golden Eucalyptus Leaf, mum. It must be super rare!"
+***[NEXT]
+"Oh pish posh. Are you happy with what you were able to accomplish?"
+****[NEXT]
+"I am. I know it might not be absolutely perfect without your famous tea, but I think I'm okay with that."
+*****[NEXT]
+"Oh sweetheart... I have a confession to make. There is no such thing as a Golden Eucalyptus Leaf!"
+******[NEXT]
+"What?! How can there be no such thing?!"
+*******[NEXT]
+"Well, I was so worried about you opening this tea shop with all that pressure you were putting on yourself... I wanted you to take a break and maybe see more of the world! My tea just uses average Eucalyptus."
+********[NEXT]
+"You're saying, there never was a Golden Eucalyptus Leaf? You tricked me this whole time?"
+*********[NEXT]
+"Well, there's this," she says, pulling out a golden necklace from her apron with a tiny leaf charm. "My mother gave me this necklace when I left home and it's where I got the name for my tea. I think it's only appropriate that you hold onto it now."
+**********[NEXT]
+You hold the necklace in your hand and feel your eyes well up with tears. "This is perfect mum. Thank you,"
+***********[NEXT]
+(Shop keepers bell)
+************[NEXT]
+(Bruce)
+"Great place you've got, kid!"
+*************[NEXT]
+(Susan)
+"It's like stepping back in time!"
+**************[NEXT]
+"What are both of you doing here?! What a nice surprise!"
+***************[NEXT]
+(Susan)
+"Well, your last visit reminded us that it was about time to visit our dear friend Katherine, and our new friend's new shop!"
+****************[NEXT]
+(Bruce)
+"How 'bout some nice tea? What's your specialty?"
+*****************[Herbal Teas]
+"Herbal Teas are my specialty. I recommend the Raspberry Hibiscus."
+******************[NEXT]
+(Mum)
+"That sounds great. We'd all love to try it!"
+*******************[NEXT]
+You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+*****************[Bubble Tea]
+"Bubble Teas are my specialty. I recommend the Milk Tea with Boba!"
+******************[NEXT]
+(Mum)
+"That sounds great. We'd all love to try it!"
+*******************[NEXT]
+You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+*****************[Black Teas]
+"Black Teas are my specialty. I recommend the Earl Gray."
+******************[NEXT]
+(Mum)
+"That sounds great. We'd all love to try it!"
+*******************[NEXT]
+You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+*****************[Everything!]
+"I have everything! You can't go wrong with any of my teas. I didn't want to limit myself to one specialty."
+******************[NEXT]
+(Mum)
+"How about you try out my recipe for Golden Eucalyptus Tea," she hands you a piece of paper with the recipe and winks at you.
+*******************[NEXT]
+You start making teas for your guests, using your mom's old recipe, and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's better than you ever could have expected.
 ->END
 

@@ -2,11 +2,10 @@
 using UnityEngine.UI;
 using System.Collections;
 using Ink.Runtime;
+using UnityEngine.SceneManagement;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
 public class BasicInkExample : MonoBehaviour {
-
-    public int speaker; // 0 = mom, 1 = player, 2 = bbtd, 3 = sugar glider
 
     public GameObject next;
     public GameObject textBox;
@@ -16,18 +15,22 @@ public class BasicInkExample : MonoBehaviour {
     public Color momColor;
     public Color sgColor;
 
-    public Text name;
-
-    public bool metBruce;
-    public bool metSusan;
-    public bool rooibosVisit;
+    public Text nameBox;
 
     public AudioManager audioManager;
 
 	void Awake () {
 		// Remove the default message
 		RemoveChildren();
-		StartStory();
+        if (firstScene)
+        {
+            StartStory();
+        }
+        else
+        {
+            LoadStory();
+            Debug.Log(GameManager.manager.storyState);
+        }
 	}
 
     private void Start()
@@ -75,6 +78,13 @@ public class BasicInkExample : MonoBehaviour {
 		story = new Story (inkJSONAsset.text);
 		RefreshView();
 	}
+
+    void LoadStory()
+    {
+        story = new Story(inkJSONAsset.text);
+        story.state.LoadJson(GameManager.manager.storyState);
+        RefreshView();
+    }
 	
 	// This is the main function called every time the story changes. It does a few things:
 	// Destroys all the old content and choices.
@@ -128,8 +138,26 @@ public class BasicInkExample : MonoBehaviour {
 
 	// When we click the choice button, tell the story to choose that choice!
 	void OnClickChoiceButton (Choice choice) {
+
 		story.ChooseChoiceIndex (choice.index);
-		RefreshView();
+
+        if (!choice.text.Equals("Go to Rooibos Road")
+         && !choice.text.Equals("Go to Matcha Made in Heaven"))
+        {
+            RefreshView();
+        }
+        else
+        {
+            GameManager.manager.storyState = story.state.ToJson();
+            if (choice.text.Equals("Go to Rooibos Road"))
+            {
+                ChangeScene(1);
+            }
+            else if (choice.text.Equals("Go to Matcha Made in Heaven"))
+            {
+                ChangeScene(2);
+            }
+        }
 	}
 
 	// Creates a button showing the choice text
@@ -171,31 +199,31 @@ public class BasicInkExample : MonoBehaviour {
         {
             case 0:
                 textBox.GetComponent<Image>().color = playerColor;
-                name.text = "YOU";
+                nameBox.text = "YOU";
                 break;
             case 1:
                 textBox.GetComponent<Image>().color = momColor;
-                name.text = "MUM";
+                nameBox.text = "MUM";
                 break;
             case 2:
                 textBox.GetComponent<Image>().color = bbtdColor;
                 if (metBruce)
                 {
-                    name.text = "BRUCE";
+                    nameBox.text = "BRUCE";
                 }
                else {
-                    name.text = "TASMANIAN DEVIL";
+                    nameBox.text = "TASMANIAN DEVIL";
                         }
                 break;
             case 3:
                 textBox.GetComponent<Image>().color = sgColor;
                 if (metSusan)
                 {
-                    name.text = "SUSAN";
+                    nameBox.text = "SUSAN";
                 }
                 else
                 {
-                    name.text = "SUGAR GLIDER";
+                    nameBox.text = "SUGAR GLIDER";
                          }
                 break;
         } 
@@ -222,7 +250,31 @@ public class BasicInkExample : MonoBehaviour {
         else
         {
             return true;
-            }
+        }
+    }
+
+    void CheckForSceneChange()
+    {
+         
+    }
+    void ChangeScene(int num)
+    {
+        switch (num) {
+            case 1:
+                SceneManager.LoadScene("RooibosBar");
+                break;
+            case 2:
+                SceneManager.LoadScene("MatchaMade");
+                break;
+            case 3:
+                SceneManager.LoadScene("KoalaTea");
+                break;
+            case 4:
+                SceneManager.LoadScene("endscene");
+                break;
+            default:
+                break;
+        }
     }
 
 	[SerializeField]
@@ -231,9 +283,14 @@ public class BasicInkExample : MonoBehaviour {
 
 	[SerializeField]
 	private GameObject canvas;
+    public bool metBruce = false;
+    public bool metSusan = false;
+    public bool rooibosVisit;
+    public bool firstScene;
+    public int speaker; // 0 = mom, 1 = player, 2 = bbtd, 3 = sugar glider
 
-	// UI Prefabs
-	[SerializeField]
+    // UI Prefabs
+    [SerializeField]
 	private Text textPrefab;
 	[SerializeField]
 	private Button buttonPrefab;
