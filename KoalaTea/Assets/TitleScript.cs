@@ -26,8 +26,9 @@ public class TitleScript : MonoBehaviour
         cafe.Add(cafe2);
         cafe.Add(cafe3);
 
-        rand = Random.Range(1, 3);
+        rand = Random.Range(0, 3);
         bg.texture = cafe[rand];
+        Debug.Log(cafe[rand]);
 
         play.onClick.AddListener(TaskOnClick);
     }
