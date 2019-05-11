@@ -439,111 +439,112 @@ You notice that the Kangaroo, carrying a bunch of dishes as well as a small baby
 ~player = 1
 "Hmmm can I try your peach tea?"
 *****[NEXT]
-~player = 4
+~player = 5
 "Yep!"
 ******[NEXT]
 ~player = 1
-She was gone in a flash and returned before I even knew it with my tea. She continued to juggle plates, cups, and her baby. 
+She was gone in a flash and returned before I even knew it with my tea. She continued to juggle plates, cups, and her baby, while handing me my tea.
 *******[NEXT]
-~player = 4
-"Anything else I can get for you?"
-********[Explain why you're here]
+~player = 5
+"Let me know if you need anything else,"
+********[Stop her to explain why you came]
 ~player = 1
-"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
 *********[NEXT]
-~player = 4
-"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+~player = 5
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
 ->auroraquestions
 
-********[No]
+********[Let her walk away]
 ~player = 1
-"No I think I'm good."
+You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peaks out from her pouch, but hides again soon after.
 *********[NEXT]
 ~player = 1
-The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
-**********[Get attention again]
+You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
+**********[Get her attention]
 ~player = 1
-You wave her down again and she zooms right on over like before.
+You simply make eye contact with the kangaroo and she hops on over, waiting for your request.
 ***********[NEXT]
 ~player = 1
-"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
 ************[NEXT]
-~player = 4
-"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. I'm Susan by the way! There hasn't been a day that's gone by that I haven't thought about her. What can I help you with darling?"
+~player = 5
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
 ->auroraquestions
-**********[Give up]
+**********[Wait a while]
 ~player = 1
-The sugar glider looks too busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
+You decide to wait a little longer to see if the kangaroo gets any less busy, but she never does. Before you know it, the shop is closing and you have to leave.
 -> map
 
 
-****[Order a matcha latte]
-~player = 4
-"Oh honey you can have whatever you want,"
+****[Order an herbal tea]
+~player = 1
+"Can I try your house brew herbal tea?"
 *****[NEXT]
 ~player = 1
-She zooms behind the counter and starts gracefully stirring together your matcha tea latte. She slides the tea to you across the counter and you notice that she created a little green heart on the top of the drink out of matcha.
+She nods her head and was gone in a flash and returned before I even knew it with my tea. She continued to juggle plates, cups, and her baby, while handing me my tea.
 ******[NEXT]
-~player = 4
-"Anything else I can get for you?"
-*******[Explain why you're here]
+~player = 5
+"Let me know if you need anything else,"
+*******[Stop her to explain why you came]
 ~player = 1
-"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
 *********[NEXT]
-~player = 4
-"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+~player = 5
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
 ->auroraquestions
-*******[No]
+*******[Let her walk away]
 ~player = 1
-"No I think I'm good."
+You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peaks out from her pouch, but hides again soon after.
 *********[NEXT]
 ~player = 1
-The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
-**********[Get attention again]
+You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
+**********[Get her attention]
 ~player = 1
-You wave her down again and she zooms right on over like before.
+You simply make eye contact with the kangaroo and she hops on over, waiting for your request.
 ***********[NEXT]
 ~player = 1
-"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
 ************[NEXT]
 ~player = 4
-"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
 ->auroraquestions
-**********[Give up]
+**********[Wait a while]
 ~player = 1
-The sugar glider looks to busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
+You decide to wait a little longer to see if the kangaroo gets any less busy, but she never does. Before you know it, the shop is closing and you have to leave.
 -> map
 
 
 ****[Explain why you're here]
 ~player = 1
-"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
 *****[NEXT]
 ~player = 4
-"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
 ->auroraquestions
 
 ->END
+
 
 === auroraquestions ===
 *	{ not geAurora} 
 [Ask about Golden Eucalyptus]
 ~geAurora = 1
 ~player = 1
-    "Well, my mother used to be known for her Golden Eucalyptus tea and I want my shop to be just like hers, but I can't seem to track down a Golden Eucalyptus leaf. Do you know where I can find one?"
+    "I don't know if you remember my mum's famous Golden Eucalyptus tea, but she can't seem to remember where to find a golden eucalyptus leaf, and I was hoping you might be able to help me find one?"
     **   [NEXT]
-    ~player = 4
-    "I remember the tea well. It was her signature blend. Sadly, she never gave up the recipe to me. Sorry sweetie, I've never even seen a Golden Eucalyptus leaf!"
+    ~player = 5
+    "I do remember her famous tea, but I never knew how she made it. Always one of her best kept secrets I suppose!"
 -> auroraquestions
 
 *	{ not THAurora} 
 [Ask about Tea House]
 ~THAurora = 1
 ~player = 1
-    "This place is so cute! When did you open it?"
+    "This place is so scerene and beautiful... when did you open up?"
     **   [NEXT]
-    ~player = 4
-    "Oh, almost 20 years ago now! Where has the time gone... I opened up this shop around the time your mom opened up her shop. Of course, my shop wasn't nearly as popular as hers, but we stay busy!"
+    ~player = 5
+    "Not too long ago, actually. I worked for you mum for so long, that when she decided to close down, I couldn't think of anything else I'd rather do! But then this little guy's older sister was born, and I had to wait a bit till I had more time," she gestures to her baby, hiding in her pouch. 
     
 -> auroraquestions
 
@@ -551,47 +552,47 @@ The sugar glider looks to busy to deal with you right now. You decide to just gi
 [Ask for Advice]
 ~adviceAurora = 1
 ~player = 1
-"How are you able to keep up with running this amazing tea house? I feel like it's been so hard and I'm so stressed, yet I haven't even opened up yet!"
+"I don't know how you do it, with kids and a tea house? You must be so swamped with work all the time! Do you ever just want to quit?"
 **[NEXT]
-~player = 4
-"You've just gotta remember take time for yourself sweetie. A happy body and mind make a happy work place! Never put too much pressure on yourself and always make time for yourself!"
+~player = 5
+"Well, I think everyone has moments where they just want to scream and give up, but you just have to remember to have a little patience. You'll find that most things are worth the extra work if you just take your time,"
 ***[NEXT]
-~player = 4
-She leaves the table for a moment and comes back with a bag of something. "This is my signature scone mix. When I'm stressed out, I like to back. You should try it!"
+~player = 5
+She hops to the counter and pulls out an ornate box and hands it to you. "A lot of people have told me that I shouldn't waste my time decorating these cakes when people mainly come here for the tea, but I think it's worth the extra attention and time,"
 ****[NEXT]
 ~player = 1
-"Thank you so much!"
+You open the box and see beautifully decorated small cakes packaged. "Thank you so much! They almost look to delicious to eat!"
 *****[NEXT]
-~player = 4
-"Don't worry about it! Besides, I love sharing my recipes with people."
+~player = 5
+"Oh believe me, they taste even better than they look!"
 -> auroraquestions
 
 *	{ not mumAurora} 
 [Ask about Mother]
 ~mumAurora = 1
 ~player = 1
-"You said you knew my mother in school? What was that like?"
+"How did you know my mother? She's been so forgetful lately, she has a hard time telling me old stories."
 **[NEXT]
-~player = 4
-"Your mother was my best friend! We were like partners in crime. The perfect duo! We both bonded over our love of tea. We both promised each other to go back to our home towns and open up our own tea shops and keep each other updated about how it was going!"
+~player = 5
+"I worked with your mother for years! We became very close. She had you around the same time I had my first baby! She taught me a lot about the business. I tried to keep up correspondance, but it's become difficult over the years... children and running a business do keep your hands very full,"
 ***[NEXT]
-~player = 4
-"Of course, your mother got a bit busy when you were born, and I really threw myself into this place, but I always think about her. Hold on," she quickly gets up from the table and returns with a painting. "Your mother gave this to me for my birthday many years ago, but I think it would be perfect for your tea shop,"
+~player = 5
+"When your mum decide to close down her shop, I was so upset! But it was actually her idea for me to open my own place," she points to a tea pot on her shelf. "Your mother gave that to me from her own shop to get me started. I could never bring myself to use it because it's just so beautiful!"
 ****[NEXT]
 ~player = 1
-"Oh I couldn't! My mum gave that to you... I couldn't take it!"
+She hops up to grab the teapot and hands it to me, "Don't you want it? It looks so amazing in your shop..."
 *****[NEXT]
-~player = 4
-"This old painting has been hanging in my office for years to remind me of Kathleen, but I don't need it any more. I think it would look great in your new shop!"
+~player = 5
+"I think Kathleen's own child should have it. It can be like a family heirloom, and you can pass it down to your child," she says smiling.
 
 -> auroraquestions
 
-*  [Leave Matcha Made in Heaven]
+*  [Leave Aurora Blue Tea House]
 ~player = 1
-"Thank you so much. For everything. It was great meeting you, Susan!"
+"It's been great meeting you Mamma Roo! Thank you for speaking to me."
 **[NEXT]
-~player = 4
-"No problem at all! Come back any time"
+~player = 5
+"It was so nice meeting you. I have to give Kathleen a call!"
 -> map
 ->END
 
