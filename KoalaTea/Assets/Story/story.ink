@@ -9,6 +9,10 @@ VAR geMatcha = 0
 VAR mumMatcha = 0
 VAR adviceMatcha = 0
 VAR THMatcha = 0
+VAR geAurora = 0
+VAR mumAurora = 0
+VAR adviceAurora= 0
+VAR THAurora = 0
 VAR player = 1
 
 -
@@ -416,10 +420,182 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ->END
 
 
+
+
 === aurora ===
 ~beenaurora = 1
-->map
+~player = 1
+Aurora Blue Tea House is light and open tea house that exudes tranquility. Everyone in the room looks immensely relaxed and at peace. It's hard to pick out who the owner is, but you notice a kangaroo clearing dishes off tables and decide that she must be the owner.
+*[NEXT]
+~player = 1
+You sit down at a free table and take a look at the menu. There are all sorts of tasty treats and various teas, but you notice that the shop seems to specialize in fruity teas.
+**[NEXT]
+~player = 5
+"Can I get you anything, honey?"
+***[NEXT]
+~player = 1
+You notice that the Kangaroo, carrying a bunch of dishes as well as a small baby kangaroo in her pouch, has approached you with an ordering pad.
+****[Order peach tea]
+~player = 1
+"Hmmm can I try your peach tea?"
+*****[NEXT]
+~player = 5
+"Yep!"
+******[NEXT]
+~player = 1
+She was gone in a flash and returned before I even knew it with my tea. She continued to juggle plates, cups, and her baby, while handing me my tea.
+*******[NEXT]
+~player = 5
+"Let me know if you need anything else,"
+********[Stop her to explain why you came]
+~player = 1
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
+*********[NEXT]
+~player = 5
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
+->auroraquestions
+
+********[Let her walk away]
+~player = 1
+You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peaks out from her pouch, but hides again soon after.
+*********[NEXT]
+~player = 1
+You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
+**********[Get her attention]
+~player = 1
+You simply make eye contact with the kangaroo and she hops on over, waiting for your request.
+***********[NEXT]
+~player = 1
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
+************[NEXT]
+~player = 5
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
+->auroraquestions
+**********[Wait a while]
+~player = 1
+You decide to wait a little longer to see if the kangaroo gets any less busy, but she never does. Before you know it, the shop is closing and you have to leave.
+-> map
+
+
+****[Order an herbal tea]
+~player = 1
+"Can I try your house brew herbal tea?"
+*****[NEXT]
+~player = 1
+She nods her head and was gone in a flash and returned before I even knew it with my tea. She continued to juggle plates, cups, and her baby, while handing me my tea.
+******[NEXT]
+~player = 5
+"Let me know if you need anything else,"
+*******[Stop her to explain why you came]
+~player = 1
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
+*********[NEXT]
+~player = 5
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
+->auroraquestions
+*******[Let her walk away]
+~player = 1
+You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peaks out from her pouch, but hides again soon after.
+*********[NEXT]
+~player = 1
+You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
+**********[Get her attention]
+~player = 1
+You simply make eye contact with the kangaroo and she hops on over, waiting for your request.
+***********[NEXT]
+~player = 1
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
+************[NEXT]
+~player = 4
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
+->auroraquestions
+**********[Wait a while]
+~player = 1
+You decide to wait a little longer to see if the kangaroo gets any less busy, but she never does. Before you know it, the shop is closing and you have to leave.
+-> map
+
+
+****[Explain why you're here]
+~player = 1
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
+*****[NEXT]
+~player = 4
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbra, but everyone calls me Mamma Roo."
+->auroraquestions
+
 ->END
+
+
+=== auroraquestions ===
+*	{ not geAurora} 
+[Ask about Golden Eucalyptus]
+~geAurora = 1
+~player = 1
+    "I don't know if you remember my mum's famous Golden Eucalyptus tea, but she can't seem to remember where to find a golden eucalyptus leaf, and I was hoping you might be able to help me find one?"
+    **   [NEXT]
+    ~player = 5
+    "I do remember her famous tea, but I never knew how she made it. Always one of her best kept secrets I suppose!"
+-> auroraquestions
+
+*	{ not THAurora} 
+[Ask about Tea House]
+~THAurora = 1
+~player = 1
+    "This place is so scerene and beautiful... when did you open up?"
+    **   [NEXT]
+    ~player = 5
+    "Not too long ago, actually. I worked for you mum for so long, that when she decided to close down, I couldn't think of anything else I'd rather do! But then this little guy's older sister was born, and I had to wait a bit till I had more time," she gestures to her baby, hiding in her pouch. 
+    
+-> auroraquestions
+
+*	{ not adviceAurora} 
+[Ask for Advice]
+~adviceAurora = 1
+~player = 1
+"I don't know how you do it, with kids and a tea house? You must be so swamped with work all the time! Do you ever just want to quit?"
+**[NEXT]
+~player = 5
+"Well, I think everyone has moments where they just want to scream and give up, but you just have to remember to have a little patience. You'll find that most things are worth the extra work if you just take your time,"
+***[NEXT]
+~player = 5
+She hops to the counter and pulls out an ornate box and hands it to you. "A lot of people have told me that I shouldn't waste my time decorating these cakes when people mainly come here for the tea, but I think it's worth the extra attention and time,"
+****[NEXT]
+~player = 1
+You open the box and see beautifully decorated small cakes packaged. "Thank you so much! They almost look to delicious to eat!"
+*****[NEXT]
+~player = 5
+"Oh believe me, they taste even better than they look!"
+-> auroraquestions
+
+*	{ not mumAurora} 
+[Ask about Mother]
+~mumAurora = 1
+~player = 1
+"How did you know my mother? She's been so forgetful lately, she has a hard time telling me old stories."
+**[NEXT]
+~player = 5
+"I worked with your mother for years! We became very close. She had you around the same time I had my first baby! She taught me a lot about the business. I tried to keep up correspondance, but it's become difficult over the years... children and running a business do keep your hands very full,"
+***[NEXT]
+~player = 5
+"When your mum decide to close down her shop, I was so upset! But it was actually her idea for me to open my own place," she points to a tea pot on her shelf. "Your mother gave that to me from her own shop to get me started. I could never bring myself to use it because it's just so beautiful!"
+****[NEXT]
+~player = 1
+She hops up to grab the teapot and hands it to me, "Don't you want it? It looks so amazing in your shop..."
+*****[NEXT]
+~player = 5
+"I think Kathleen's own child should have it. It can be like a family heirloom, and you can pass it down to your child," she says smiling.
+
+-> auroraquestions
+
+*  [Leave Aurora Blue Tea House]
+~player = 1
+"It's been great meeting you Mamma Roo! Thank you for speaking to me."
+**[NEXT]
+~player = 5
+"It was so nice meeting you. I have to give Kathleen a call!"
+-> map
+->END
+
 
 
 
