@@ -10,25 +10,27 @@ public class TitleScreen
     public Texture bg;
     public Color titleC;
     public Color playC;
+    public AudioClip music;
 
-    public TitleScreen(Texture Chara, Texture Bg, Color TitleC, Color PlayC)
+    public TitleScreen(Texture Chara, Texture Bg, Color TitleC, Color PlayC, AudioClip Music)
     {
         chara = Chara;
         bg = Bg;
         titleC = TitleC;
         playC = PlayC;
+        music = Music;
     }
 }
 
 public class TitleScript : MonoBehaviour
 {
-    public RawImage bg;
+    public RawImage character;
 
-    private List<Texture> cafe = new List<Texture>();
+    private List<Texture> chars = new List<Texture>();
 
-    public Texture cafe1;
-    public Texture cafe2;
-    public Texture cafe3;
+    public Texture char1;
+    public Texture char2;
+    public Texture char3;
     int rand;
 
     public Button play;
@@ -36,15 +38,18 @@ public class TitleScript : MonoBehaviour
     void Start()
     {
 
-        bg.GetComponent<RawImage>();
+        character.GetComponent<RawImage>();
 
-        cafe.Add(cafe1);
-        cafe.Add(cafe2);
-        cafe.Add(cafe3);
+        chars.Add(char1);
+        chars.Add(char2);
+        chars.Add(char3);
 
         rand = Random.Range(0, 3);
-        bg.texture = cafe[rand];
-        Debug.Log(cafe[rand]);
+
+        character.texture = chars[rand];
+
+
+        Debug.Log(chars[rand]);
 
         play.onClick.AddListener(TaskOnClick);
     }
