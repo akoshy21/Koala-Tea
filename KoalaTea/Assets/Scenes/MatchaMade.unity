@@ -3288,6 +3288,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_Name
+      value: tbmatcha
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270509465457171, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9082270510564064474, guid: 85928bdf661dd47e1b09c22a615feb10,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3578,46 +3593,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 944214310}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 25747270}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: next
-      value: 
-      objectReference: {fileID: 1324343319}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: textBox
-      value: 
-      objectReference: {fileID: 872495188}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: name
-      value: 
-      objectReference: {fileID: 1826207265}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: nameBox
-      value: 
-      objectReference: {fileID: 1826207265}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: firstScene
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: inkJSONAsset
-      value: 
-      objectReference: {fileID: 4900000, guid: d88c8855e3dae4ad29f9a8637163fe7f, type: 3}
     - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3673,6 +3648,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 944214310}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 25747270}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: next
+      value: 
+      objectReference: {fileID: 1324343319}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: textBox
+      value: 
+      objectReference: {fileID: 872495188}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: name
+      value: 
+      objectReference: {fileID: 1826207265}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: nameBox
+      value: 
+      objectReference: {fileID: 1826207265}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: firstScene
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: inkJSONAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: d88c8855e3dae4ad29f9a8637163fe7f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76750674638b49c2b3ee4d678609f3b, type: 3}
 --- !u!1001 &1980954088
