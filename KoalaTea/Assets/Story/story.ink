@@ -9,6 +9,10 @@ VAR geMatcha = 0
 VAR mumMatcha = 0
 VAR adviceMatcha = 0
 VAR THMatcha = 0
+VAR geAurora = 0
+VAR mumAurora = 0
+VAR adviceAurora= 0
+VAR THAurora = 0
 VAR player = 1
 
 -
@@ -416,10 +420,181 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ->END
 
 
+
+
 === aurora ===
 ~beenaurora = 1
-->map
+~player = 1
+Aurora Blue Tea House is light and open tea house that exudes tranquility. Everyone in the room looks immensely relaxed and at peace. It's hard to pick out who the owner is, but you notice a kangaroo clearing dishes off tables and decide that she must be the owner.
+*[NEXT]
+~player = 1
+You sit down at a free table and take a look at the menu. There are all sorts of tasty treats and various teas, but you notice that the shop seems to specialize in fruity teas.
+**[NEXT]
+~player = 5
+"Can I get you anything, honey?"
+***[NEXT]
+~player = 1
+You notice that the Kangaroo, carrying a bunch of dishes as well as a small baby kangaroo in her pouch, has approached you with an ordering pad.
+****[Order peach tea]
+~player = 1
+"Hmmm can I try your peach tea?"
+*****[NEXT]
+~player = 4
+"Yep!"
+******[NEXT]
+~player = 1
+She was gone in a flash and returned before I even knew it with my tea. She continued to juggle plates, cups, and her baby. 
+*******[NEXT]
+~player = 4
+"Anything else I can get for you?"
+********[Explain why you're here]
+~player = 1
+"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+*********[NEXT]
+~player = 4
+"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+->auroraquestions
+
+********[No]
+~player = 1
+"No I think I'm good."
+*********[NEXT]
+~player = 1
+The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
+**********[Get attention again]
+~player = 1
+You wave her down again and she zooms right on over like before.
+***********[NEXT]
+~player = 1
+"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+************[NEXT]
+~player = 4
+"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. I'm Susan by the way! There hasn't been a day that's gone by that I haven't thought about her. What can I help you with darling?"
+->auroraquestions
+**********[Give up]
+~player = 1
+The sugar glider looks too busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
+-> map
+
+
+****[Order a matcha latte]
+~player = 4
+"Oh honey you can have whatever you want,"
+*****[NEXT]
+~player = 1
+She zooms behind the counter and starts gracefully stirring together your matcha tea latte. She slides the tea to you across the counter and you notice that she created a little green heart on the top of the drink out of matcha.
+******[NEXT]
+~player = 4
+"Anything else I can get for you?"
+*******[Explain why you're here]
+~player = 1
+"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+*********[NEXT]
+~player = 4
+"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+->auroraquestions
+*******[No]
+~player = 1
+"No I think I'm good."
+*********[NEXT]
+~player = 1
+The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
+**********[Get attention again]
+~player = 1
+You wave her down again and she zooms right on over like before.
+***********[NEXT]
+~player = 1
+"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+************[NEXT]
+~player = 4
+"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+->auroraquestions
+**********[Give up]
+~player = 1
+The sugar glider looks to busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
+-> map
+
+
+****[Explain why you're here]
+~player = 1
+"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+*****[NEXT]
+~player = 4
+"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+->auroraquestions
+
 ->END
+
+=== auroraquestions ===
+*	{ not geAurora} 
+[Ask about Golden Eucalyptus]
+~geAurora = 1
+~player = 1
+    "Well, my mother used to be known for her Golden Eucalyptus tea and I want my shop to be just like hers, but I can't seem to track down a Golden Eucalyptus leaf. Do you know where I can find one?"
+    **   [NEXT]
+    ~player = 4
+    "I remember the tea well. It was her signature blend. Sadly, she never gave up the recipe to me. Sorry sweetie, I've never even seen a Golden Eucalyptus leaf!"
+-> auroraquestions
+
+*	{ not THAurora} 
+[Ask about Tea House]
+~THAurora = 1
+~player = 1
+    "This place is so cute! When did you open it?"
+    **   [NEXT]
+    ~player = 4
+    "Oh, almost 20 years ago now! Where has the time gone... I opened up this shop around the time your mom opened up her shop. Of course, my shop wasn't nearly as popular as hers, but we stay busy!"
+    
+-> auroraquestions
+
+*	{ not adviceAurora} 
+[Ask for Advice]
+~adviceAurora = 1
+~player = 1
+"How are you able to keep up with running this amazing tea house? I feel like it's been so hard and I'm so stressed, yet I haven't even opened up yet!"
+**[NEXT]
+~player = 4
+"You've just gotta remember take time for yourself sweetie. A happy body and mind make a happy work place! Never put too much pressure on yourself and always make time for yourself!"
+***[NEXT]
+~player = 4
+She leaves the table for a moment and comes back with a bag of something. "This is my signature scone mix. When I'm stressed out, I like to back. You should try it!"
+****[NEXT]
+~player = 1
+"Thank you so much!"
+*****[NEXT]
+~player = 4
+"Don't worry about it! Besides, I love sharing my recipes with people."
+-> auroraquestions
+
+*	{ not mumAurora} 
+[Ask about Mother]
+~mumAurora = 1
+~player = 1
+"You said you knew my mother in school? What was that like?"
+**[NEXT]
+~player = 4
+"Your mother was my best friend! We were like partners in crime. The perfect duo! We both bonded over our love of tea. We both promised each other to go back to our home towns and open up our own tea shops and keep each other updated about how it was going!"
+***[NEXT]
+~player = 4
+"Of course, your mother got a bit busy when you were born, and I really threw myself into this place, but I always think about her. Hold on," she quickly gets up from the table and returns with a painting. "Your mother gave this to me for my birthday many years ago, but I think it would be perfect for your tea shop,"
+****[NEXT]
+~player = 1
+"Oh I couldn't! My mum gave that to you... I couldn't take it!"
+*****[NEXT]
+~player = 4
+"This old painting has been hanging in my office for years to remind me of Kathleen, but I don't need it any more. I think it would look great in your new shop!"
+
+-> auroraquestions
+
+*  [Leave Matcha Made in Heaven]
+~player = 1
+"Thank you so much. For everything. It was great meeting you, Susan!"
+**[NEXT]
+~player = 4
+"No problem at all! Come back any time"
+-> map
+->END
+
 
 
 
