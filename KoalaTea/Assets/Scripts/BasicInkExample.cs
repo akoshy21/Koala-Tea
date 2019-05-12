@@ -56,12 +56,12 @@ public class BasicInkExample : MonoBehaviour {
             metRoo = intToBool((int)newValue);
         });
 
-        story.ObserveVariable("playSound", (string varName, object newValue) => {
-            audioManager.play = intToBool((int)newValue);
-        });
-
         story.ObserveVariable("soundIndex", (string varName, object newValue) => {
             audioManager.index = (int)newValue;
+        });
+
+        story.ObserveVariable("playSound", (string varName, object newValue) => {
+            audioManager.play = intToBool((int)newValue);
         });
 
         // ADD A LISTENER TO CHECK WHETHER WE'VE MET BRUCE / SUGAR GLIDER YET
@@ -162,6 +162,14 @@ public class BasicInkExample : MonoBehaviour {
             {
                 ChangeScene(2);
             }
+            else if (choice.text.Equals("Go to Aurora Blue Tea House"))
+            {
+                ChangeScene(5);
+            }
+            else if (choice.text.Equals("Go Back Home"))
+            {
+                ChangeScene(4);
+            }
         }
 	}
 
@@ -231,6 +239,20 @@ public class BasicInkExample : MonoBehaviour {
                     nameBox.text = "SUGAR GLIDER";
                          }
                 break;
+            case 4:
+                textBox.GetComponent<Image>().color = rooColor;
+                if (metRoo)
+                {
+                    nameBox.text = "MAMA ROO";
+                }
+                else
+                {
+                    nameBox.text = "KANGAROO";
+                }
+                break;
+            default:
+                break;
+
         } 
     }
 
@@ -276,6 +298,9 @@ public class BasicInkExample : MonoBehaviour {
                 break;
             case 4:
                 SceneManager.LoadScene("endscene");
+                break;
+            case 5:
+                SceneManager.LoadScene("AuroraBlue");
                 break;
             default:
                 break;
