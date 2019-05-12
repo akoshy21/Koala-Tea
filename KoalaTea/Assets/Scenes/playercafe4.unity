@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: playercafeFBX
       objectReference: {fileID: 0}
+    - target: {fileID: 100070, guid: 68b33f316a4240e419e04ccd804d41ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100060, guid: 68b33f316a4240e419e04ccd804d41ac, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -462,6 +466,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ink Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6560658009001496036, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6560658009001496024, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -712,6 +721,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1417704276688891683, guid: 44c27a59756f24a60845f2fea70e9ea1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1417704276688891613, guid: 44c27a59756f24a60845f2fea70e9ea1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -792,6 +806,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Foreground Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204372851365243041, guid: d932394475e69426d9fd3b38f0ede37d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8204372851365243045, guid: d932394475e69426d9fd3b38f0ede37d,
         type: 3}
@@ -1156,6 +1175,66 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SceneManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596206, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 409
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
@@ -1546,6 +1625,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5161243050787636555, guid: 7bb12a15531dd4b6fbd677c465433b08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5161243050787636554, guid: 7bb12a15531dd4b6fbd677c465433b08,
         type: 3}
