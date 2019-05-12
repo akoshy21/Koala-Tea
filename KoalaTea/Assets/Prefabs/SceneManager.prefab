@@ -43,18 +43,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e957d58a4584a8894329531ec0b096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rooibosVisit: 0
-  speaker: 0
   next: {fileID: 0}
   textBox: {fileID: 0}
   playerColor: {r: 0.6039216, g: 0.5803922, b: 0.43137255, a: 0.6156863}
   bbtdColor: {r: 0.3764706, g: 0.23921569, b: 0.23921569, a: 0.627451}
-  momColor: {r: 1, g: 0, b: 0.97566557, a: 0.7607843}
-  sgColor: {r: 0.3478432, g: 1, b: 0.16509432, a: 0.7490196}
-  name: {fileID: 0}
+  momColor: {r: 1, g: 0.5316518, b: 0.3254717, a: 0.60784316}
+  sgColor: {r: 1, g: 0.4009434, b: 0.8156696, a: 0.5882353}
+  rooColor: {r: 0.11494303, g: 0.20478714, b: 0.5943396, a: 0.6862745}
+  nameBox: {fileID: 0}
+  audioManager: {fileID: 0}
+  inkJSONAsset: {fileID: 4900000, guid: d88c8855e3dae4ad29f9a8637163fe7f, type: 3}
+  canvas: {fileID: 0}
   metBruce: 0
   metSusan: 0
-  inkJSONAsset: {fileID: 4900000, guid: b9f03d6d1bd27491db7ddd1f59df2e74, type: 3}
-  canvas: {fileID: 0}
+  metRoo: 0
+  rooibosVisit: 0
+  firstScene: 0
+  speaker: 0
   textPrefab: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
