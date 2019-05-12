@@ -676,7 +676,12 @@ It's finally here. Your opening day is here! You've worked so hard for this day 
 ~speaker = 0
 **********[NEXT]
 You hold the necklace in your hand and feel your eyes well up with tears. "This is perfect mum. Thank you,"
+{
+-metBruce && metSusan && metRoo: 
 ~speaker = 2
+-else:
+~speaker = 1
+}
 ***********{metBruce}{metSusan}{metRoo}
 [NEXT]
 ~playSound = 1
