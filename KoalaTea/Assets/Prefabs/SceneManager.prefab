@@ -47,12 +47,12 @@ MonoBehaviour:
   textBox: {fileID: 0}
   playerColor: {r: 0.6039216, g: 0.5803922, b: 0.43137255, a: 0.6156863}
   bbtdColor: {r: 0.3764706, g: 0.23921569, b: 0.23921569, a: 0.627451}
-  momColor: {r: 1, g: 0.5316518, b: 0.3254717, a: 0.60784316}
+  momColor: {r: 0.4708971, g: 0.48195675, b: 0.6981132, a: 0.60784316}
   sgColor: {r: 1, g: 0.4009434, b: 0.8156696, a: 0.5882353}
   rooColor: {r: 0.11494303, g: 0.20478714, b: 0.5943396, a: 0.6862745}
   nameBox: {fileID: 0}
   audioManager: {fileID: 0}
-  inkJSONAsset: {fileID: 4900000, guid: d88c8855e3dae4ad29f9a8637163fe7f, type: 3}
+  inkJSONAsset: {fileID: 4900000, guid: f62d691429a0940f5b5f622fea88e709, type: 3}
   canvas: {fileID: 0}
   metBruce: 0
   metSusan: 0
