@@ -14,6 +14,7 @@ public class BasicInkExample : MonoBehaviour {
     public Color bbtdColor;
     public Color momColor;
     public Color sgColor;
+    public Color rooColor;
 
     public Text nameBox;
 
@@ -44,11 +45,15 @@ public class BasicInkExample : MonoBehaviour {
         });
 
         story.ObserveVariable("metSusan", (string varName, object newValue) => {
-            metSusan = (bool)newValue;
+            metSusan = intToBool((int)newValue);
         });
 
         story.ObserveVariable("metBruce", (string varName, object newValue) => {
             metBruce = intToBool((int)newValue);
+        });
+
+        story.ObserveVariable("metRoo", (string varName, object newValue) => {
+            metRoo = intToBool((int)newValue);
         });
 
         story.ObserveVariable("playSound", (string varName, object newValue) => {
@@ -285,6 +290,7 @@ public class BasicInkExample : MonoBehaviour {
 	private GameObject canvas;
     public bool metBruce = false;
     public bool metSusan = false;
+    public bool metRoo = false;
     public bool rooibosVisit;
     public bool firstScene;
     public int speaker; // 0 = mom, 1 = player, 2 = bbtd, 3 = sugar glider
