@@ -653,8 +653,8 @@ You hold the necklace in your hand and feel your eyes well up with tears. "This 
 **************[NEXT]
 "What are both of you doing here?! What a nice surprise!"
 ***************[NEXT]
-(Susan)
-"Well, your last visit reminded us that it was about time to visit our dear friend Katherine, and our new friend's new shop!"
+(Mamma Roo)
+"Well, your last visit reminded us that it was about time to visit our dear friend Kathleen, and our new friend's new shop!"
 ****************[NEXT]
 (Bruce)
 "How 'bout some nice tea? What's your specialty?"
