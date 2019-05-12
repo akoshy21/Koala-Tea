@@ -4,33 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class TitleScreen
-{
-    public Texture chara;
-    public Texture bg;
-    public Color titleC;
-    public Color playC;
-    public AudioClip music;
-
-    public TitleScreen(Texture Chara, Texture Bg, Color TitleC, Color PlayC, AudioClip Music)
-    {
-        chara = Chara;
-        bg = Bg;
-        titleC = TitleC;
-        playC = PlayC;
-        music = Music;
-    }
-}
-
 public class TitleScript : MonoBehaviour
 {
     public RawImage character;
+    public RawImage bg;
+    private AudioSource audioS;
 
-    private List<Texture> chars = new List<Texture>();
+    public List<Texture> chars = new List<Texture>();
+    public List<Texture> bgs = new List<Texture>();
+    public List<AudioClip> clips = new List<AudioClip>();
 
-    public Texture char1;
-    public Texture char2;
-    public Texture char3;
     int rand;
 
     public Button play;
@@ -39,15 +22,14 @@ public class TitleScript : MonoBehaviour
     {
 
         character.GetComponent<RawImage>();
+        bg.GetComponent<RawImage>();
+        audioS = GetComponent<AudioSource>();
 
-        chars.Add(char1);
-        chars.Add(char2);
-        chars.Add(char3);
+        rand = Random.Range(0, 4);
 
-        rand = Random.Range(0, 3);
-
+        bg.texture = bgs[rand];
         character.texture = chars[rand];
-
+        audioS.clip = clips[rand];
 
         Debug.Log(chars[rand]);
 
