@@ -30,6 +30,7 @@ public class TitleScript : MonoBehaviour
         bg.texture = bgs[rand];
         character.texture = chars[rand];
         audioS.clip = clips[rand];
+        audioS.Play();
 
         Debug.Log(chars[rand]);
 
