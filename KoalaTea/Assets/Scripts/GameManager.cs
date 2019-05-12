@@ -20,4 +20,9 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
     }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("playercafe4");
+    }
 }
