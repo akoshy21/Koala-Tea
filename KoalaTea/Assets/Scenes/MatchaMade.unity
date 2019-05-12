@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.81349117, g: 0.8012128, b: 0.7721541, a: 1}
+  m_IndirectSpecularColor: {r: 0.8134916, g: 0.8012133, b: 0.7721548, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2806,6 +2806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1615906910}
   - component: {fileID: 1615906909}
+  - component: {fileID: 1615906911}
   m_Layer: 0
   m_Name: MMH Patron A
   m_TagString: Untagged
@@ -2875,6 +2876,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -131.494, z: 0}
+--- !u!95 &1615906911
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615906908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 730eab9458b014a428971b2392b369f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1681423267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3302,6 +3322,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_Name
+      value: tbmatcha
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_Name
+      value: tbmatcha
+      objectReference: {fileID: 0}
     - target: {fileID: 9082270510768109392, guid: 85928bdf661dd47e1b09c22a615feb10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3416,26 +3456,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClickArea
-      objectReference: {fileID: 0}
-    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
-        type: 3}
-      propertyPath: m_Name
-      value: tbmatcha
-      objectReference: {fileID: 0}
-    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
-        type: 3}
-      propertyPath: m_Name
-      value: tbmatcha
       objectReference: {fileID: 0}
     - target: {fileID: 9082270509465457171, guid: 85928bdf661dd47e1b09c22a615feb10,
         type: 3}
