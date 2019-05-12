@@ -21,19 +21,19 @@ public class GiftManager : MonoBehaviour
         }
         if (scnManager.rooibosAd)
         {
-            abAdGift.SetActive(true);
+            rbAdGift.SetActive(true);
         }
-        if (scnManager.auroraAd)
+        if (scnManager.rooibosMum)
         {
-            abAdGift.SetActive(true);
+            rbMumGift.SetActive(true);
         }
-        if (scnManager.auroraAd)
+        if (scnManager.matchaMum)
         {
-            abAdGift.SetActive(true);
+            mmhMumGift.SetActive(true);
         }
-        if (scnManager.auroraAd)
+        if (scnManager.matchaAd)
         {
-            abAdGift.SetActive(true);
+            mmhAdGift.SetActive(true);
         }
 
     }

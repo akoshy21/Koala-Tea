@@ -1176,31 +1176,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596206, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 1914046310}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 668961003}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: nameBox
-      value: 
-      objectReference: {fileID: 1024792845}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: textBox
-      value: 
-      objectReference: {fileID: 1024792847}
     - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
       propertyPath: next
@@ -1208,14 +1183,9 @@ PrefabInstance:
       objectReference: {fileID: 893413343}
     - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
-      propertyPath: canvas
+      propertyPath: textBox
       value: 
-      objectReference: {fileID: 1914046310}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 668961003}
+      objectReference: {fileID: 1024792847}
     - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
       propertyPath: nameBox
@@ -1223,68 +1193,18 @@ PrefabInstance:
       objectReference: {fileID: 1024792845}
     - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
-      propertyPath: textBox
+      propertyPath: audioManager
       value: 
-      objectReference: {fileID: 1024792847}
+      objectReference: {fileID: 668961003}
     - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
-      propertyPath: next
+      propertyPath: canvas
       value: 
-      objectReference: {fileID: 893413343}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
+      objectReference: {fileID: 1914046310}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 409
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 230
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
+      propertyPath: firstScene
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
