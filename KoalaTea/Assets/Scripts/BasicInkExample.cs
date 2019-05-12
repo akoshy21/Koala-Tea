@@ -9,6 +9,7 @@ public class BasicInkExample : MonoBehaviour {
 
     public GameObject next;
     public GameObject textBox;
+    public GameObject mom;
 
     public Color playerColor;
     public Color bbtdColor;
@@ -90,6 +91,7 @@ public class BasicInkExample : MonoBehaviour {
     private void Update()
     {
         UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
+        AddMom();
 
         //Debug.Log(speaker);
         //Debug.Log(rooibosVisit);
@@ -285,6 +287,14 @@ public class BasicInkExample : MonoBehaviour {
             {
                     OnClickChoiceButton(choice);
             }
+        }
+    }
+
+    void AddMom()
+    {
+        if(audioManager.play && audioManager.index == 0 && SceneManager.GetActiveScene().name.Equals("playercafe4"))
+        {
+            mom.SetActive(true);
         }
     }
 
