@@ -41,10 +41,11 @@ VAR theEnd = 0
 ~playSound = 1
 ~soundIndex = 0
 ~speaker = 1
--   "Mum! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that you used your hard earned money to buy the shop back. 
+-   "Mum! What are you doing here?" She walks in, taking in the shop. It's probably been years since she's actually been inside. She wasn't exactly thrilled that you used your hard earned money to buy the shop back.
+
 *   [NEXT]
 ~speaker = 0
-"You think I would miss my baby's grand opening?"
+-   "You think I would miss my baby's grand opening?"
 *   [NEXT]
 -~speaker = 1
 "The opening isn't even for a few days! There's still so much to do before I officially open..." The last couple of years, Mum's health has been deteriorating a bit. She walks slower and forgets more and more things, but she's doing better than her mother did at her age. 
@@ -223,7 +224,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 "You think you were out of your depth? Do I look like your average tea house owner to you? Does this look like your average tea house? I've had to deal with my fair share of problems thrown my way, but all it takes is perserverance. When you set your mind on something, just go for it!"
 ***[NEXT]
 ~speaker = 0
-He gets up from the table and quickly returns with a beat up tea canister. "You see this? This is the only thing I had when I opened up this place. And look at it now." He hands the canister to me. "Take it,"
+He gets up from the table and quickly returns with a beat up tea canister. "You see this? This is the only thing I had when I opened up this place. And look at it now." He hands the canister to you. "Take it,"
 ****[NEXT]
 ~speaker = 2
 "Oh I can't!"
@@ -243,7 +244,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 "It was amazing. She was amazing. My granddad loved working for her. He wasn't the most trusted guy in town, if you know what I mean, but she gave him a shot. I don't know where I'd be without him or your mum for that matter."
 ***[NEXT]
 ~speaker = 0
-"I actually developed my famous chai right at her shop when I was just boy. She encouraged my interest in the business even though my parents weren't happy about it. Your mum was actually my first taste tester." he walks over to the bar and comes back with a bottle filled with tea leaves and hands it to me. "Now I'm not in the business of giving out secret recipes or anything, but from one tea shop owner to the next, and because you're Kathleen's kid, think of this as a sample."
+"I actually developed my famous chai right at her shop when I was just boy. She encouraged my interest in the business even though my parents weren't happy about it. Your mum was actually my first taste tester." he walks over to the bar and comes back with a bottle filled with tea leaves and hands it to you. "Now I'm not in the business of giving out secret recipes or anything, but from one tea shop owner to the next, and because you're Kathleen's kid, think of this as a sample."
 
 -> rooibosQuestions
 
@@ -676,57 +677,237 @@ It's finally here. Your opening day is here! You've worked so hard for this day 
 **********[NEXT]
 You hold the necklace in your hand and feel your eyes well up with tears. "This is perfect mum. Thank you,"
 ~speaker = 2
-***********[NEXT]
+***********{metBruce}{metSusan}{metRoo}
+[NEXT]
 ~playSound = 1
 ~soundIndex = 0
 "Great place you've got, kid!"
 ~speaker = 3
-*************[NEXT]
+*************{metBruce}{metSusan}{metRoo}
+[NEXT]
 "It's like stepping back in time!"
 ~speaker = 0
-**************[NEXT]
-"What are both of you doing here?! What a nice surprise!"
+************** {metBruce}{metSusan}{metRoo}
+[NEXT]
+"What are you all doing here?! What a nice surprise!"
 ~speaker = 4
-***************[NEXT]
+***************{metBruce}{metSusan}{metRoo}
+[NEXT]
 "Well, your last visit reminded us that it was about time to visit our dear friend Kathleen, and our new friend's new shop!"
-~speaker = 2
-****************[NEXT]
+~speaker = 1
+****************{metBruce}{metSusan}{metRoo}
+[NEXT]
 "How 'bout some nice tea? What's your specialty?"
-~speaker = 0
-*****************[Herbal Teas]
+~speaker = 2
+*****************{metBruce}{metSusan}{metRoo}
+[Herbal Teas]
 "Herbal Teas are my specialty. I recommend the Raspberry Hibiscus."
 ~speaker = 1
-******************[NEXT]
+******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 "That sounds great. We'd all love to try it!"
 ~speaker = 0
-*******************[NEXT]
+*******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
 -> END
-*****************[Bubble Tea]
+*****************{metBruce}{metSusan}{metRoo}
+[Bubble Tea]
 "Bubble Teas are my specialty. I recommend the Milk Tea with Boba!"
 ~speaker = 1
-******************[NEXT]
+******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 "That sounds great. We'd all love to try it!"
 ~speaker = 0
-*******************[NEXT]
+*******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
 -> END
-*****************[Black Teas]
+*****************{metBruce}{metSusan}{metRoo}
+[Black Teas]
 "Black Teas are my specialty. I recommend the Earl Gray."
 ~speaker = 1
-******************[NEXT]
+******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 "That sounds great. We'd all love to try it!"
 ~speaker = 0
-*******************[NEXT]
+*******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
 -> END
-*****************[Everything!]
+*****************{metBruce}{metSusan}{metRoo}
+[Everything!]
 "I have everything! You can't go wrong with any of my teas. I didn't want to limit myself to one specialty."
 ~speaker = 1
-******************[NEXT]
+******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 "How about you try out my recipe for Golden Eucalyptus Tea," she hands you a piece of paper with the recipe and winks at you.
 ~speaker = 0
-*******************[NEXT]
+*******************{metBruce}{metSusan}{metRoo}
+[NEXT]
 You start making teas for your guests, using your mom's old recipe, and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's better than you ever could have expected.
 ->END
+
+
+
+*********** {not metBruce} 
+[NEXT]
+"How 'bout some nice tea? What's your specialty?"
+~speaker = 0
+************{not metBruce} 
+[Herbal Teas]
+"Herbal Teas are my specialty. I recommend the Raspberry Hibiscus."
+~speaker = 1
+*************{not metBruce} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metBruce} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metBruce} 
+[Black Teas]
+"Black Teas are my specialty. I recommend the Earl Gray."
+~speaker = 1
+*************{not metBruce} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metBruce} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metBruce} 
+[Bubble Teas]
+"Bubble Teas are my specialty. I recommend the Milk Tea with Boba!"
+~speaker = 1
+*************{not metBruce} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metBruce} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metBruce} 
+[Everything!]
+"I have everything! You can't go wrong with any of my teas. I didn't want to limit myself to one specialty."
+~speaker = 1
+*************{not metBruce} 
+[NEXT]
+"How about you try out my recipe for Golden Eucalyptus Tea," she hands you a piece of paper with the recipe and winks at you.
+~speaker = 0
+**************{not metBruce} 
+[NEXT]
+You start making a tea for your mother, using her old recipe, and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+
+
+*********** {not metSusan} 
+[NEXT]
+"How 'bout some nice tea? What's your specialty?"
+~speaker = 0
+************{not metSusan} 
+[Herbal Teas]
+"Herbal Teas are my specialty. I recommend the Raspberry Hibiscus."
+~speaker = 1
+*************{not metSusan} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metSusan} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metSusan} 
+[Black Teas]
+"Black Teas are my specialty. I recommend the Earl Gray."
+~speaker = 1
+*************{not metSusan} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metSusan} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metSusan} 
+[Bubble Teas]
+"Bubble Teas are my specialty. I recommend the Milk Tea with Boba!"
+~speaker = 1
+*************{not metSusan} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metSusan} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metSusan} 
+[Everything!]
+"I have everything! You can't go wrong with any of my teas. I didn't want to limit myself to one specialty."
+~speaker = 1
+*************{not metSusan} 
+[NEXT]
+"How about you try out my recipe for Golden Eucalyptus Tea," she hands you a piece of paper with the recipe and winks at you.
+~speaker = 0
+**************{not metSusan} 
+[NEXT]
+You start making a tea for your mother, using her old recipe, and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+
+
+*********** {not metRoo} 
+[NEXT]
+"How 'bout some nice tea? What's your specialty?"
+~speaker = 0
+************{not metRoo} 
+[Herbal Teas]
+"Herbal Teas are my specialty. I recommend the Raspberry Hibiscus."
+~speaker = 1
+*************{not metRoo} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metRoo} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metRoo} 
+[Black Teas]
+"Black Teas are my specialty. I recommend the Earl Gray."
+~speaker = 1
+*************{not metRoo} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metRoo} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metRoo} 
+[Bubble Teas]
+"Bubble Teas are my specialty. I recommend the Milk Tea with Boba!"
+~speaker = 1
+*************{not metRoo} 
+[NEXT]
+"That sounds great. I'd love to try it!"
+~speaker = 0
+**************{not metRoo} 
+[NEXT]
+You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
+************{not metRoo} 
+[Everything!]
+"I have everything! You can't go wrong with any of my teas. I didn't want to limit myself to one specialty."
+~speaker = 1
+*************{not metRoo} 
+[NEXT]
+"How about you try out my recipe for Golden Eucalyptus Tea," she hands you a piece of paper with the recipe and winks at you.
+~speaker = 0
+**************{not metRoo} 
+[NEXT]
+You start making a tea for your mother, using her old recipe, and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+-> END
 
