@@ -45,18 +45,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next: {fileID: 0}
   textBox: {fileID: 0}
-  playerColor: {r: 0.6039216, g: 0.5803922, b: 0.43137255, a: 0.6156863}
-  bbtdColor: {r: 0.3764706, g: 0.23921569, b: 0.23921569, a: 0.627451}
-  momColor: {r: 1, g: 0, b: 0.97566557, a: 0.7607843}
-  sgColor: {r: 0.3478432, g: 1, b: 0.16509432, a: 0.7490196}
+  mom: {fileID: 0}
+  playerColor: {r: 0.6039216, g: 0.5803922, b: 0.43137255, a: 0.9372549}
+  bbtdColor: {r: 0.3764706, g: 0.23921569, b: 0.23921569, a: 0.92156863}
+  momColor: {r: 0.8867924, g: 0.6485813, b: 0.31372374, a: 0.8235294}
+  sgColor: {r: 0.5754717, g: 0.38817194, b: 0.51846737, a: 0.85882354}
+  rooColor: {r: 0.23362406, g: 0.27814204, b: 0.4716981, a: 0.84705883}
   nameBox: {fileID: 0}
   audioManager: {fileID: 0}
-  inkJSONAsset: {fileID: 4900000, guid: b9f03d6d1bd27491db7ddd1f59df2e74, type: 3}
+  inkJSONAsset: {fileID: 4900000, guid: f62d691429a0940f5b5f622fea88e709, type: 3}
   canvas: {fileID: 0}
   metBruce: 0
   metSusan: 0
-  rooibosVisit: 0
-  firstScene: 1
+  metRoo: 0
+  rooibosAd: 0
+  auroraAd: 0
+  matchaAd: 0
+  rooibosMum: 0
+  matchaMum: 0
+  auroraMum: 0
+  firstScene: 0
   speaker: 0
   textPrefab: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}

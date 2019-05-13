@@ -18,18 +18,20 @@ public class TitleScript : MonoBehaviour
     public List<Color> titleC = new List<Color>();
     public List<Color> playC = new List<Color>();
 
+    public Color[] titleColors = new Color[4];
+    public Color[] playColors = new Color[4];
+
     int rand;
 
     public Button play;
+    public Text title;
 
     void Start()
     {
 
         character.GetComponent<RawImage>();
         bg.GetComponent<RawImage>();
-        audioS = GetComponent<AudioSource>();
-        title = GetComponent<Text>();
-        playB = GetComponent<Text>();
+        audioS = this.GetComponent<AudioSource>();
 
         rand = Random.Range(0, 4);
 
@@ -39,9 +41,8 @@ public class TitleScript : MonoBehaviour
         audioS.clip = clips[rand];
         audioS.Play();
 
-        title.color = titleC[rand];
-        playB.color = playC[rand];
-
+        play.gameObject.GetComponent<Image>().color = playColors[rand];
+        title.color = titleColors[rand];
 
         Debug.Log(chars[rand]);
 
