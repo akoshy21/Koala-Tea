@@ -113,89 +113,89 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
 -   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. You're definitely not the target clientele. You start to wonder if your mother sent me to the wrong place.
 *   [NEXT]
 -  You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai.
-*   [NEXT]
+**   [NEXT]
 
 ~speaker = 0
 "Can I help you, kid?" a tasmanian devil askes me.
-**   [NEXT]
+***   [NEXT]
 -   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
-    ***   [NEXT]
-    ****   [Explain why you're there]
+****   [NEXT]
+*****   [Explain why you're there]
     ~speaker = 2
     "Hi there," you nervously say. "My mum sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
-    *****   [NEXT]
+******   [NEXT]
         ~speaker = 0
         ~metBruce = 1
          "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
-     ******   [NEXT]
-     ******* [Order black tea]
+*******   [NEXT]
+******** [Order black tea]
     ~speaker = 2
      "Can I get an English Breakfast please?"
-     ********   [NEXT]
+*********   [NEXT]
     ~speaker = 0
     "Huh, English Breakfast? Not the most interesting choice. Would have thought Kathleen's kid woulda been more adventurous. Hold on kid, I'll grab it," 
-     *********   [NEXT]
+**********   [NEXT]
     ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle and find yourself surprisingly pleased with the tea.
-     **********   [NEXT]
+***********   [NEXT]
      ->rooibosQuestions
      
-     ******* [Order chai]
+******** [Order chai]
     ~speaker = 2
      "Can I try the famous chai?" 
-      ********   [NEXT]
+*********   [NEXT]
     ~speaker = 0
      His face lights up. "Of course!" He boasts, scurrying away to grab the drink.
-      *********   [NEXT]
+**********   [NEXT]
       ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle and find yourself surprisingly pleased with the tea.
-     **********   [NEXT]
+***********   [NEXT]
      ->rooibosQuestions
      
-     ******* [No Thanks]
+******* [No Thanks]
      ~speaker = 2
      "No thanks,"
-     ********[NEXT]
+*********[NEXT]
      ~speaker = 0
      "Nothing? No tea? Jeez kid why'd you come to a tea house then?"
-     *********[NEXT]
+**********[NEXT]
      ->rooibosQuestions
      
-    ****   [Order tea]
+*****   [Order tea]
      ~speaker = 2
         "Hi! Um... Can I get a chai please?"
-        *****   [NEXT]
+******   [NEXT]
      ~speaker = 0
         "That it?"
-            ******   [Yes]
+*******   [Yes]
             ~speaker = 0
             "Um... Yes. That's it. Thank you."
-            *******[NEXT]
+********[NEXT]
             ~speaker = 0
             He turns to grab your drink without another word. He returns quickly and drops your drink at the table, quickly about to leave again.
-            ********[Tell about mum]
+*********[Tell about mum]
             ~speaker = 2
             "My mum actually sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
-            *********[NEXT]
+**********[NEXT]
             ~speaker = 0
             ~metBruce = 1
              "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
-            **********[NEXT]
+***********[NEXT]
              ->rooibosQuestions
-            ********[Chicken Out]
+*********[Chicken Out]
             ~speaker = 2
             You decide not to say anything to Tasmanian devil. Coming here was definitely a mistake. You drink your tea quickly and leave without looking back. 
-            *********[NEXT]
+**********[NEXT]
             ->map
             
-            ******   [Actually...]
+*******   [Actually...]
             ~speaker = 2
             "Actually, my mum sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
-            *******[NEXT]
+********[NEXT]
             ~speaker = 0
             ~metBruce = 1
             "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
-            ********[NEXT]
+*********[NEXT]
              ->rooibosQuestions
 
 -   ->END
@@ -212,6 +212,7 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
     **   [NEXT]
     ~speaker = 0
     "Nah can't say that I have, mate. I do remember that tea though. I don't think I've ever had anything so delicious! Sorry kid, never seen a Golden Eucalyptus Leaf before."
+    ***   [NEXT]
 -> rooibosQuestions
 
 *	{ not THRooibos} 
@@ -222,7 +223,7 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
     **   [NEXT]
     ~speaker = 0
     "A few years ago. I know it's not what people expect when they see me, but it's all I've ever wanted. My granddad left this place for me when he died. I hope I've made it what he would have wanted it to be."
-    
+    ***   [NEXT]
 -> rooibosQuestions
 
 *	{ not adviceRooibos} 
@@ -242,6 +243,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 *****[NEXT]
 ~speaker = 0
 "Please. I don't need it anymore. Keep it as a reminder that you're just starting out, and with a little hard work, your dream's not so far away,"
+******   [NEXT]
 
 -> rooibosQuestions
 
@@ -258,7 +260,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 ****[NEXT]
 ~speaker = 0
 He walks over to the bar and comes back with a bottle filled with tea leaves and hands it to you. "Now I'm not in the business of giving out secret recipes or anything, but from one tea shop owner to the next, and because you're Kathleen's kid, think of this as a sample."
-
+*****   [NEXT]
 -> rooibosQuestions
 
 *  [Leave Rooibos Road]
@@ -400,6 +402,7 @@ The sugar glider looks to busy to deal with you right now. You decide to just gi
     **   [NEXT]
     ~speaker = 0
     "I remember the tea well. It was her signature blend. Sadly, she never gave up the recipe to me. Sorry sweetie, I've never even seen a Golden Eucalyptus leaf!"
+    ***   [NEXT]
 -> matchaquestions
 
 *	{ not THMatcha} 
@@ -410,7 +413,7 @@ The sugar glider looks to busy to deal with you right now. You decide to just gi
     **   [NEXT]
     ~speaker = 0
     "Oh, almost 20 years ago now! Where has the time gone... I opened up this shop around the time your mom opened up her shop. Of course, my shop wasn't nearly as popular as hers, but we stay busy!"
-    
+    ***   [NEXT]
 -> matchaquestions
 
 *	{ not adviceMatcha} 
@@ -430,6 +433,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 *****[NEXT]
 ~speaker = 0
 "Don't worry about it! Besides, I love sharing my recipes with people."
+******   [NEXT]
 -> matchaquestions
 
 *	{ not mumMatcha} 
@@ -449,7 +453,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 *****[NEXT]
 ~speaker = 0
 "This old painting has been hanging in my office for years to remind me of Kathleen, but I don't need it any more. I think it would look great in your new shop!"
-
+******   [NEXT]
 -> matchaquestions
 
 *  [Leave Matcha Made in Heaven]
@@ -596,6 +600,7 @@ You decide to wait a little longer to see if the kangaroo gets any less busy, bu
     **   [NEXT]
     ~speaker = 0
     "I do remember her famous tea, but I never knew how she made it. Always one of her best kept secrets I suppose!"
+    ***   [NEXT]
 -> auroraquestions
 
 *	{ not THAurora} 
@@ -606,7 +611,7 @@ You decide to wait a little longer to see if the kangaroo gets any less busy, bu
     **   [NEXT]
     ~speaker = 0
     "Not too long ago, actually. I worked for you mum for so long, that when she decided to close down, I couldn't think of anything else I'd rather do! But then this little guy's older sister was born, and I had to wait a bit till I had more time," she gestures to her baby, hiding in her pouch. 
-    
+    ***   [NEXT]
 -> auroraquestions
 
 *	{ not adviceAurora} 
@@ -626,6 +631,7 @@ You open the box and see beautifully decorated small cakes packaged. "Thank you 
 *****[NEXT]
 ~speaker = 5
 "Oh believe me, they taste even better than they look!"
+******   [NEXT]
 -> auroraquestions
 
 *	{ not mumAurora} 
@@ -645,7 +651,7 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 *****[NEXT]
 ~speaker = 0
 "I think Kathleen's own child should have it. It can be like a family heirloom, and you can pass it down to your child," she says smiling.
-
+******   [NEXT]
 -> auroraquestions
 
 *  [Leave Aurora Blue Tea House]
@@ -654,10 +660,9 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 **[NEXT]
 ~speaker = 0
 "It was so nice meeting you. I have to give Kathleen a call!"
+***   [NEXT]
 -> map
 ->END
-
-
 
 
 
