@@ -127,7 +127,7 @@ You had never met a tasmanian devil in person before. They have reputation of be
         ~metBruce = 1
          "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
 *******   [NEXT]
-******** [Order black tea]
+******* [Order black tea]
     ~speaker = 2
      "Can I get an English Breakfast please?"
 *********   [NEXT]
@@ -139,7 +139,7 @@ You had never met a tasmanian devil in person before. They have reputation of be
 ***********   [NEXT]
      ->rooibosQuestions
      
-******** [Order chai]
+******* [Order chai]
     ~speaker = 2
      "Can I try the famous chai?" 
 *********   [NEXT]
