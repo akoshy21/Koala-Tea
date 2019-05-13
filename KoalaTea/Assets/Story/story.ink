@@ -113,89 +113,89 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
 -   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. You're definitely not the target clientele. You start to wonder if your mother sent me to the wrong place.
 *   [NEXT]
 -  You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai.
-*   [NEXT]
+**   [NEXT]
 
 ~speaker = 0
 "Can I help you, kid?" a tasmanian devil askes me.
-**   [NEXT]
+***   [NEXT]
 -   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
-    ***   [NEXT]
-    ****   [Explain why you're there]
+****   [NEXT]
+*****   [Explain why you're there]
     ~speaker = 2
     "Hi there," you nervously say. "My mum sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
-    *****   [NEXT]
+******   [NEXT]
         ~speaker = 0
         ~metBruce = 1
          "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
-     ******   [NEXT]
-     ******* [Order black tea]
+*******   [NEXT]
+******** [Order black tea]
     ~speaker = 2
      "Can I get an English Breakfast please?"
-     ********   [NEXT]
+*********   [NEXT]
     ~speaker = 0
     "Huh, English Breakfast? Not the most interesting choice. Would have thought Kathleen's kid woulda been more adventurous. Hold on kid, I'll grab it," 
-     *********   [NEXT]
+**********   [NEXT]
     ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle and find yourself surprisingly pleased with the tea.
-     **********   [NEXT]
+***********   [NEXT]
      ->rooibosQuestions
      
-     ******* [Order chai]
+******** [Order chai]
     ~speaker = 2
      "Can I try the famous chai?" 
-      ********   [NEXT]
+*********   [NEXT]
     ~speaker = 0
      His face lights up. "Of course!" He boasts, scurrying away to grab the drink.
-      *********   [NEXT]
+**********   [NEXT]
       ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle and find yourself surprisingly pleased with the tea.
-     **********   [NEXT]
+***********   [NEXT]
      ->rooibosQuestions
      
-     ******* [No Thanks]
+******* [No Thanks]
      ~speaker = 2
      "No thanks,"
-     ********[NEXT]
+*********[NEXT]
      ~speaker = 0
      "Nothing? No tea? Jeez kid why'd you come to a tea house then?"
-     *********[NEXT]
+**********[NEXT]
      ->rooibosQuestions
      
-    ****   [Order tea]
+*****   [Order tea]
      ~speaker = 2
         "Hi! Um... Can I get a chai please?"
-        *****   [NEXT]
+******   [NEXT]
      ~speaker = 0
         "That it?"
-            ******   [Yes]
+*******   [Yes]
             ~speaker = 0
             "Um... Yes. That's it. Thank you."
-            *******[NEXT]
+********[NEXT]
             ~speaker = 0
             He turns to grab your drink without another word. He returns quickly and drops your drink at the table, quickly about to leave again.
-            ********[Tell about mum]
+*********[Tell about mum]
             ~speaker = 2
             "My mum actually sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
-            *********[NEXT]
+**********[NEXT]
             ~speaker = 0
             ~metBruce = 1
              "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
-            **********[NEXT]
+***********[NEXT]
              ->rooibosQuestions
-            ********[Chicken Out]
+*********[Chicken Out]
             ~speaker = 2
             You decide not to say anything to Tasmanian devil. Coming here was definitely a mistake. You drink your tea quickly and leave without looking back. 
-            *********[NEXT]
+**********[NEXT]
             ->map
             
-            ******   [Actually...]
+*******   [Actually...]
             ~speaker = 2
             "Actually, my mum sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
-            *******[NEXT]
+********[NEXT]
             ~speaker = 0
             ~metBruce = 1
             "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
-            ********[NEXT]
+*********[NEXT]
              ->rooibosQuestions
 
 -   ->END
@@ -663,8 +663,6 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 ***   [NEXT]
 -> map
 ->END
-
-
 
 
 
