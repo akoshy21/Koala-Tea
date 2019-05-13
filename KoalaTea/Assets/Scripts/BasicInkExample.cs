@@ -53,7 +53,7 @@ public class BasicInkExample : MonoBehaviour {
             metRoo = intToBool((int)newValue);
         });
 
-        story.ObserveVariable("tallkedSusan", (string varName, object newValue) => {
+        story.ObserveVariable("talkedSusan", (string varName, object newValue) => {
             talkedSusan = intToBool((int)newValue);
         });
         story.ObserveVariable("talkedBruce", (string varName, object newValue) => {
