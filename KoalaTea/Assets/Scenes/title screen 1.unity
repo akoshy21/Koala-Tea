@@ -614,6 +614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 259629494}
   bg: {fileID: 696958475}
+  title: {fileID: 1048885674}
+  playB: {fileID: 742439117}
   chars:
   - {fileID: 2800000, guid: cdd4892f43b3d7847b2443aa9ad73df4, type: 3}
   - {fileID: 2800000, guid: 5c2d231818aa629448fcf750967b219e, type: 3}
@@ -629,6 +631,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2b8be781c48a24f1ea8027f386cc8c1c, type: 3}
   - {fileID: 8300000, guid: 92d861a33623942d0b2f59eab0e71e0c, type: 3}
   - {fileID: 8300000, guid: 35ba1c631cf644f1ba64dfbe5648293d, type: 3}
+  titleC:
+  - {r: 1, g: 0.43867922, b: 0.69090945, a: 0}
+  - {r: 1, g: 0.8092509, b: 0.43867922, a: 0}
+  - {r: 0, g: 0.8490566, b: 0.68987185, a: 0}
+  - {r: 0.42865533, g: 0, b: 0.6320754, a: 0}
+  playC:
+  - {r: 1, g: 0, b: 0.5364666, a: 0}
+  - {r: 1, g: 0.69080186, b: 0.6745283, a: 0}
+  - {r: 0.7363825, g: 0.32858673, b: 0.9811321, a: 0}
+  - {r: 1, g: 0.5896226, b: 0.7951833, a: 0}
   play: {fileID: 1612690164}
 --- !u!82 &1130017462
 AudioSource:
@@ -640,7 +652,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2b8be781c48a24f1ea8027f386cc8c1c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
