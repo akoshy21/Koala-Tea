@@ -117,9 +117,9 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
 
 ~speaker = 0
 "Can I help you, kid?" a tasmanian devil askes me.
-**   [NEXT]
+*  [NEXT]
 -   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
-    ***   [NEXT]
+    ***  [NEXT]
     ****   [Explain why you're there]
     ~speaker = 2
     "Hi there," you nervously say. "My mum sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
