@@ -702,6 +702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338412746}
   - component: {fileID: 338412745}
+  - component: {fileID: 338412747}
   m_Layer: 0
   m_Name: RR Patron A1
   m_TagString: Untagged
@@ -771,6 +772,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 39.772003, z: 0}
+--- !u!95 &338412747
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338412744}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fd823cf94f8a22c42ac63d6ff79cafaa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &346291530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2415,6 +2435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 723049805}
   - component: {fileID: 723049804}
+  - component: {fileID: 723049806}
   m_Layer: 0
   m_Name: Koala
   m_TagString: Untagged
@@ -2484,6 +2505,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 9.33, y: 33.341, z: 1.094}
+--- !u!95 &723049806
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723049803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b1d74b86800a8042974bf035e795091, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &812590178
 GameObject:
   m_ObjectHideFlags: 0
@@ -3875,6 +3915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726897348}
   - component: {fileID: 1726897347}
+  - component: {fileID: 1726897349}
   m_Layer: 0
   m_Name: RR Patron B
   m_TagString: Untagged
@@ -3944,6 +3985,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -6.306, y: 73.083, z: 7.879}
+--- !u!95 &1726897349
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726897346}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c025fbe7b48a09c468a3a7e86213d01f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1784054354
 GameObject:
   m_ObjectHideFlags: 0
@@ -4123,6 +4183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1833408717}
+  - component: {fileID: 1833408718}
   m_Layer: 0
   m_Name: BBTD
   m_TagString: Untagged
@@ -4146,6 +4207,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1833408718
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833408716}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5c52e99bf8d907541afa3625deef53fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1889710894
 GameObject:
   m_ObjectHideFlags: 0
@@ -4674,41 +4754,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: next
-      value: 
-      objectReference: {fileID: 8204372851642288722}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: textBox
-      value: 
-      objectReference: {fileID: 1024046142}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: nameBox
-      value: 
-      objectReference: {fileID: 357953547}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 862847231}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 1325222309}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: firstScene
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: inkJSONAsset
-      value: 
-      objectReference: {fileID: 4900000, guid: d88c8855e3dae4ad29f9a8637163fe7f, type: 3}
     - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4764,6 +4809,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: next
+      value: 
+      objectReference: {fileID: 8204372851642288722}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: textBox
+      value: 
+      objectReference: {fileID: 1024046142}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: nameBox
+      value: 
+      objectReference: {fileID: 357953547}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 862847231}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1325222309}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: firstScene
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: inkJSONAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: ccc0bde24f3314252bd4db8159b81c7b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76750674638b49c2b3ee4d678609f3b, type: 3}
 --- !u!1001 &6560658008890962360
@@ -4888,11 +4968,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6560658009001496025, guid: 209375c9e0a86452e9fd7353d934887c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -4922,6 +4997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 134.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560658009001496025, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6560658010190460944, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
