@@ -609,16 +609,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8204372850519235698, guid: d932394475e69426d9fd3b38f0ede37d,
         type: 3}
-      propertyPath: m_Interactable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8204372850519235698, guid: d932394475e69426d9fd3b38f0ede37d,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ClickArea
-      objectReference: {fileID: 0}
-    - target: {fileID: 8204372850519235698, guid: d932394475e69426d9fd3b38f0ede37d,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2045811686}
@@ -2689,6 +2679,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6560658009001496025, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2697,22 +2692,27 @@ PrefabInstance:
     - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.024981
       objectReference: {fileID: 0}
     - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -157.82
       objectReference: {fileID: 0}
     - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -0.049988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -315.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 209375c9e0a86452e9fd7353d934887c, type: 3}
