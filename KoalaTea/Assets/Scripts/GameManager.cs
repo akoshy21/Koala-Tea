@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public bool talkedBruce = false;
+    public bool talkedSusan = false;
+    public bool talkedRoo = false;
     public static GameManager manager;
     public string storyState;
 

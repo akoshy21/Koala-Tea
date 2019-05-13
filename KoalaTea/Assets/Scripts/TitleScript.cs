@@ -33,7 +33,10 @@ public class TitleScript : MonoBehaviour
 
         bg.texture = bgs[rand];
         character.texture = chars[rand];
+
         audioS.clip = clips[rand];
+        audioS.Play();
+
         play.gameObject.GetComponent<Image>().color = playColors[rand];
         title.color = titleColors[rand];
 
