@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964127, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1787,6 +1787,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 1630071749}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1471568678}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: nameBox
+      value: 
+      objectReference: {fileID: 1479055037}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: textBox
+      value: 
+      objectReference: {fileID: 1479055038}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: next
+      value: 
+      objectReference: {fileID: 175831512}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
+      propertyPath: inkJSONAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: f62d691429a0940f5b5f622fea88e709, type: 3}
     - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1842,36 +1872,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: audioManager
-      value: 
-      objectReference: {fileID: 1630071749}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 1471568678}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: nameBox
-      value: 
-      objectReference: {fileID: 1479055037}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: textBox
-      value: 
-      objectReference: {fileID: 1479055038}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: next
-      value: 
-      objectReference: {fileID: 175831512}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: inkJSONAsset
-      value: 
-      objectReference: {fileID: 4900000, guid: ccc0bde24f3314252bd4db8159b81c7b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76750674638b49c2b3ee4d678609f3b, type: 3}
 --- !u!1001 &1108841768
@@ -2672,6 +2672,31 @@ PrefabInstance:
     - target: {fileID: 6560658009001496024, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

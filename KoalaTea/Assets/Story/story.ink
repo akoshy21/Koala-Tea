@@ -110,15 +110,14 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
 === rooibos ===
 ~beenrooibos = 1
 ~speaker = 1
--   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. You're definitely not the target clientele. You start to wonder if your mother sent me to the wrong place.
+Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. You're definitely not the target clientele. You start to wonder if your mother sent me to the wrong place.
 *   [NEXT]
--  You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai.
+You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai.
 **   [NEXT]
-
 ~speaker = 0
 "Can I help you, kid?" a tasmanian devil askes me.
 ***   [NEXT]
--   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
+You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
 ****   [NEXT]
 *****   [Explain why you're there]
     ~speaker = 2
@@ -152,7 +151,7 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
 ***********   [NEXT]
      ->rooibosQuestions
      
-******* [No Thanks]
+******** [No Thanks]
      ~speaker = 2
      "No thanks,"
 *********[NEXT]
@@ -160,7 +159,7 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
      "Nothing? No tea? Jeez kid why'd you come to a tea house then?"
 **********[NEXT]
      ->rooibosQuestions
-     
+
 *****   [Order tea]
      ~speaker = 2
         "Hi! Um... Can I get a chai please?"
@@ -473,21 +472,22 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ~beenaurora = 1
 ~speaker = 0
 Aurora Blue Tea House is light and open tea house that exudes tranquility. Everyone in the room looks immensely relaxed and at peace. It's hard to pick out who the owner is, but you notice a kangaroo clearing dishes off tables and decide that she must be the owner.
-*[NEXT]
+
+*   [NEXT]
 ~speaker = 4
 You sit down at a free table and take a look at the menu. There are all sorts of tasty treats and various teas, but you notice that the shop seems to specialize in fruity teas.
-**[NEXT]
+**  [NEXT]
 ~speaker = 0
 "Can I get you anything, honey?"
-***[NEXT]
+*** [NEXT]
 ~speaker = 0
 You notice that the Kangaroo, carrying a bunch of dishes as well as a small baby kangaroo in her pouch, has approached you with an ordering pad.
-****[NEXT]
+****    [NEXT]
         
-*****[Order peach tea]
+*****   [Order peach tea]
 ~speaker = 4
 "Hmmm can I try your peach tea?"
-******[NEXT]
+******  [NEXT]
 ~speaker = 0
 "Yep!"
 *******[NEXT]
