@@ -169,7 +169,9 @@ public class BasicInkExample : MonoBehaviour {
 		story.ChooseChoiceIndex (choice.index);
 
         if (!choice.text.Equals("Go to Rooibos Road")
-         && !choice.text.Equals("Go to Matcha Made in Heaven"))
+         && !choice.text.Equals("Go to Matcha Made in Heaven")
+         && !choice.text.Equals("Go to Aurora Blue Tea House")
+         && !choice.text.Equals("Go Back Home"))
         {
             RefreshView();
         }
@@ -186,6 +188,7 @@ public class BasicInkExample : MonoBehaviour {
             }
             else if (choice.text.Equals("Go to Aurora Blue Tea House"))
             {
+                Debug.Log("AB");
                 ChangeScene(5);
             }
             else if (choice.text.Equals("Go Back Home"))
