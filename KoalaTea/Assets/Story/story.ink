@@ -127,7 +127,7 @@ You had never met a tasmanian devil in person before. They have reputation of be
         ~metBruce = 1
          "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
 *******   [NEXT]
-******* [Order black tea]
+******** [Order black tea]
     ~speaker = 2
      "Can I get an English Breakfast please?"
 *********   [NEXT]
@@ -139,7 +139,7 @@ You had never met a tasmanian devil in person before. They have reputation of be
 ***********   [NEXT]
      ->rooibosQuestions
      
-******* [Order chai]
+******** [Order chai]
     ~speaker = 2
      "Can I try the famous chai?" 
 *********   [NEXT]
@@ -151,7 +151,7 @@ You had never met a tasmanian devil in person before. They have reputation of be
 ***********   [NEXT]
      ->rooibosQuestions
      
-******* [No Thanks]
+******** [No Thanks]
      ~speaker = 2
      "No thanks,"
 *********[NEXT]
@@ -472,21 +472,22 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ~beenaurora = 1
 ~speaker = 0
 Aurora Blue Tea House is light and open tea house that exudes tranquility. Everyone in the room looks immensely relaxed and at peace. It's hard to pick out who the owner is, but you notice a kangaroo clearing dishes off tables and decide that she must be the owner.
-*[NEXT]
+
+*   [NEXT]
 ~speaker = 4
 You sit down at a free table and take a look at the menu. There are all sorts of tasty treats and various teas, but you notice that the shop seems to specialize in fruity teas.
-**[NEXT]
+**  [NEXT]
 ~speaker = 0
 "Can I get you anything, honey?"
-***[NEXT]
+*** [NEXT]
 ~speaker = 0
 You notice that the Kangaroo, carrying a bunch of dishes as well as a small baby kangaroo in her pouch, has approached you with an ordering pad.
-****[NEXT]
+****    [NEXT]
         
-*****[Order peach tea]
+*****   [Order peach tea]
 ~speaker = 4
 "Hmmm can I try your peach tea?"
-******[NEXT]
+******  [NEXT]
 ~speaker = 0
 "Yep!"
 *******[NEXT]
