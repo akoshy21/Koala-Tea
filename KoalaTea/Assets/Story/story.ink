@@ -97,6 +97,8 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 *   [NEXT]
 ~speaker = 0
 -   "Well you better get a move on!" She hands you your backpack.
+*   [NEXT]
+-         
 *   [Go to Rooibos Road]
     ->rooibos
 *   [Go to Matcha Made in Heaven]
@@ -132,6 +134,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
      *****   [NEXT]
     ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
+     ******   [NEXT]
      ->rooibosQuestions
      
      *** [Order chai]
@@ -143,6 +146,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
       *****   [NEXT]
       ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
+     ******   [NEXT]
      ->rooibosQuestions
      
      *** [No Thanks]
@@ -151,6 +155,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
      ****[NEXT]
      ~speaker = 0
      "Nothing? No tea? Jeez kid why'd you come to a tea house then?"
+     *****[NEXT]
      ->rooibosQuestions
      
     *   [Order tea]
@@ -172,6 +177,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
             ~speaker = 0
             ~metBruce = 1
              "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
+            *******[NEXT]
              ->rooibosQuestions
             *****[Chicken Out]
             ~speaker = 2
@@ -185,6 +191,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
             ~speaker = 0
             ~metBruce = 1
             "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
+            *****[NEXT]
              ->rooibosQuestions
 
 -   ->END
@@ -294,6 +301,7 @@ She zooms behind the counter and starts gracefully stirring together your oolong
 ~speaker = 0
 ~metSusan = 1
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+**********[NEXT]
 ->matchaquestions
 
 ********[No]
@@ -311,6 +319,7 @@ You wave her down again and she zooms right on over like before.
 ************[NEXT]
 ~speaker = 0
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. I'm Susan by the way! There hasn't been a day that's gone by that I haven't thought about her. What can I help you with darling?"
+*************[NEXT]
 ->matchaquestions
 **********[Give up]
 ~speaker = 0
@@ -334,6 +343,7 @@ The sugar glider looks too busy to deal with you right now. You decide to just g
 ~speaker = 0
 ~metSusan = 1
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+**********[NEXT]
 ->matchaquestions
 *******[No]
 ~speaker = 0
@@ -351,6 +361,7 @@ You wave her down again and she zooms right on over like before.
 ~speaker = 0
 ~metSusan = 1
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+*************[NEXT]
 ->matchaquestions
 **********[Give up]
 ~speaker = 0
@@ -365,6 +376,7 @@ The sugar glider looks to busy to deal with you right now. You decide to just gi
 ~speaker = 0
 ~metSusan = 1
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+******[NEXT]
 ->matchaquestions
 
 ->END
@@ -474,6 +486,7 @@ She goes in a flash and returns before you even know it with your tea. She conti
 ~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+**********[NEXT]
 ->auroraquestions
 
 ********[Let her walk away]
@@ -492,6 +505,7 @@ You simply make eye contact with the kangaroo and she hops on over, waiting for 
 ~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+*************[NEXT]
 ->auroraquestions
 **********[Wait a while]
 ~speaker = 0
@@ -515,6 +529,7 @@ The kangaroo nods her head and is gone in a flash, returning before you even kno
 ~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+**********[NEXT]
 ->auroraquestions
 *******[Let her walk away]
 ~speaker = 0
@@ -532,6 +547,7 @@ You simply make eye contact with the kangaroo and she hops on over, waiting for 
 ~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+*************[NEXT]
 ->auroraquestions
 **********[Wait a while]
 ~speaker = 0
@@ -546,6 +562,7 @@ You decide to wait a little longer to see if the kangaroo gets any less busy, bu
 ~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+******[NEXT]
 ->auroraquestions
 
 ->END
