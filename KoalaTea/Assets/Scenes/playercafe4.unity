@@ -1342,6 +1342,11 @@ PrefabInstance:
       objectReference: {fileID: 1024792847}
     - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
+      propertyPath: mom
+      value: 
+      objectReference: {fileID: 1058331831}
+    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
+        type: 3}
       propertyPath: nameBox
       value: 
       objectReference: {fileID: 1024792845}
@@ -1360,16 +1365,6 @@ PrefabInstance:
       propertyPath: firstScene
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: mom
-      value: 
-      objectReference: {fileID: 1058331831}
-    - target: {fileID: 2143162625279596201, guid: c76750674638b49c2b3ee4d678609f3b,
-        type: 3}
-      propertyPath: inkJSONAsset
-      value: 
-      objectReference: {fileID: 4900000, guid: ccc0bde24f3314252bd4db8159b81c7b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76750674638b49c2b3ee4d678609f3b, type: 3}
 --- !u!1 &1753581588

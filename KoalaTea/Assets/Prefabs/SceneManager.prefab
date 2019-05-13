@@ -45,6 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next: {fileID: 0}
   textBox: {fileID: 0}
+  mom: {fileID: 0}
   playerColor: {r: 0.6039216, g: 0.5803922, b: 0.43137255, a: 0.9372549}
   bbtdColor: {r: 0.3764706, g: 0.23921569, b: 0.23921569, a: 0.92156863}
   momColor: {r: 0.8867924, g: 0.6485813, b: 0.31372374, a: 0.72156864}
