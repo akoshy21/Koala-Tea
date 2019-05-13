@@ -32,10 +32,10 @@ VAR theEnd = 0
     You wipe down the counter for the fifteenth time today. You're having a hard time believing that in only a few days the grand opening is coming! Finally your tea shop will be open! You've been waiting for as long as you can remember for this moment.
 *   [NEXT]
 
--   Your mother bought this tea shop when she was your age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Golden Eucalyptus Leaf Tea and she loved it. One day, she just closed shop with almost no noticed. She didn't tell anyone, even her own mother. Of course, you were born after all of this happened, but ever since you first saw a picture of what this tea shop used to be when you were five years old, you knew you wanted to reopen it no matter how you would do it.
+-   Your mother bought this tea shop when she was your age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Golden Eucalyptus Leaf Tea and she loved it. One day, she just closed shop with almost no noticed. She didn't tell anyone, even her own mother. You always knew that one day you wanted to reopen it.
 *   [NEXT]
 
--   You raised enough money to buy the shop a lot faster than you thought. After years of bussing tables, manning cash registers, and serving grumpy old men, you finally did it. Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to you than any other place you've ever lived.
+-   Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to you than any other place you've ever lived.
 
 *   [NEXT]
 ~playSound = 1
@@ -48,14 +48,14 @@ VAR theEnd = 0
 -   "You think I would miss my baby's grand opening?"
 *   [NEXT]
 -~speaker = 1
-"The opening isn't even for a few days! There's still so much to do before I officially open..." The last couple of years, Mum's health has been deteriorating a bit. She walks slower and forgets more and more things, but she's doing better than her mother did at her age. 
+"The opening isn't even for a few days! There's still so much to do before I officially open..." The last couple of years, Mum's memory has been deteriorating a bit. 
 *   [NEXT]
 -~speaker = 0
-"Oh that's right. Are you absolutely sure that this is what you want to do? Don't worry about the money. I can get you your money back and you'll be out of this in no time-"
+"Oh that's right. Are you absolutely sure that this is what you want to do? Don't worry about disappointing anyone I can make sure-"
 *   [NEXT]
 
 -  ~speaker = 1 
-"Mum, stop! Of course I do. It's my dream," It's the fifth time you've told her this week. Your mum has been asking you this same question almost every day ever since you put down your first deposit.
+"Mum, stop! Of course I do. It's my dream,"
 *   [NEXT]
 -
 ~speaker = 0
@@ -68,7 +68,7 @@ You take her hand to stop her frantic speaking. "I am sure mother. I'm excited. 
 
 -
 ~speaker = 1
-She looks at you sadly for a mument and then looks away, starting to dust random corners of the shop that you've already dusted a million times. You clean in silence for a mument. "Do you have any advice for me? I mean, this is your shop after all..."
+You both clean the shop in silence for a moment. "Do you have any advice for me? I mean, this is your shop after all..."
 *   [NEXT]
 -   ~speaker = 0
 "Oh, honey it's been years since this was my shop. I hardly remember owning the shop,"
@@ -77,7 +77,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 -   "Well, can you finally tell me the secret to your Golden Eucalyptus Tea? I thought I should serve it too,"
 *   [NEXT]
 ~speaker = 0
--   She looks at you seriously for a mument and then smiles. "You need a Golden Eucalyptus Leaf. I haven't seen one in decades. They're exceedingly rare," You can feel yourself frown, but  try to hide it. I want this place to be perfect, just like her place was.
+-   She looks at you seriously for a moment and then smiles. "You need a Golden Eucalyptus Leaf. I haven't seen one in decades. They're exceedingly rare," 
 *   [NEXT]
 ~speaker = 1
 -   "That's okay...." 
@@ -110,9 +110,9 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 === rooibos ===
 ~beenrooibos = 1
 ~speaker = 1
--   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. Heads turn when you walk through the door and head to an empty table. You're definitely not the target clientele. You start to wonder if your mother sent me to the wrong place.
+-   Rooibos Road has a seedy bar-like atmosphere with other people mulling around and sipping drinks out of bottles. You're definitely not the target clientele. You start to wonder if your mother sent me to the wrong place.
 *   [NEXT]
--  You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai, but it doesn't seem like anyone is even drinking tea!
+-  You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai.
 *   [NEXT]
 
 ~speaker = 0
@@ -120,7 +120,6 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 **   [NEXT]
 -   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
     ***   [NEXT]
-    -    
     ****   [Explain why you're there]
     ~speaker = 2
     "Hi there," you nervously say. "My mum sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
@@ -137,7 +136,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
     "Huh, English Breakfast? Not the most interesting choice. Would have thought Kathleen's kid woulda been more adventurous. Hold on kid, I'll grab it," 
      *********   [NEXT]
     ~speaker = 2
-     He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
+     He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle and find yourself surprisingly pleased with the tea.
      **********   [NEXT]
      ->rooibosQuestions
      
@@ -149,7 +148,7 @@ She looks at you sadly for a mument and then looks away, starting to dust random
      His face lights up. "Of course!" He boasts, scurrying away to grab the drink.
       *********   [NEXT]
       ~speaker = 2
-     He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
+     He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle and find yourself surprisingly pleased with the tea.
      **********   [NEXT]
      ->rooibosQuestions
      
@@ -255,8 +254,10 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 ~speaker = 2
 "It was amazing. She was amazing. My granddad loved working for her. He wasn't the most trusted guy in town, if you know what I mean, but she gave him a shot. I don't know where I'd be without him or your mum for that matter."
 ***[NEXT]
+"I actually developed my famous chai right at her shop when I was just boy. She encouraged my interest in the business even though my parents weren't happy about it. Your mum was actually my first taste tester."
+****[NEXT]
 ~speaker = 0
-"I actually developed my famous chai right at her shop when I was just boy. She encouraged my interest in the business even though my parents weren't happy about it. Your mum was actually my first taste tester." he walks over to the bar and comes back with a bottle filled with tea leaves and hands it to you. "Now I'm not in the business of giving out secret recipes or anything, but from one tea shop owner to the next, and because you're Kathleen's kid, think of this as a sample."
+He walks over to the bar and comes back with a bottle filled with tea leaves and hands it to you. "Now I'm not in the business of giving out secret recipes or anything, but from one tea shop owner to the next, and because you're Kathleen's kid, think of this as a sample."
 
 -> rooibosQuestions
 
