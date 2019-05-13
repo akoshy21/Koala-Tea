@@ -13,7 +13,7 @@ public class GiftManager : MonoBehaviour
     {
 
 
-        if(scnManager.metRoo && scnManager.metBruce && scnManager.metSusan)
+        if(scnManager.talkedRoo && scnManager.talkedBruce && scnManager.talkedSusan)
         {
             npcs.SetActive(true);
             roo.SetActive(true);

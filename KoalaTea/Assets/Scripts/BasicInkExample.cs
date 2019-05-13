@@ -53,6 +53,16 @@ public class BasicInkExample : MonoBehaviour {
             metRoo = intToBool((int)newValue);
         });
 
+        story.ObserveVariable("tallkedSusan", (string varName, object newValue) => {
+            talkedSusan = intToBool((int)newValue);
+        });
+        story.ObserveVariable("talkedBruce", (string varName, object newValue) => {
+            talkedBruce = intToBool((int)newValue);
+        });
+        story.ObserveVariable("talkedRoo", (string varName, object newValue) => {
+            talkedRoo = intToBool((int)newValue);
+        });
+
         // AUDIO
         story.ObserveVariable("soundIndex", (string varName, object newValue) => {
             audioManager.index = (int)newValue;
@@ -346,6 +356,9 @@ public class BasicInkExample : MonoBehaviour {
 
 	[SerializeField]
 	private GameObject canvas;
+    public bool talkedBruce = false;
+    public bool talkedSusan = false;
+    public bool talkedRoo = false;
     public bool metBruce = false;
     public bool metSusan = false;
     public bool metRoo = false;
