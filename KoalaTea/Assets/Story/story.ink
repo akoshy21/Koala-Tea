@@ -472,7 +472,6 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ~beenaurora = 1
 ~speaker = 0
 Aurora Blue Tea House is light and open tea house that exudes tranquility. Everyone in the room looks immensely relaxed and at peace. It's hard to pick out who the owner is, but you notice a kangaroo clearing dishes off tables and decide that she must be the owner.
-
 *   [NEXT]
 ~speaker = 4
 You sit down at a free table and take a look at the menu. There are all sorts of tasty treats and various teas, but you notice that the shop seems to specialize in fruity teas.

@@ -7,9 +7,29 @@ public class GiftManager : MonoBehaviour
     public BasicInkExample scnManager;
 
     public GameObject abAdGift, abMumGift, rbAdGift, rbMumGift, mmhAdGift, mmhMumGift;
+    public GameObject npcs, roo, lonely, lonelyTwo;
 
     private void Start()
     {
+
+
+        if(scnManager.metRoo && scnManager.metBruce && scnManager.metSusan)
+        {
+            npcs.SetActive(true);
+            roo.SetActive(true);
+
+            lonely.SetActive(false);
+            lonelyTwo.SetActive(false);
+
+        }
+        else {
+            npcs.SetActive(false);
+            roo.SetActive(false);
+
+            lonely.SetActive(true);
+            lonelyTwo.SetActive(true);
+        }
+
 
         if (scnManager.auroraAd)
         {
