@@ -212,6 +212,7 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
     **   [NEXT]
     ~speaker = 0
     "Nah can't say that I have, mate. I do remember that tea though. I don't think I've ever had anything so delicious! Sorry kid, never seen a Golden Eucalyptus Leaf before."
+    ***   [NEXT]
 -> rooibosQuestions
 
 *	{ not THRooibos} 
@@ -222,7 +223,7 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
     **   [NEXT]
     ~speaker = 0
     "A few years ago. I know it's not what people expect when they see me, but it's all I've ever wanted. My granddad left this place for me when he died. I hope I've made it what he would have wanted it to be."
-    
+    ***   [NEXT]
 -> rooibosQuestions
 
 *	{ not adviceRooibos} 
@@ -242,6 +243,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 *****[NEXT]
 ~speaker = 0
 "Please. I don't need it anymore. Keep it as a reminder that you're just starting out, and with a little hard work, your dream's not so far away,"
+******   [NEXT]
 
 -> rooibosQuestions
 
@@ -258,7 +260,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 ****[NEXT]
 ~speaker = 0
 He walks over to the bar and comes back with a bottle filled with tea leaves and hands it to you. "Now I'm not in the business of giving out secret recipes or anything, but from one tea shop owner to the next, and because you're Kathleen's kid, think of this as a sample."
-
+*****   [NEXT]
 -> rooibosQuestions
 
 *  [Leave Rooibos Road]
@@ -400,6 +402,7 @@ The sugar glider looks to busy to deal with you right now. You decide to just gi
     **   [NEXT]
     ~speaker = 0
     "I remember the tea well. It was her signature blend. Sadly, she never gave up the recipe to me. Sorry sweetie, I've never even seen a Golden Eucalyptus leaf!"
+    ***   [NEXT]
 -> matchaquestions
 
 *	{ not THMatcha} 
@@ -410,7 +413,7 @@ The sugar glider looks to busy to deal with you right now. You decide to just gi
     **   [NEXT]
     ~speaker = 0
     "Oh, almost 20 years ago now! Where has the time gone... I opened up this shop around the time your mom opened up her shop. Of course, my shop wasn't nearly as popular as hers, but we stay busy!"
-    
+    ***   [NEXT]
 -> matchaquestions
 
 *	{ not adviceMatcha} 
@@ -430,6 +433,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 *****[NEXT]
 ~speaker = 0
 "Don't worry about it! Besides, I love sharing my recipes with people."
+******   [NEXT]
 -> matchaquestions
 
 *	{ not mumMatcha} 
@@ -449,7 +453,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 *****[NEXT]
 ~speaker = 0
 "This old painting has been hanging in my office for years to remind me of Kathleen, but I don't need it any more. I think it would look great in your new shop!"
-
+******   [NEXT]
 -> matchaquestions
 
 *  [Leave Matcha Made in Heaven]
@@ -596,6 +600,7 @@ You decide to wait a little longer to see if the kangaroo gets any less busy, bu
     **   [NEXT]
     ~speaker = 0
     "I do remember her famous tea, but I never knew how she made it. Always one of her best kept secrets I suppose!"
+    ***   [NEXT]
 -> auroraquestions
 
 *	{ not THAurora} 
@@ -606,7 +611,7 @@ You decide to wait a little longer to see if the kangaroo gets any less busy, bu
     **   [NEXT]
     ~speaker = 0
     "Not too long ago, actually. I worked for you mum for so long, that when she decided to close down, I couldn't think of anything else I'd rather do! But then this little guy's older sister was born, and I had to wait a bit till I had more time," she gestures to her baby, hiding in her pouch. 
-    
+    ***   [NEXT]
 -> auroraquestions
 
 *	{ not adviceAurora} 
@@ -626,6 +631,7 @@ You open the box and see beautifully decorated small cakes packaged. "Thank you 
 *****[NEXT]
 ~speaker = 5
 "Oh believe me, they taste even better than they look!"
+******   [NEXT]
 -> auroraquestions
 
 *	{ not mumAurora} 
@@ -645,7 +651,7 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 *****[NEXT]
 ~speaker = 0
 "I think Kathleen's own child should have it. It can be like a family heirloom, and you can pass it down to your child," she says smiling.
-
+******   [NEXT]
 -> auroraquestions
 
 *  [Leave Aurora Blue Tea House]
@@ -654,6 +660,7 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 **[NEXT]
 ~speaker = 0
 "It was so nice meeting you. I have to give Kathleen a call!"
+***   [NEXT]
 -> map
 ->END
 
