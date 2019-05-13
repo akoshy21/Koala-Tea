@@ -39,10 +39,14 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.81349033, g: 0.8012124, b: 0.7721538, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964127, b: 0.5748172, a: 1}
 >>>>>>> 1af3b4ff58053e59d1e49e14fa311647e0c3f066
+=======
+  m_IndirectSpecularColor: {r: 0.8986925, g: 0.98639613, b: 0.99686915, a: 1}
+>>>>>>> 4bf0633daa5cec7cb1345d6704cc8e0d446f1889
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1429,6 +1433,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1417704276688891615, guid: 44c27a59756f24a60845f2fea70e9ea1,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243855739541421676, guid: b49d0add734cc46db9641faed37c4ce8,
+        type: 2}
+    - target: {fileID: 1417704276688891615, guid: 44c27a59756f24a60845f2fea70e9ea1,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 92d861a33623942d0b2f59eab0e71e0c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44c27a59756f24a60845f2fea70e9ea1, type: 3}
 --- !u!114 &944214310 stripped

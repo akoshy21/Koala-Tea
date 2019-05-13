@@ -54,13 +54,13 @@ public class BasicInkExample : MonoBehaviour {
         });
 
         story.ObserveVariable("talkedSusan", (string varName, object newValue) => {
-            talkedSusan = intToBool((int)newValue);
+            GameManager.manager.talkedSusan = intToBool((int)newValue);
         });
         story.ObserveVariable("talkedBruce", (string varName, object newValue) => {
-            talkedBruce = intToBool((int)newValue);
+            GameManager.manager.talkedBruce = intToBool((int)newValue);
         });
         story.ObserveVariable("talkedRoo", (string varName, object newValue) => {
-            talkedRoo = intToBool((int)newValue);
+            GameManager.manager.talkedRoo = intToBool((int)newValue);
         });
 
         // AUDIO
@@ -90,6 +90,7 @@ public class BasicInkExample : MonoBehaviour {
         });
         story.ObserveVariable("mumMatcha", (string varName, object newValue) => {
             matchaMum = intToBool((int)newValue);
+            Debug.Log("MATCHA MOM");
 
         });
         story.ObserveVariable("mumAurora", (string varName, object newValue) => {
@@ -356,9 +357,6 @@ public class BasicInkExample : MonoBehaviour {
 
 	[SerializeField]
 	private GameObject canvas;
-    public bool talkedBruce = false;
-    public bool talkedSusan = false;
-    public bool talkedRoo = false;
     public bool metBruce = false;
     public bool metSusan = false;
     public bool metRoo = false;
