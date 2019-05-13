@@ -97,12 +97,15 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 *   [NEXT]
 ~speaker = 0
 -   "Well you better get a move on!" She hands you your backpack.
+*   [NEXT]
+-         
 *   [Go to Rooibos Road]
     ->rooibos
 *   [Go to Matcha Made in Heaven]
     ->matcha
 *   [Go to Aurora Blue Tea House]
     ->aurora
+
 
 === rooibos ===
 ~beenrooibos = 1
@@ -116,75 +119,84 @@ She looks at you sadly for a mument and then looks away, starting to dust random
 "Can I help you, kid?" a tasmanian devil askes me.
 **   [NEXT]
 -   You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
-    *   [Explain why you're there]
+    ***   [NEXT]
+    -    
+    ****   [Explain why you're there]
     ~speaker = 2
     "Hi there," you nervously say. "My mum sent me to come talk to you. Her name     is Kathleen... I'm actually opening my own tea sho-"
-    **   [NEXT]
+    *****   [NEXT]
         ~speaker = 0
         ~metBruce = 1
          "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. Can I get you anything? A tea?"
-     *** [Order black tea]
+     ******   [NEXT]
+     ******* [Order black tea]
     ~speaker = 2
      "Can I get an English Breakfast please?"
-     ****   [NEXT]
+     ********   [NEXT]
     ~speaker = 0
     "Huh, English Breakfast? Not the most interesting choice. Would have thought Kathleen's kid woulda been more adventurous. Hold on kid, I'll grab it," 
-     *****   [NEXT]
+     *********   [NEXT]
     ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
+     **********   [NEXT]
      ->rooibosQuestions
      
-     *** [Order chai]
+     ******* [Order chai]
     ~speaker = 2
      "Can I try the famous chai?" 
-      ****   [NEXT]
+      ********   [NEXT]
     ~speaker = 0
      His face lights up. "Of course!" He boasts, scurrying away to grab the drink.
-      *****   [NEXT]
+      *********   [NEXT]
       ~speaker = 2
      He returns quickly with two bottles in his hand. He hands one to you and takes a sip out of the other one. You take a sip from the bottle, dubious about tea being served in a glass bottle, but find yourself surprisingly pleased with the tea.
+     **********   [NEXT]
      ->rooibosQuestions
      
-     *** [No Thanks]
+     ******* [No Thanks]
      ~speaker = 2
      "No thanks,"
-     ****[NEXT]
+     ********[NEXT]
      ~speaker = 0
      "Nothing? No tea? Jeez kid why'd you come to a tea house then?"
+     *********[NEXT]
      ->rooibosQuestions
      
-    *   [Order tea]
+    ****   [Order tea]
      ~speaker = 2
         "Hi! Um... Can I get a chai please?"
-        **   [NEXT]
+        *****   [NEXT]
      ~speaker = 0
         "That it?"
-            ***   [Yes]
+            ******   [Yes]
             ~speaker = 0
             "Um... Yes. That's it. Thank you."
-            ****[NEXT]
+            *******[NEXT]
             ~speaker = 0
             He turns to grab your drink without another word. He returns quickly and drops your drink at the table, quickly about to leave again.
-            *****[Tell about mum]
+            ********[Tell about mum]
             ~speaker = 2
             "My mum actually sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
-            ******[NEXT]
+            *********[NEXT]
             ~speaker = 0
             ~metBruce = 1
              "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
+            **********[NEXT]
              ->rooibosQuestions
-            *****[Chicken Out]
+            ********[Chicken Out]
             ~speaker = 2
             You decide not to say anything to Tasmanian devil. Coming here was definitely a mistake. You drink your tea quickly and leave without looking back. 
+            *********[NEXT]
             ->map
             
-            ***   [Actually...]
+            ******   [Actually...]
             ~speaker = 2
             "Actually, my mum sent me to come talk to you. Her name is Kathleen... I'm actually opening my own tea sho-"
-            ****[NEXT]
+            *******[NEXT]
             ~speaker = 0
             ~metBruce = 1
             "You're Kathleen's kid? I shoulda known, you look just like her!" he interrupts, sitting down at your table. "The name's Bruce. Your mother worked with my granddad for years at her tea house! I used to go into that tea house all the time when I was a kid. What can I do for you?"
+            ********[NEXT]
              ->rooibosQuestions
 
 -   ->END
@@ -254,6 +266,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 **[NEXT]
 ~speaker = 0
 "Good luck kid. You're gonna kill it."
+***[NEXT]
 -> map
 
 ->END
@@ -275,96 +288,104 @@ You wave to the sugar glider to get her attention, and her eyes light up when sh
 ***[NEXT]
 ~speaker = 0
 You quickly glance at the menu and notice that the cafe seems to specialize in oolong and chamamile tea, as well as so many matcha goodies. You know you're here to get answers about the Golden Eucalyptus, but everything looks so good...
-****[Order oolong tea]
+****[NEXT]
+*****[Order oolong tea]
 ~speaker = 3
 "Can I try your best oolong tea?"
-*****[NEXT]
+******[NEXT]
 ~speaker = 0
 "Oh honey you can have whatever you want,"
-******[NEXT]
+*******[NEXT]
 ~speaker = 3
 She zooms behind the counter and starts gracefully stirring together your oolong tea latte. She slides the tea to you across the counter and you notice that she created a little foam heart in the drink.
+********[NEXT]
+~speaker = 0
+"Anything else I can get for you?"
+*********[Explain why you're here]
+~speaker = 3
+"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+**********[NEXT]
+~speaker = 0
+~metSusan = 1
+"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+***********[NEXT]
+->matchaquestions
+
+*********[No]
+~speaker = 0
+"No I think I'm good."
+**********[NEXT]
+~speaker = 0
+The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
+***********[Get attention again]
+~speaker = 0
+You wave her down again and she zooms right on over like before.
+************[NEXT]
+~speaker = 3
+"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
+*************[NEXT]
+~speaker = 0
+"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. I'm Susan by the way! There hasn't been a day that's gone by that I haven't thought about her. What can I help you with darling?"
+**************[NEXT]
+->matchaquestions
+***********[Give up]
+~speaker = 0
+The sugar glider looks too busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
+************[Give up]
+-> map
+
+
+*****[Order a matcha latte]
+~speaker = 3
+"Can I try a matcha latte?"
+******[NEXT]
+~speaker = 3
+"Oh honey you can have whatever you want," She zooms behind the counter and starts gracefully stirring together your matcha tea latte. She slides the tea to you across the counter and you notice that she created a little green heart on the top of the drink out of matcha.
 *******[NEXT]
 ~speaker = 0
 "Anything else I can get for you?"
 ********[Explain why you're here]
 ~speaker = 3
 "Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
-*********[NEXT]
+**********[NEXT]
 ~speaker = 0
 ~metSusan = 1
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+***********[NEXT]
 ->matchaquestions
-
 ********[No]
 ~speaker = 0
 "No I think I'm good."
-*********[NEXT]
+**********[NEXT]
 ~speaker = 0
 The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
-**********[Get attention again]
+***********[Get attention again]
 ~speaker = 0
 You wave her down again and she zooms right on over like before.
-***********[NEXT]
-~speaker = 3
-"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
 ************[NEXT]
-~speaker = 0
-"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. I'm Susan by the way! There hasn't been a day that's gone by that I haven't thought about her. What can I help you with darling?"
-->matchaquestions
-**********[Give up]
-~speaker = 0
-The sugar glider looks too busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
--> map
-
-
-****[Order a matcha latte]
-~speaker = 3
-"Can I try a matcha latte?"
-*****[NEXT]
-~speaker = 3
-"Oh honey you can have whatever you want," She zooms behind the counter and starts gracefully stirring together your matcha tea latte. She slides the tea to you across the counter and you notice that she created a little green heart on the top of the drink out of matcha.
-******[NEXT]
-~speaker = 0
-"Anything else I can get for you?"
-*******[Explain why you're here]
 ~speaker = 3
 "Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
-*********[NEXT]
+*************[NEXT]
 ~speaker = 0
 ~metSusan = 1
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+**************[NEXT]
 ->matchaquestions
-*******[No]
-~speaker = 0
-"No I think I'm good."
-*********[NEXT]
-~speaker = 0
-The sugar glider gives you a wink and quickly leaves again, serving her other patrons and charming them like she had been charming you. If you're gonna ask her about the Golden Eucalyptus, you should probably do it now...
-**********[Get attention again]
-~speaker = 0
-You wave her down again and she zooms right on over like before.
-***********[NEXT]
-~speaker = 3
-"Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
-************[NEXT]
-~speaker = 0
-~metSusan = 1
-"Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
-->matchaquestions
-**********[Give up]
+***********[Give up]
 ~speaker = 0
 The sugar glider looks to busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
+************[NEXT]
 -> map
 
 
-****[Explain why you're here]
+*****[Explain why you're here]
 ~speaker = 3
 "Actually, my mother sent me here. She used to own a popular tea shop. Her name is Kathleen? I don't know if you remember her, but she wanted me to come to your tea shop to ask you for help. I'm opening my own tea shop..."
-*****[NEXT]
+******[NEXT]
 ~speaker = 0
 ~metSusan = 1
 "Oh Kathleen! I could never forget her... She was a dear friend of mine back in school. There hasn't been a day that's gone by that I haven't thought about her. I'm Susan by the way! What can I help you with darling?"
+*******[NEXT]
 ->matchaquestions
 
 ->END
@@ -436,6 +457,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 **[NEXT]
 ~speaker = 0
 "No problem at all! Come back any time"
+***[NEXT]
 -> map
 ->END
 
@@ -455,97 +477,110 @@ You sit down at a free table and take a look at the menu. There are all sorts of
 ***[NEXT]
 ~speaker = 0
 You notice that the Kangaroo, carrying a bunch of dishes as well as a small baby kangaroo in her pouch, has approached you with an ordering pad.
-****[Order peach tea]
+****[NEXT]
+        
+*****[Order peach tea]
 ~speaker = 4
 "Hmmm can I try your peach tea?"
-*****[NEXT]
+******[NEXT]
 ~speaker = 0
 "Yep!"
-******[NEXT]
+*******[NEXT]
 ~speaker = 4
 She goes in a flash and returns before you even know it with your tea. She continues to juggle plates, cups, and her baby, while handing it to you.
+********[NEXT]
+~speaker = 0
+"Let me know if you need anything else,"
+*********[Stop her to explain why you came]
+~speaker = 4
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
+**********[NEXT]
+~speaker = 0
+~metRoo = 1
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+***********[NEXT]
+->auroraquestions
+
+*********[Let her walk away]
+~speaker = 0
+You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peeks out from her pouch, but hides again soon after.
+**********[NEXT]
+~speaker = 0
+You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
+***********[NEXT]
+      
+************[Get her attention]
+~speaker = 0
+You simply make eye contact with the kangaroo and she hops on over, waiting for your request.
+*************[NEXT]
+~speaker = 4
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
+**************[NEXT]
+~speaker = 0
+~metRoo = 1
+"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+***************[NEXT]
+->auroraquestions
+************[Wait a while]
+~speaker = 0
+You decide to wait a little longer to see if the kangaroo gets any less busy, but she never does. Before you know it, the shop is closing and you have to leave.
+*************[NEXT]
+-> map
+
+
+*****[Order an herbal tea]
+~speaker = 0
+"Can I try your house brew herbal tea?"
+******[NEXT]
+~speaker = 4
+The kangaroo nods her head and is gone in a flash, returning before you even know it with your tea. She continues to juggle plates, cups, and her baby, while handing it to you.
 *******[NEXT]
 ~speaker = 0
 "Let me know if you need anything else,"
 ********[Stop her to explain why you came]
 ~speaker = 4
 "I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
-*********[NEXT]
+**********[NEXT]
 ~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+***********[NEXT]
 ->auroraquestions
-
 ********[Let her walk away]
 ~speaker = 0
-You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peeks out from her pouch, but hides again soon after.
-*********[NEXT]
+You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peaks out from her pouch, but hides again soon after.
+**********[NEXT]
 ~speaker = 0
 You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
-**********[Get her attention]
+***********[NEXT]
+    
+************[Get her attention]
 ~speaker = 0
 You simply make eye contact with the kangaroo and she hops on over, waiting for your request.
-***********[NEXT]
+*************[NEXT]
 ~speaker = 4
 "I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
-************[NEXT]
+**************[NEXT]
 ~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+***************[NEXT]
 ->auroraquestions
-**********[Wait a while]
+************[Wait a while]
 ~speaker = 0
 You decide to wait a little longer to see if the kangaroo gets any less busy, but she never does. Before you know it, the shop is closing and you have to leave.
+*************[NEXT]
 -> map
 
 
-****[Order an herbal tea]
-~speaker = 0
-"Can I try your house brew herbal tea?"
-*****[NEXT]
+*****[Explain why you're here]
 ~speaker = 4
-The kangaroo nods her head and is gone in a flash, returning before you even know it with your tea. She continues to juggle plates, cups, and her baby, while handing it to you.
+"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
 ******[NEXT]
 ~speaker = 0
-"Let me know if you need anything else,"
-*******[Stop her to explain why you came]
-~speaker = 4
-"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
-*********[NEXT]
-~speaker = 0
 ~metRoo = 1
 "Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
-->auroraquestions
-*******[Let her walk away]
-~speaker = 0
-You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peaks out from her pouch, but hides again soon after.
-*********[NEXT]
-~speaker = 0
-You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
-**********[Get her attention]
-~speaker = 0
-You simply make eye contact with the kangaroo and she hops on over, waiting for your request.
-***********[NEXT]
-~speaker = 4
-"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
-************[NEXT]
-~speaker = 0
-~metRoo = 1
-"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
-->auroraquestions
-**********[Wait a while]
-~speaker = 0
-You decide to wait a little longer to see if the kangaroo gets any less busy, but she never does. Before you know it, the shop is closing and you have to leave.
--> map
-
-
-****[Explain why you're here]
-~speaker = 4
-"I was hoping to talk to you for a second! My mother actually sent me here. Her name is Kathleen? She used to own a tea shop that was pretty popular... I'm opening my own tea shop and she told me that I could ask you for some help?"
-*****[NEXT]
-~speaker = 0
-~metRoo = 1
-"Kathleen? Oh I haven't heard her name in such a long time. How is she doing? I'm pretty busy, as you can see, but I suppose I could take a few minutes for an old friend! I'm Barbara, but everyone calls me Mamma Roo."
+*******[NEXT]
 ->auroraquestions
 
 ->END
