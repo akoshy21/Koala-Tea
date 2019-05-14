@@ -5,13 +5,11 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-<<<<<<< HEAD
 {
     public bool talkedBruce = false;
     public bool talkedSusan = false;
     public bool talkedRoo = false;
-=======
-{
+
     //AuroraBlue MiniGame code:
    /* public Sprite[] cardFace;
     public Sprite cardBack;
@@ -24,7 +22,7 @@ public class GameManager : MonoBehaviour
     
     //end aurora blue minigame
     
->>>>>>> 7e1fa792bda1e85e0cf2be0e783179a89a07dafc
+//>>>>>>> 7e1fa792bda1e85e0cf2be0e783179a89a07dafc
     public static GameManager manager;
     public string storyState;
 
