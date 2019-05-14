@@ -38,7 +38,15 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_IndirectSpecularColor: {r: 0.81349033, g: 0.8012124, b: 0.7721538, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964127, b: 0.5748172, a: 1}
+>>>>>>> 1af3b4ff58053e59d1e49e14fa311647e0c3f066
+=======
   m_IndirectSpecularColor: {r: 0.8986925, g: 0.98639613, b: 0.99686915, a: 1}
+>>>>>>> 4bf0633daa5cec7cb1345d6704cc8e0d446f1889
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -267,7 +275,11 @@ PrefabInstance:
     - target: {fileID: 6560658010190460958, guid: 209375c9e0a86452e9fd7353d934887c,
         type: 3}
       propertyPath: m_AnchorMin.y
+<<<<<<< HEAD
+      value: 1
+=======
       value: 0
+>>>>>>> 1af3b4ff58053e59d1e49e14fa311647e0c3f066
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 209375c9e0a86452e9fd7353d934887c, type: 3}
@@ -3333,6 +3345,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_Name
+      value: tbmatcha
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+        type: 3}
+      propertyPath: m_Name
+      value: tbmatcha
+      objectReference: {fileID: 0}
     - target: {fileID: 9082270510768109392, guid: 85928bdf661dd47e1b09c22a615feb10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3439,6 +3471,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9082270510564064474, guid: 85928bdf661dd47e1b09c22a615feb10,
+<<<<<<< HEAD
+=======
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3459,14 +3493,15 @@ PrefabInstance:
       value: tbmatcha
       objectReference: {fileID: 0}
     - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+>>>>>>> 1af3b4ff58053e59d1e49e14fa311647e0c3f066
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9082270510272751403, guid: 85928bdf661dd47e1b09c22a615feb10,
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1981057262}
+    - target: {fileID: 9082270510564064474, guid: 85928bdf661dd47e1b09c22a615feb10,
         type: 3}
-      propertyPath: m_Name
-      value: tbmatcha
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClickArea
       objectReference: {fileID: 0}
     - target: {fileID: 9082270509465457171, guid: 85928bdf661dd47e1b09c22a615feb10,
         type: 3}
@@ -3792,7 +3827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: inkJSONAsset
       value: 
+<<<<<<< HEAD
+      objectReference: {fileID: 4900000, guid: f62d691429a0940f5b5f622fea88e709, type: 3}
+=======
       objectReference: {fileID: 4900000, guid: ccc0bde24f3314252bd4db8159b81c7b, type: 3}
+>>>>>>> 1af3b4ff58053e59d1e49e14fa311647e0c3f066
     - target: {fileID: 2143162625279596200, guid: c76750674638b49c2b3ee4d678609f3b,
         type: 3}
       propertyPath: m_LocalPosition.x

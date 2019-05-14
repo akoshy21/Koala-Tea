@@ -36,7 +36,7 @@ VAR theEnd = 0
     You wipe down the counter for the fifteenth time today. You're having a hard time believing that in only a few days the grand opening is coming! Finally your tea shop will be open! You've been waiting for as long as you can remember for this moment.
 *   [NEXT]
 
--   Your mother bought this tea shop when she was your age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Golden Eucalyptus Leaf Tea and she loved it. One day, she just closed shop with almost no noticed. She didn't tell anyone, even her own mother. You always knew that one day you wanted to reopen it.
+-   Your mother bought this tea shop when she was your age and it was the greatest tea shop in town. People from miles and miles around would come to try her famous Golden Eucalyptus Leaf Tea and she loved it. One day, she just closed shop with almost no notice. She didn't tell anyone, even her own mother. You always knew that one day you wanted to reopen it.
 *   [NEXT]
 
 -   Surprisingly, the shop wasn't that expensive. No one seemed to want this enchanting place. Sure, it's a little rough around the edges, but at the end of the day, it feels more like home to you than any other place you've ever lived.
@@ -94,7 +94,7 @@ You both clean the shop in silence for a moment. "Do you have any advice for me?
 
 *   [NEXT]
 ~speaker = 0
--   "Well, there are three shops you could visit. Rooibos Road in Kalgoorie, Matcha Made in Heaven in Adelaide, and Aurora Blue Tea House in Sydney,"
+-   "Well, there are three shops you could visit. Rooibos Road in Kalgoorlie, Matcha Made in Heaven in Adelaide, and Aurora Blue Tea House in Sydney,"
 *   [NEXT]
 ~speaker = 1
 -   "Those are all in completely different parts of the country!" You map out the cities on a napkin and their distance from tiny Cairns. 
@@ -119,9 +119,9 @@ Rooibos Road has a seedy bar-like atmosphere with other people mulling around an
 You open the menu on the table and confirm that it is in fact a tea house, specializing in black teas. The menu says they're known for the famous Chai.
 **   [NEXT]
 ~speaker = 0
-"Can I help you, kid?" a tasmanian devil askes me.
+"Can I help you, kid?" a tasmanian devil asks me.
 ***   [NEXT]
-You had never met a tasmanian devil in person before. They have reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
+You had never met a tasmanian devil in person before. They have a reputation of being dangerous and generally keep away from people. My mum wouldn't send me somewhere dangerous... right?
 ****   [NEXT]
 *****   [Explain why you're there]
     ~speaker = 2
@@ -238,7 +238,7 @@ You had never met a tasmanian devil in person before. They have reputation of be
 "Do you have any advice for an up-and-comer like me? Sometimes I feel like I'm so out of my depth..."
 **[NEXT]
 ~speaker = 2
-"You think you were out of your depth? Do I look like your average tea house owner to you? Does this look like your average tea house? I've had to deal with my fair share of problems thrown my way, but all it takes is perserverance. When you set your mind on something, just go for it!"
+"You think you were out of your depth? Do I look like your average tea house owner to you? Does this look like your average tea house? I've had to deal with my fair share of problems thrown my way, but all it takes is perseverance. When you set your mind on something, just go for it!"
 ***[NEXT]
 ~speaker = 0
 He gets up from the table and quickly returns with a beat up tea canister. "You see this? This is the only thing I had when I opened up this place. And look at it now." He hands the canister to you. "Take it,"
@@ -262,7 +262,7 @@ He gets up from the table and quickly returns with a beat up tea canister. "You 
 ~speaker = 2
 "It was amazing. She was amazing. My granddad loved working for her. He wasn't the most trusted guy in town, if you know what I mean, but she gave him a shot. I don't know where I'd be without him or your mum for that matter."
 ***[NEXT]
-"I actually developed my famous chai right at her shop when I was just boy. She encouraged my interest in the business even though my parents weren't happy about it. Your mum was actually my first taste tester."
+"I actually developed my famous chai right at her shop when I was just a boy. She encouraged my interest in the business even though my parents weren't happy about it. Your mum was actually my first taste tester."
 ****[NEXT]
 ~speaker = 0
 He walks over to the bar and comes back with a bottle filled with tea leaves and hands it to you. "Now I'm not in the business of giving out secret recipes or anything, but from one tea shop owner to the next, and because you're Kathleen's kid, think of this as a sample."
@@ -296,7 +296,7 @@ You wave to the sugar glider to get her attention, and her eyes light up when sh
 "How can I help you, sugar?"
 ***[NEXT]
 ~speaker = 0
-You quickly glance at the menu and notice that the cafe seems to specialize in oolong and chamamile tea, as well as so many matcha goodies. You know you're here to get answers about the Golden Eucalyptus, but everything looks so good...
+You quickly glance at the menu and notice that the cafe seems to specialize in oolong and chamomile tea, as well as so many matcha goodies. You know you're here to get answers about the Golden Eucalyptus, but everything looks so good...
 ****[NEXT]
 *****[Order oolong tea]
 ~speaker = 3
@@ -382,7 +382,7 @@ You wave her down again and she zooms right on over like before.
 ->matchaquestions
 ***********[Give up]
 ~speaker = 0
-The sugar glider looks to busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
+The sugar glider looks too busy to deal with you right now. You decide to just give up and leave. You don't want to be a bother to anyone.
 ************[NEXT]
 -> map
 
@@ -432,7 +432,7 @@ The sugar glider looks to busy to deal with you right now. You decide to just gi
 "How are you able to keep up with running this amazing tea house? I feel like it's been so hard and I'm so stressed, yet I haven't even opened up yet!"
 **[NEXT]
 ~speaker = 3
-"You've just gotta remember take time for yourself sweetie. A happy body and mind make a happy work place! Never put too much pressure on yourself and always make time for yourself!"
+"You've just gotta remember to take time for yourself sweetie. A happy body and mind make a happy workplace! Never put too much pressure on yourself and always make time for yourself!"
 ***[NEXT]
 ~speaker = 0
 She leaves the table for a moment and comes back with a bag of something. "This is my signature scone mix. When I'm stressed out, I like to back. You should try it!"
@@ -453,7 +453,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 "You said you knew my mother in school? What was that like?"
 **[NEXT]
 ~speaker = 3
-"Your mother was my best friend! We were like partners in crime. The perfect duo! We both bonded over our love of tea. We both promised each other to go back to our home towns and open up our own tea shops and keep each other updated about how it was going!"
+"Your mother was my best friend! We were like partners in crime. The perfect duo! We bonded over our love of tea. We both promised each other to go back to our home towns and open up our own tea shops and keep each other updated about how it was going!"
 ***[NEXT]
 ~speaker = 0
 "Of course, your mother got a bit busy when you were born, and I really threw myself into this place, but I always think about her. Hold on," she quickly gets up from the table and returns with a painting. "Your mother gave this to me for my birthday many years ago, but I think it would be perfect for your tea shop,"
@@ -563,7 +563,7 @@ The kangaroo nods her head and is gone in a flash, returning before you even kno
 ->auroraquestions
 ********[Let her walk away]
 ~speaker = 0
-You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peaks out from her pouch, but hides again soon after.
+You let her leave you alone with your tea. She bounces around the tea house serving customers left and right, fulfilling their needs before they even know they have them. Occasionally her baby peeks out from her pouch, but hides again soon after.
 **********[NEXT]
 ~speaker = 0
 You realize that the kangaroo is super busy, but she doesn't look like she'll be any less busy any time soon. If you're gonna ask her about the Golden Eucalyptus, it seems like it's now or never...
@@ -619,7 +619,7 @@ You decide to wait a little longer to see if the kangaroo gets any less busy, bu
 ~THAurora = 1
 ~speaker = 4
 ~talkedRoo = 1
-    "This place is so scerene and beautiful... when did you open up?"
+    "This place is so serene and beautiful... when did you open up?"
     **   [NEXT]
     ~speaker = 0
     "Not too long ago, actually. I worked for you mum for so long, that when she decided to close down, I couldn't think of anything else I'd rather do! But then this little guy's older sister was born, and I had to wait a bit till I had more time," she gestures to her baby, hiding in her pouch. 
@@ -640,7 +640,7 @@ You decide to wait a little longer to see if the kangaroo gets any less busy, bu
 She hops to the counter and pulls out an ornate box and hands it to you. "A lot of people have told me that I shouldn't waste my time decorating these cakes when people mainly come here for the tea, but I think it's worth the extra attention and time,"
 ****[NEXT]
 ~speaker = 4
-You open the box and see beautifully decorated small cakes packaged. "Thank you so much! They almost look to delicious to eat!"
+You open the box and see beautifully decorated small cakes packaged. "Thank you so much! They almost look too delicious to eat!"
 *****[NEXT]
 ~speaker = 5
 "Oh believe me, they taste even better than they look!"
@@ -655,10 +655,10 @@ You open the box and see beautifully decorated small cakes packaged. "Thank you 
 "How did you know my mother? She's been so forgetful lately, she has a hard time telling me old stories."
 **[NEXT]
 ~speaker = 4
-"I worked with your mother for years! We became very close. She had you around the same time I had my first baby! She taught me a lot about the business. I tried to keep up correspondance, but it's become difficult over the years... children and running a business do keep your hands very full,"
+"I worked with your mother for years! We became very close. She had you around the same time I had my first baby! She taught me a lot about the business. I tried to keep up correspondence, but it's become difficult over the years... children and running a business do keep your hands very full,"
 ***[NEXT]
 ~speaker = 4
-"When your mum decide to close down her shop, I was so upset! But it was actually her idea for me to open my own place," she points to a tea pot on her shelf. "Your mother gave that to me from her own shop to get me started. I could never bring myself to use it because it's just so beautiful!"
+"When your mum decided to close down her shop, I was so upset! But it was actually her idea for me to open my own place," she points to a tea pot on her shelf. "Your mother gave that to me from her own shop to get me started. I could never bring myself to use it because it's just so beautiful!"
 ****[NEXT]
 ~speaker = 4
 She hops up to grab the teapot and hands it to me, "Don't you want it? It looks so amazing in your shop..."
@@ -769,7 +769,7 @@ You hold the necklace in your hand and feel your eyes well up with tears. "This 
 ~speaker = 0
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
-You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+You start making teas for your guests and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
 -> END
 *****************{talkedBruce}{talkedSusan}{talkedRoo}
 [Bubble Tea]
@@ -781,7 +781,7 @@ You start making teas for your guests and look up at your shelfs, filled with it
 ~speaker = 0
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
-You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+You start making teas for your guests and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
 -> END
 *****************{talkedBruce}{talkedSusan}{talkedRoo}
 [Black Teas]
@@ -793,7 +793,7 @@ You start making teas for your guests and look up at your shelfs, filled with it
 ~speaker = 0
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
-You start making teas for your guests and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+You start making teas for your guests and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
 -> END
 *****************{talkedBruce}{talkedSusan}{talkedRoo}
 [Everything!]
@@ -805,7 +805,7 @@ You start making teas for your guests and look up at your shelfs, filled with it
 ~speaker = 0
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
-You start making teas for your guests, using your mom's old recipe, and look up at your shelfs, filled with items from your new friends. Although this place may not be exactly like your mum's, it's better than you ever could have expected.
+You start making teas for your guests, using your mom's old recipe, and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's better than you ever could have expected.
 ->END
 
 
