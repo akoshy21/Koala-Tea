@@ -24,7 +24,7 @@ public class TitleScript : MonoBehaviour
     int rand;
 
     public Button play;
-    public Text title;
+    public Text titleT;
 
     void Start()
     {
@@ -42,7 +42,7 @@ public class TitleScript : MonoBehaviour
         audioS.Play();
 
         play.gameObject.GetComponent<Image>().color = playColors[rand];
-        title.color = titleColors[rand];
+        titleT.color = titleColors[rand];
 
         Debug.Log(chars[rand]);
 
