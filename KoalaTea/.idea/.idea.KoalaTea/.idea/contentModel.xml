@@ -97,12 +97,16 @@
           <e p="BasicInkExample.cs" t="Include" />
           <e p="birdfly.cs" t="Include" />
           <e p="CameraMove.cs" t="Include" />
+          <e p="dotControl.cs" t="Include" />
           <e p="Flicker.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GiftManager.cs" t="Include" />
           <e p="MapScript.cs" t="Include" />
+          <e p="paint.cs" t="Include" />
+          <e p="Swipe.cs" t="Include" />
           <e p="TextEffects.cs" t="Include" />
           <e p="TitleScript.cs" t="Include" />
+          <e p="toolControl.cs" t="Include" />
         </e>
       </e>
       <e p="Ink-Runtime.csproj" t="IncludeRecursive" />
