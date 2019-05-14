@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class toolControl : MonoBehaviour
 {
@@ -27,6 +29,17 @@ public class toolControl : MonoBehaviour
         {
             paint.toolType = "pencil";
             Debug.Log("pencil clicked");
+        }
+    }
+    
+    public void triggerFinishedBehavior (int i){
+        switch (i)
+        {
+            default:
+            case(0):
+                SceneManager.LoadScene("MatchaMade");
+                break;
+            
         }
     }
 }
