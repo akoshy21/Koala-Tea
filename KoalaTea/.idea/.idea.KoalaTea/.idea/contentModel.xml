@@ -97,6 +97,7 @@
           <e p="BasicInkExample.cs" t="Include" />
           <e p="birdfly.cs" t="Include" />
           <e p="CameraMove.cs" t="Include" />
+          <e p="changeScene.cs" t="Include" />
           <e p="dotControl.cs" t="Include" />
           <e p="Flicker.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
