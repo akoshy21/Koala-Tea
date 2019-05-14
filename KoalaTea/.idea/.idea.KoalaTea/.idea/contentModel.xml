@@ -5,9 +5,11 @@
     <e p="C:\Users\samin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_KoalaTea.-160116106.00" t="ExcludeRecursive" />
     <e p="D:\Koala Tea\KoalaTea" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Bedroom_V.1.1" t="Include">
+          <e p="Readme.txt" t="Include" />
+        </e>
         <e p="Materials" t="Include">
           <e p="UrbanNightSky" t="Include">
             <e p="Readme.txt" t="Include" />
@@ -53,11 +55,6 @@
                 <e p="InkEditorUtils.cs" t="Include" />
               </e>
             </e>
-            <e p="Example" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="BasicInkExample.cs" t="Include" />
-              </e>
-            </e>
             <e p="InkRuntime" t="Include">
               <e p="CallStack.cs" t="Include" />
               <e p="Choice.cs" t="Include" />
@@ -94,8 +91,26 @@
             </e>
           </e>
         </e>
+        <e p="Scenes" t="Include">
+          <e p="NewBehaviourScript.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
+          <e p="BasicInkExample.cs" t="Include" />
           <e p="birdfly.cs" t="Include" />
+          <e p="CameraMove.cs" t="Include" />
+          <e p="Flicker.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="GameManagerMiniGames.cs" t="Include" />
+          <e p="GiftManager.cs" t="Include" />
+          <e p="MapScript.cs" t="Include" />
+          <e p="minigames" t="Include">
+            <e p="Card.cs" t="Include" />
+            <e p="GameManagerMini.cs" t="Include" />
+            <e p="menuBehavior.cs" t="Include" />
+          </e>
+          <e p="TextEffects.cs" t="Include" />
+          <e p="TitleScript.cs" t="Include" />
         </e>
       </e>
       <e p="Ink-Runtime.csproj" t="IncludeRecursive" />
