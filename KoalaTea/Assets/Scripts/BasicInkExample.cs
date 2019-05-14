@@ -20,6 +20,7 @@ public class BasicInkExample : MonoBehaviour {
     public Text nameBox;
 
     public AudioManager audioManager;
+    
 
 	void Awake () {
 		// Remove the default message

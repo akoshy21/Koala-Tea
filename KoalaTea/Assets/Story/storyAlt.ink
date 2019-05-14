@@ -282,11 +282,7 @@ He walks over to the bar and comes back with a bottle filled with tea leaves and
 "Good luck kid. You're gonna kill it."
 ***[NEXT]
 ****[Cake Game]
-//-> map
--> drawingGameScene
-
-
-
+-> map
 
 
 
@@ -485,8 +481,9 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 //~drawingGame = 1
 //-> map
 *****[Cake Game]
--> drawingGameScene
+//-> drawingGameScene
 //->END
+-> map
 
 === drawingGameScene ===
 ~drawingGame = 1

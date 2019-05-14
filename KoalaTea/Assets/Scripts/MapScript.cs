@@ -16,7 +16,6 @@ public class MapScript : MonoBehaviour
         home.onClick.AddListener(goHome);
         rooibos.onClick.AddListener(goRooibos);
         matcha.onClick.AddListener(goMatcha);
-        //clickRooibos = false; 
     }
 
     void goHome()
@@ -29,7 +28,6 @@ public class MapScript : MonoBehaviour
     {
         Debug.Log("u go to rooibos");
         SceneManager.LoadScene("RooibosBar");
-        clickRooibos = true;
     }
 
     void goMatcha()
