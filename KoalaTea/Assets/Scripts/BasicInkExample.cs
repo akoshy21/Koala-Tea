@@ -9,11 +9,13 @@ public class BasicInkExample : MonoBehaviour {
 
     public GameObject next;
     public GameObject textBox;
+    public GameObject mom;
 
     public Color playerColor;
     public Color bbtdColor;
     public Color momColor;
     public Color sgColor;
+    public Color rooColor;
 
     public Text nameBox;
 
@@ -35,36 +37,61 @@ public class BasicInkExample : MonoBehaviour {
 
     private void Start()
     {
-        story.ObserveVariable("beenrooibos", (string varName, object newValue) => {
-            rooibosVisit = intToBool((int)newValue);
-
-        });
         story.ObserveVariable("speaker", (string varName, object newValue) => {
             speaker = (int)newValue;
         });
 
-        story.ObserveVariable("metSusan", (string varName, object newValue) => {
-            metSusan = (bool)newValue;
-        });
+        // WHO HAVE WE MET
 
+        story.ObserveVariable("metSusan", (string varName, object newValue) => {
+            metSusan = intToBool((int)newValue);
+        });
         story.ObserveVariable("metBruce", (string varName, object newValue) => {
             metBruce = intToBool((int)newValue);
         });
+        story.ObserveVariable("metRoo", (string varName, object newValue) => {
+            metRoo = intToBool((int)newValue);
+        });
 
+        // AUDIO
+        story.ObserveVariable("soundIndex", (string varName, object newValue) => {
+            audioManager.index = (int)newValue;
+        });
         story.ObserveVariable("playSound", (string varName, object newValue) => {
             audioManager.play = intToBool((int)newValue);
         });
 
-        story.ObserveVariable("soundIndex", (string varName, object newValue) => {
-            audioManager.index = (int)newValue;
-        });
+        // WHAT HATH WE OBTAINED
+       story.ObserveVariable("adviceRooibos", (string varName, object newValue) => {
+            rooibosAd = intToBool((int)newValue);
 
-        // ADD A LISTENER TO CHECK WHETHER WE'VE MET BRUCE / SUGAR GLIDER YET
+        });
+        story.ObserveVariable("adviceMatcha", (string varName, object newValue) => {
+            matchaAd = intToBool((int)newValue);
+
+        });
+        story.ObserveVariable("adviceAurora", (string varName, object newValue) => {
+            auroraAd = intToBool((int)newValue);
+
+        });
+        story.ObserveVariable("mumRooibos", (string varName, object newValue) => {
+            rooibosMum = intToBool((int)newValue);
+
+        });
+        story.ObserveVariable("mumMatcha", (string varName, object newValue) => {
+            matchaMum = intToBool((int)newValue);
+
+        });
+        story.ObserveVariable("mumAurora", (string varName, object newValue) => {
+            auroraMum = intToBool((int)newValue);
+
+        });
     }
 
     private void Update()
     {
         UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(null);
+        AddMom();
 
         //Debug.Log(speaker);
         //Debug.Log(rooibosVisit);
@@ -142,7 +169,9 @@ public class BasicInkExample : MonoBehaviour {
 		story.ChooseChoiceIndex (choice.index);
 
         if (!choice.text.Equals("Go to Rooibos Road")
-         && !choice.text.Equals("Go to Matcha Made in Heaven"))
+         && !choice.text.Equals("Go to Matcha Made in Heaven")
+         && !choice.text.Equals("Go to Aurora Blue Tea House")
+         && !choice.text.Equals("Go Back Home"))
         {
             RefreshView();
         }
@@ -156,6 +185,15 @@ public class BasicInkExample : MonoBehaviour {
             else if (choice.text.Equals("Go to Matcha Made in Heaven"))
             {
                 ChangeScene(2);
+            }
+            else if (choice.text.Equals("Go to Aurora Blue Tea House"))
+            {
+                Debug.Log("AB");
+                ChangeScene(5);
+            }
+            else if (choice.text.Equals("Go Back Home"))
+            {
+                ChangeScene(4);
             }
         }
 	}
@@ -226,6 +264,20 @@ public class BasicInkExample : MonoBehaviour {
                     nameBox.text = "SUGAR GLIDER";
                          }
                 break;
+            case 4:
+                textBox.GetComponent<Image>().color = rooColor;
+                if (metRoo)
+                {
+                    nameBox.text = "MAMA ROO";
+                }
+                else
+                {
+                    nameBox.text = "KANGAROO";
+                }
+                break;
+            default:
+                break;
+
         } 
     }
 
@@ -238,6 +290,14 @@ public class BasicInkExample : MonoBehaviour {
             {
                     OnClickChoiceButton(choice);
             }
+        }
+    }
+
+    void AddMom()
+    {
+        if(audioManager.play && audioManager.index == 0 && SceneManager.GetActiveScene().name.Equals("playercafe4"))
+        {
+            mom.SetActive(true);
         }
     }
 
@@ -272,6 +332,9 @@ public class BasicInkExample : MonoBehaviour {
             case 4:
                 SceneManager.LoadScene("endscene");
                 break;
+            case 5:
+                SceneManager.LoadScene("AuroraBlue");
+                break;
             default:
                 break;
         }
@@ -285,7 +348,13 @@ public class BasicInkExample : MonoBehaviour {
 	private GameObject canvas;
     public bool metBruce = false;
     public bool metSusan = false;
-    public bool rooibosVisit;
+    public bool metRoo = false;
+    public bool rooibosAd;
+    public bool auroraAd;
+    public bool matchaAd;
+    public bool rooibosMum;
+    public bool matchaMum;
+    public bool auroraMum;
     public bool firstScene;
     public int speaker; // 0 = mom, 1 = player, 2 = bbtd, 3 = sugar glider
 
