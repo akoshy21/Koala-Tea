@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/drawingGame.unity
     guid: c62c9511318f14785b86328cb9d97ea5
+  - enabled: 1
+    path: Assets/Scenes/map test.unity
+    guid: 8fc89988aa658cf45a5554477f30b4e3
   m_configObjects: {}

@@ -183,7 +183,7 @@ public class BasicInkExample : MonoBehaviour {
          && !choice.text.Equals("Go to Matcha Made in Heaven")
          && !choice.text.Equals("Go to Aurora Blue Tea House")
          && !choice.text.Equals("Go Back Home")
-         && !choice.text.Equals("Game"))
+         && !choice.text.Equals("Cake Game"))
           
         {
             RefreshView();
@@ -208,7 +208,7 @@ public class BasicInkExample : MonoBehaviour {
             {
                 ChangeScene(4);
             }
-            else if (choice.text.Equals("Game"))
+            else if (choice.text.Equals("Cake Game"))
             {
                 Debug.Log("game");
                 ChangeScene(6);
@@ -355,6 +355,9 @@ public class BasicInkExample : MonoBehaviour {
                 break;
             case 6:
                 SceneManager.LoadScene("drawingGame");
+                break;
+            case 7:
+                SceneManager.LoadScene("map test");
                 break;
             default:
                 break;

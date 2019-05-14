@@ -285,7 +285,6 @@ He walks over to the bar and comes back with a bottle filled with tea leaves and
 //-> map
 -> drawingGameScene
 
-->END
 
 
 
@@ -487,11 +486,10 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 //-> map
 *****[Cake Game]
 -> drawingGameScene
-->END
+//->END
 
 === drawingGameScene ===
 ~drawingGame = 1
-
 ->map
 
 
