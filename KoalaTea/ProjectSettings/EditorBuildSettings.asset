@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/title screen 1.unity
     guid: 49f0e6582973dab4391ec0d037285384
+  - enabled: 1
+    path: Assets/Scenes/drawingGame.unity
+    guid: c62c9511318f14785b86328cb9d97ea5
   m_configObjects: {}

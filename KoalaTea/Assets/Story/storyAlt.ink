@@ -33,6 +33,8 @@ VAR soundIndex = 0
 VAR theEnd = 0
 
 VAR drawingGame = 0
+VAR matchingGame = 0
+VAR otherGame = 0
 
 -
 ~speaker = 0
@@ -279,7 +281,9 @@ He walks over to the bar and comes back with a bottle filled with tea leaves and
 ~speaker = 0
 "Good luck kid. You're gonna kill it."
 ***[NEXT]
--> map
+****[Cake Game]
+//-> map
+-> drawingGameScene
 
 ->END
 
@@ -479,9 +483,17 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ~speaker = 3
 "Sure!"
 ****[NEXT]
-~drawingGame = 1
+//~drawingGame = 1
 //-> map
+*****[Cake Game]
+-> drawingGameScene
 ->END
+
+=== drawingGameScene ===
+~drawingGame = 1
+
+->map
+
 
 
 
@@ -704,7 +716,6 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
   [Go Back Home]
 ->home
 
-->END
 
 
 === home ===
