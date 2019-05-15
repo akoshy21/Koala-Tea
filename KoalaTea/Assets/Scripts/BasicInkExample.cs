@@ -211,12 +211,12 @@ public class BasicInkExample : MonoBehaviour {
             {
                 ChangeScene(4);
             }
-            else if (choice.text.Equals("Cake Game"))
+            else if (choice.text.Equals("Help Decorate Cakes"))
             {
                 Debug.Log("game");
                 ChangeScene(6);
             }
-            else if (choice.text.Equals("Memory Game"))
+            else if (choice.text.Equals("Help With Tea"))
             {
                 Debug.Log("memory");
                 ChangeScene(7);

@@ -479,7 +479,7 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ****[NEXT]
 //~drawingGame = 1
 //-> map
-*****[Cake Game]
+*****[Help Decorate Cakes]
 //-> drawingGameScene
 //->END
 -> map
@@ -691,7 +691,7 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 ~speaker = 4
 "I'd love to!"
 ****   [NEXT]
-*****[Memory Game]
+*****[Help With Tea]
 -> map
 
 
