@@ -20,6 +20,7 @@ public class BasicInkExample : MonoBehaviour {
     public Text nameBox;
 
     public AudioManager audioManager;
+    
 
 	void Awake () {
 		// Remove the default message
@@ -182,7 +183,11 @@ public class BasicInkExample : MonoBehaviour {
         if (!choice.text.Equals("Go to Rooibos Road")
          && !choice.text.Equals("Go to Matcha Made in Heaven")
          && !choice.text.Equals("Go to Aurora Blue Tea House")
-         && !choice.text.Equals("Go Back Home"))
+         && !choice.text.Equals("Go Back Home")
+         && !choice.text.Equals("Cake Game")
+            && !choice.text.Equals("Memory Game")
+            && !choice.text.Equals("The End"))
+          
         {
             RefreshView();
         }
@@ -205,6 +210,20 @@ public class BasicInkExample : MonoBehaviour {
             else if (choice.text.Equals("Go Back Home"))
             {
                 ChangeScene(4);
+            }
+            else if (choice.text.Equals("Cake Game"))
+            {
+                Debug.Log("game");
+                ChangeScene(6);
+            }
+            else if (choice.text.Equals("Memory Game"))
+            {
+                Debug.Log("memory");
+                ChangeScene(7);
+            }
+            else if (choice.text.Equals("The End"))
+            {
+                ChangeScene(8);
             }
         }
 	}
@@ -345,6 +364,15 @@ public class BasicInkExample : MonoBehaviour {
                 break;
             case 5:
                 SceneManager.LoadScene("AuroraBlue");
+                break;
+            case 6:
+                SceneManager.LoadScene("drawingGame");
+                break;
+            case 7:
+                SceneManager.LoadScene("memory game");
+                break;
+            case 8:
+                SceneManager.LoadScene("end credits");
                 break;
             default:
                 break;
