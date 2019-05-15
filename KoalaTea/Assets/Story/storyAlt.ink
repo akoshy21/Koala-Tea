@@ -281,7 +281,6 @@ He walks over to the bar and comes back with a bottle filled with tea leaves and
 ~speaker = 0
 "Good luck kid. You're gonna kill it."
 ***[NEXT]
-****[Cake Game]
 -> map
 
 
@@ -687,10 +686,13 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 "It's been great meeting you Mamma Roo! Thank you for speaking to me."
 **[NEXT]
 ~speaker = 0
-"It was so nice meeting you. I have to give Kathleen a call!"
+"It was so nice meeting you. Say, if you have a minute, would you like to help me make some teas?"
 ***   [NEXT]
+~speaker = 4
+"I'd love to!"
+****   [NEXT]
+//*****[Memory Game]
 -> map
-->END
 
 
 
