@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\samin\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\samin\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_KoalaTea.2061072455.00" t="ExcludeRecursive" />
+    <e p="C:\Users\samin\Documents\Koala Tea\KoalaTea" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -100,13 +102,13 @@
           <e p="dotControl.cs" t="Include" />
           <e p="Flicker.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
-          <e p="gamemanagerminigames.cs" t="Include" />
+          <e p="GameManagerMiniGames.cs" t="Include" />
           <e p="GiftManager.cs" t="Include" />
           <e p="MapScript.cs" t="Include" />
           <e p="minigames" t="Include">
             <e p="Card.cs" t="Include" />
             <e p="GameManagerMini.cs" t="Include" />
-            <e p="MenuBehavior.cs" t="Include" />
+            <e p="menuBehavior.cs" t="Include" />
           </e>
           <e p="paint.cs" t="Include" />
           <e p="scroll.cs" t="Include" />
@@ -125,7 +127,5 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_KoalaTea.-946115088.00" t="ExcludeRecursive" />
   </component>
 </project>
