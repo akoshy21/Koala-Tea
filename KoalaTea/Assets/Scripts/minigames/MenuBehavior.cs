@@ -13,7 +13,7 @@ public class MenuBehavior : MonoBehaviour
                 SceneManager.LoadScene("Level");
                     break;
                 case(1):
-                    Application.Quit();
+                    SceneManager.LoadScene("AuroraBlue");
                     break;
             
         }

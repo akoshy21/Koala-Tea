@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/map test.unity
     guid: 8fc89988aa658cf45a5554477f30b4e3
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: ce2ce4a2b047d334e93d3ea48ba2523d
+  - enabled: 1
+    path: Assets/Scenes/memory game.unity
+    guid: 18ed019e59c80284ca875ee8a01aac8b
   m_configObjects: {}

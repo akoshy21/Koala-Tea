@@ -691,7 +691,7 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 ~speaker = 4
 "I'd love to!"
 ****   [NEXT]
-//*****[Memory Game]
+*****[Memory Game]
 -> map
 
 
