@@ -13,7 +13,7 @@ public class GameManagerMini : MonoBehaviour
     public Text matchText;
 
     private bool _init = false;
-    private int _matches = 13;
+    private int _matches = 5;
 
     void Start()
     {
@@ -40,7 +40,7 @@ public class GameManagerMini : MonoBehaviour
                 {
                     choice = Random.Range(0, cards.Length);
                     test = !(cards[choice].GetComponent<Card>().initialized);
-                    test = true;
+                   // test = true;
                 }
                 cards[choice].GetComponent<Card>().cardValue = i;
                 cards[choice].GetComponent<Card>().initialized = true;

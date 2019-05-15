@@ -33,6 +33,8 @@ VAR soundIndex = 0
 VAR theEnd = 0
 
 VAR drawingGame = 0
+VAR matchingGame = 0
+VAR otherGame = 0
 
 -
 ~speaker = 0
@@ -281,10 +283,6 @@ He walks over to the bar and comes back with a bottle filled with tea leaves and
 ***[NEXT]
 -> map
 
-->END
-
-
-
 
 
 === matcha ===
@@ -479,9 +477,17 @@ She leaves the table for a moment and comes back with a bag of something. "This 
 ~speaker = 3
 "Sure!"
 ****[NEXT]
-~drawingGame = 1
+//~drawingGame = 1
 //-> map
-->END
+*****[Cake Game]
+//-> drawingGameScene
+//->END
+-> map
+
+=== drawingGameScene ===
+~drawingGame = 1
+->map
+
 
 
 
@@ -680,10 +686,13 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
 "It's been great meeting you Mamma Roo! Thank you for speaking to me."
 **[NEXT]
 ~speaker = 0
-"It was so nice meeting you. I have to give Kathleen a call!"
+"It was so nice meeting you. Say, if you have a minute, would you like to help me make some teas?"
 ***   [NEXT]
+~speaker = 4
+"I'd love to!"
+****   [NEXT]
+*****[Memory Game]
 -> map
-->END
 
 
 
@@ -704,7 +713,6 @@ She hops up to grab the teapot and hands it to me, "Don't you want it? It looks 
   [Go Back Home]
 ->home
 
-->END
 
 
 === home ===

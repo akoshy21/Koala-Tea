@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/title screen 1.unity
+    guid: 49f0e6582973dab4391ec0d037285384
+  - enabled: 1
     path: Assets/Scenes/playercafe4.unity
     guid: 17939696163b06c4aa8c471e06c09d19
   - enabled: 1
@@ -21,6 +24,15 @@ EditorBuildSettings:
     path: Assets/Scenes/endscene.unity
     guid: 372137a8d0da79340b392c670dcbe88a
   - enabled: 1
-    path: Assets/Scenes/title screen 1.unity
-    guid: 49f0e6582973dab4391ec0d037285384
+    path: Assets/Scenes/drawingGame.unity
+    guid: c62c9511318f14785b86328cb9d97ea5
+  - enabled: 1
+    path: Assets/Scenes/map test.unity
+    guid: 8fc89988aa658cf45a5554477f30b4e3
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: ce2ce4a2b047d334e93d3ea48ba2523d
+  - enabled: 1
+    path: Assets/Scenes/memory game.unity
+    guid: 18ed019e59c80284ca875ee8a01aac8b
   m_configObjects: {}
