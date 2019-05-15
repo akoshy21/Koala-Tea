@@ -87,7 +87,7 @@ public class GameManagerMini : MonoBehaviour
             _matches--;
             matchText.text = "Number of Matches: " + _matches;
             if (_matches == 0)
-                SceneManager.LoadScene("memory game");
+                SceneManager.LoadScene("AuroraBlue");
             
         }
 
