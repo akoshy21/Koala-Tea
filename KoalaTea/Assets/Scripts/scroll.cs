@@ -29,9 +29,9 @@ public class scroll : MonoBehaviour
             speed = .1f;
         }
 
-        if (myR.localPosition.y.Equals(1370))
+        if (myR.localPosition.y > 1370)
         {
-            SceneManager.LoadScene("title screen 1", LoadSceneMode.Single);
+            SceneManager.LoadScene("title screen 1");
         }
     }
 

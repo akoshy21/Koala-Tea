@@ -185,7 +185,8 @@ public class BasicInkExample : MonoBehaviour {
          && !choice.text.Equals("Go to Aurora Blue Tea House")
          && !choice.text.Equals("Go Back Home")
          && !choice.text.Equals("Cake Game")
-            && !choice.text.Equals("Memory Game"))
+            && !choice.text.Equals("Memory Game")
+            && !choice.text.Equals("The End"))
           
         {
             RefreshView();
@@ -219,6 +220,10 @@ public class BasicInkExample : MonoBehaviour {
             {
                 Debug.Log("memory");
                 ChangeScene(7);
+            }
+            else if (choice.text.Equals("The End"))
+            {
+                ChangeScene(8);
             }
         }
 	}
@@ -365,6 +370,9 @@ public class BasicInkExample : MonoBehaviour {
                 break;
             case 7:
                 SceneManager.LoadScene("memory game");
+                break;
+            case 8:
+                SceneManager.LoadScene("end credits");
                 break;
             default:
                 break;

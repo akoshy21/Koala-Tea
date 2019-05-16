@@ -109,6 +109,7 @@
             <e p="MenuBehavior.cs" t="Include" />
           </e>
           <e p="paint.cs" t="Include" />
+          <e p="scroll.cs" t="Include" />
           <e p="Swipe.cs" t="Include" />
           <e p="TextEffects.cs" t="Include" />
           <e p="TitleScript.cs" t="Include" />

@@ -785,6 +785,7 @@ You hold the necklace in your hand and feel your eyes well up with tears. "This 
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
 You start making teas for your guests and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+********************[The End]
 -> END
 *****************{talkedBruce}{talkedSusan}{talkedRoo}
 [Bubble Tea]
@@ -797,6 +798,7 @@ You start making teas for your guests and look up at your shelves, filled with i
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
 You start making teas for your guests and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+********************[The End]
 -> END
 *****************{talkedBruce}{talkedSusan}{talkedRoo}
 [Black Teas]
@@ -809,6 +811,7 @@ You start making teas for your guests and look up at your shelves, filled with i
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
 You start making teas for your guests and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+********************[The End]
 -> END
 *****************{talkedBruce}{talkedSusan}{talkedRoo}
 [Everything!]
@@ -821,6 +824,7 @@ You start making teas for your guests and look up at your shelves, filled with i
 *******************{talkedBruce}{talkedSusan}{talkedRoo}
 [NEXT]
 You start making teas for your guests, using your mom's old recipe, and look up at your shelves, filled with items from your new friends. Although this place may not be exactly like your mum's, it's better than you ever could have expected.
+********************[The End]
 ->END
 
 
@@ -840,6 +844,7 @@ You start making teas for your guests, using your mom's old recipe, and look up 
 **************{not talkedBruce} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedBruce} 
 [Black Teas]
@@ -852,6 +857,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedBruce} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedBruce} 
 [Bubble Teas]
@@ -864,6 +870,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedBruce} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedBruce} 
 [Everything!]
@@ -876,6 +883,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedBruce} 
 [NEXT]
 You start making a tea for your mother, using her old recipe, and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 
 
@@ -894,6 +902,7 @@ You start making a tea for your mother, using her old recipe, and look around at
 **************{not talkedSusan} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedSusan} 
 [Black Teas]
@@ -906,6 +915,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedSusan} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedSusan} 
 [Bubble Teas]
@@ -918,6 +928,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedSusan} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedSusan} 
 [Everything!]
@@ -930,6 +941,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedSusan} 
 [NEXT]
 You start making a tea for your mother, using her old recipe, and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 
 
@@ -948,6 +960,7 @@ You start making a tea for your mother, using her old recipe, and look around at
 **************{not talkedRoo} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedRoo} 
 [Black Teas]
@@ -960,6 +973,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedRoo} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedRoo} 
 [Bubble Teas]
@@ -972,6 +986,7 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedRoo} 
 [NEXT]
 You start making a tea for your mother and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
 ************{not talkedRoo} 
 [Everything!]
@@ -984,4 +999,5 @@ You start making a tea for your mother and look around at the place you created.
 **************{not talkedRoo} 
 [NEXT]
 You start making a tea for your mother, using her old recipe, and look around at the place you created. Although this place may not be exactly like your mum's, it's perfect for you and better than you could have ever thought.
+***************[The End]
 -> END
